@@ -9,7 +9,7 @@ title: Activities for a BetterMTL
 # What is the name of the events or talks you would like to host? (Example Brownbags, Talks, Lighting Talks)
 event_label: Activities
 
-description: Montrealers team up, better city
+description: Montrealers team up better city
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://bettermtl.github.io" # the base hostname & protocol for your site

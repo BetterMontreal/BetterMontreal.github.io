@@ -14,7 +14,7 @@ A simple way for a whole city to contribute to a shared calendar of activities.
 
 ### Install and Test
 1. Download or clone repo `git clone git@github.com:bettermtl/bettermtl.github.io.git`
-2. Enter the folder: `cd evento/`
+2. Enter the folder: `cd bettermtl.github.io/`
 4. Start Jekyll server: `jekyll serve`
 
 Access via: [http://localhost:4000](http://localhost:4000)
