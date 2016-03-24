@@ -12,13 +12,8 @@ location: "Salon 1861, 550 rue Richmond"
 organiser: "Francis Brunelle"
 
 ---
+a small talk on:
 
-I will be doing a small talk on an Introduction into ReactJS. We will cover the following:
-
-- What is React?
-- How to get setup with React.
-- How to get building React Apps.
-- Bundle your application
-- Release your application
+test your application
 
 If this sounds interesting please register your interest below.
