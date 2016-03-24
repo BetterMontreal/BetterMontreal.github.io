@@ -3,7 +3,7 @@
 
 # BetterMTL
 
-A simple way for a whole city to contribute to a shared calendar of activities.
+Lets anyone contribute to a shared calendar of activities.
 
 [Add your activities](http://bettermtl.github.io/about/)
 
