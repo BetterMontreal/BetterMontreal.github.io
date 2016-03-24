@@ -2,14 +2,14 @@
 layout: post
 
 #event information
-title:  "Testing testing testing Event"
+title:  "Test Event"
 cover: "https://fr.wikipedia.org/wiki/Autriche#/media/File:Austria1914physical.jpg"
 date:   2016-04-01
-start_time: "08:00"
-end_time: "10:15"
+start_time: "09:00"
+end_time: "10:00"
 location: "Salon 1861, 550 rue Richmond"
 #event organiser details
-organiser: "Sylvain Rowley"
+organiser: "David Rowley"
 
 ---
 
