@@ -15,7 +15,7 @@ Many activities conflict with one another and there are many sources of informat
 
 There is not yet any open/collaborative digest or newsletter. 
 Currently, there's no way for people to
-post an event or post corrections
+post an event or post corrections 
 publish an event and your newsletter at same time
 publish an event and let anyone else include it in their newsletter — with a single click
 publish an event and let anyone make corrections
