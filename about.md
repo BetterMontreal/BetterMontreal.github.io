@@ -5,7 +5,7 @@ title: About BetterMTL
 permalink: /about/
 ---
 
-[BetterMTL](http://bettermtl.github.io) allows Montreal to self-organize itself and speak with one voice.
+[BetterMTL](http://bettermtl.github.io) allows Montreal to self-organize and speak with one voice.
 
 It is a free open source project which allows you to create events, showing times and information for anybody that wants to attend.
 
