@@ -8,8 +8,6 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
-
-
 /**
  * Basic styling
  */
@@ -25,8 +23,6 @@ body {
     font-kerning: normal;
 }
 
-
-
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
@@ -37,8 +33,6 @@ ul, ol, dl, figure,
     margin-bottom: $spacing-unit / 2;
 }
 
-
-
 /**
  * Images
  */
@@ -46,8 +40,6 @@ img {
     max-width: 100%;
     vertical-align: middle;
 }
-
-
 
 /**
  * Figures
@@ -59,8 +51,6 @@ figure > img {
 figcaption {
     font-size: $small-font-size;
 }
-
-
 
 /**
  * Lists
@@ -76,8 +66,6 @@ li {
     }
 }
 
-
-
 /**
  * Headings
  */
@@ -85,26 +73,20 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: $base-font-weight;
 }
 
-
-
 /**
  * Links
  */
 a {
     color: $brand-color;
     text-decoration: none;
-
     &:visited {
         color: darken($brand-color, 15%);
     }
-
     &:hover {
         color: $text-color;
         text-decoration: underline;
     }
 }
-
-
 
 /**
  * Blockquotes
@@ -116,13 +98,10 @@ blockquote {
     font-size: 18px;
     letter-spacing: -1px;
     font-style: italic;
-
     > :last-child {
         margin-bottom: 0;
     }
 }
-
-
 
 /**
  * Code formatting
@@ -150,8 +129,6 @@ pre {
     }
 }
 
-
-
 /**
  * Wrapper
  */
@@ -163,7 +140,6 @@ pre {
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
     @extend %clearfix;
-
     @include media-query($on-laptop) {
         max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
         max-width:         calc(#{$content-width} - (#{$spacing-unit}));
@@ -172,13 +148,10 @@ pre {
     }
 }
 
-
-
 /**
  * Clearfix
  */
 %clearfix {
-
     &:after {
         content: "";
         display: table;
@@ -186,25 +159,20 @@ pre {
     }
 }
 
-
-
 /**
  * Icons
  */
 .icon {
-
     > svg {
         display: inline-block;
         width: 16px;
         height: 16px;
         vertical-align: middle;
-
         path {
             fill: $grey-color;
         }
     }
 }
-
 
 footer{
     background: #353e48;

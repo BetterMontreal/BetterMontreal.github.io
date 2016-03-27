@@ -5,7 +5,6 @@
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
-
     // Positioning context for the mobile navigation icon
     position: relative;
 }
@@ -17,7 +16,6 @@
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
-
     &,
     &:visited {
         color: $grey-color-dark;
@@ -27,11 +25,9 @@
 .site-nav {
     float: right;
     line-height: 56px;
-
     .menu-icon {
         display: none;
     }
-
     .page-link {
         color: $text-color;
         line-height: $base-line-height;
@@ -41,7 +37,6 @@
             margin-right: 20px;
         }
     }
-
     @include media-query($on-palm) {
         position: absolute;
         top: 9px;
@@ -50,7 +45,6 @@
         border: 1px solid $grey-color-light;
         border-radius: 5px;
         text-align: right;
-
         .menu-icon {
             display: block;
             float: right;
@@ -59,37 +53,30 @@
             line-height: 0;
             padding-top: 10px;
             text-align: center;
-
             > svg {
                 width: 18px;
                 height: 15px;
-
                 path {
                     fill: $grey-color-dark;
                 }
             }
         }
-
         .trigger {
             clear: both;
             display: none;
         }
-
         &:hover .trigger {
             display: block;
             padding-bottom: 5px;
         }
-
         .page-link {
             display: block;
             padding: 5px 10px;
-
             &:not(:last-child) {
                 margin-right: 0;
             }
             margin-left: 20px;
         }
-
         .button.button-primary{
           background: none;
           color: inherit;
@@ -99,11 +86,8 @@
             background:none;
           }
         }
-
     }
 }
-
-
 
 /**
  * Site footer
@@ -158,7 +142,6 @@
         width: -webkit-calc(50% - (#{$spacing-unit} / 2));
         width:         calc(50% - (#{$spacing-unit} / 2));
     }
-
     .footer-col-3 {
         width: -webkit-calc(100% - (#{$spacing-unit} / 2));
         width:         calc(100% - (#{$spacing-unit} / 2));
@@ -172,8 +155,6 @@
         width:         calc(100% - (#{$spacing-unit} / 2));
     }
 }
-
-
 
 /**
  * Page content
@@ -194,7 +175,6 @@
 .post-list {
     margin-left: 0;
     list-style: none;
-
     > li {
         margin-bottom: $spacing-unit;
     }
@@ -243,12 +223,10 @@
     padding:0;
     margin:0;
     width: 75%;
-
     @include media-query($on-laptop) {
       font-size: 36px;
       width: 70%;
     }
-
     @include media-query($on-palm){
       width: 50%;
     }
@@ -256,26 +234,20 @@
 
 .post-content {
     margin-bottom: $spacing-unit;
-
     h2 {
         font-size: 32px;
-
         @include media-query($on-laptop) {
             font-size: 28px;
         }
     }
-
     h3 {
         font-size: 26px;
-
         @include media-query($on-laptop) {
             font-size: 22px;
         }
     }
-
     h4 {
         font-size: 20px;
-
         @include media-query($on-laptop) {
             font-size: 18px;
         }
@@ -283,14 +255,13 @@
 }
 
 .clearfix{
-    &:before, &:after {
-        content: " "; /* 1 */
-        display: table; /* 2 */
-    }
-
-    &:after {
-        clear: both;
-    }
+  &:before, &:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+  }
+  &:after {
+    clear: both;
+  }
 }
 
 .blog-cover{
@@ -328,14 +299,12 @@
   margin: 20px 20px 0 0;
   height: 100%;
   box-sizing: border-box;
-
   height: 180px;
   border-radius: 3px;
   background-color: #333;
   box-shadow: 0 0 1px rgba(0,0,0,.05);
   border: 1px solid #ddd;
   -webkit-tap-highlight-color: transparent;
-
   h2{
     position:absolute;
     bottom:0px;
@@ -372,18 +341,15 @@
   border-radius: 6px;
   background-size: cover;
   box-shadow: 1px 1px 2px 1px #C4C4C4;
-
   @include media-query($on-laptop){
     height: 140px;
     width: 140px;
   }
-
   @include media-query($on-palm){
     height: 100px;
     width: 100px;
     top:0px;
   }
-
 }
 
 @include media-query($on-laptop) {
@@ -407,8 +373,6 @@
 }
 
 .event-time-heading{
-    margin-bottom:0px;
-    margin-top:20px;
+  margin-bottom:0px;
+  margin-top:20px;
 }
-
-
