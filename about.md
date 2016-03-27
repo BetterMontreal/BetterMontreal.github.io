@@ -13,10 +13,6 @@ It is a free open source project which allows you to create events, showing time
 
 Many activities conflict with one another and there are many sources of information — calendars in Facebook, in specialized websites like Eventbrite or Meetup, or independent mailing lists. It's haphazard — much time wasted checking for corrections or comments here and there. 
 
-There is not yet any open/collaborative digest or newsletter. 
-Currently, there's no way for people to
-post an event or post corrections 
-publish an event and your newsletter at same time
-publish an event and let anyone else include it in their newsletter — with a single click
-publish an event and let anyone make corrections
+Currently, there's no way for people to post an event, post corrections, publish a newsletter at same time, or let anyone else include your event in their newsletter — with a single click
 
+There is not yet any open/collaborative digest or newsletter. 
