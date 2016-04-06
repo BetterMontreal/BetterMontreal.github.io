@@ -12,6 +12,7 @@ rsvp:
  more: http://toutlemonde-ux.com/avril2016/
  register: http://www.eventbrite.com/e/what-the-hell-is-ux-strategy-and-why-its-crucial-tlmux-avril-2016-tickets-24019887129
  purchase: http://www.amazon.com/UX-Strategy-Innovative-Digital-Products/dp/1449372864
+disqus-id: 2016-04-13-tlmux-jaime-strategy
 ---
 User experience (UX) strategy lies at the intersection of UX design and business strategy. This talk delves into this crucial practice, which relies on empirical, lightweight tactics for pushing cross-functional teams toward a unique digital solution that customers want.
 

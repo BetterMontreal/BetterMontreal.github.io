@@ -2,9 +2,7 @@
 layout: default
 ---
 {% assign organiser = site.data.organisers.[page.organiser] %}
-
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
     {% if organiser.photo %}
@@ -13,15 +11,12 @@ layout: default
     <h2 class="post-date"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</h2>
     <h3 class="post-time">From {{ page.start_time}} to {{page.end_time }}</h3>
   </header>
-
-  {% if organiser.photo %}
-    <div class="author" style="background-image:url({{organiser.photo}});"></div>
-  {% endif %}
-
+    {% if organiser.photo %}
+      <div class="author" style="background-image:url({{organiser.photo}});"></div>
+    {% endif %}
     <div class="post-content" itemprop="articleBody">
-    {{ content }}
+    {{content}}
   </div>
-
   <div>
     {% if page.rsvp.more %}
       <a href='{{page.rsvp.more}}' class="button button-primary">More</a>
@@ -33,4 +28,18 @@ layout: default
       <a href='{{page.rsvp.register}}' class="button button-secondary">Register</a>
     {% endif %}
   </div>
+  <div id="disqus_thread"></div>
+  <script>
+      var disqus_config = function () {
+          this.page.url = bettermtl.com;
+          this.page.identifier = "{{page.disqus-id}}";
+      };
+      (function() {
+          var d = document, s = d.createElement('script');
+          s.src = '//bettermtl.disqus.com/embed.js';
+          s.setAttribute('data-timestamp', + new Date());
+          (d.head || d.body).appendChild(s);
+      })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 </article>
