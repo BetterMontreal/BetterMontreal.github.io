@@ -1,7 +1,18 @@
-.button{
-  &.button-primary{
+.button {
+  &.button-primary {
     color: #ffffff;
     background: #965CB8;
+    box-shadow: #324832 0 2px 0 0;
+    padding: 10px 16px 8px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    &:hover{
+      background: #ab82b8;
+    }
+  }
+  &.button-secondary {
+    color: #ffffff;
+    background: #A8A3BD;
     box-shadow: #324832 0 2px 0 0;
     padding: 10px 16px 8px 16px;
     border-radius: 6px;

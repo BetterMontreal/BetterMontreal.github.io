@@ -4,10 +4,10 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Activities for a BetterMTL
+title: Activity for BetterMTL
 
 # What is the name of the events or talks you would like to host? (Example Brownbags, Talks, Lighting Talks)
-event_label: Activities
+event_label: Activity
 
 description: Montrealers team up better city
 
