@@ -1,0 +1,19 @@
+---
+layout: post
+
+#event information
+title:  "Does the Event filename need a DATE in the filename?"
+cover: "https://fr.wikipedia.org/wiki/Autriche#/media/File:Austria1914physical.jpg"
+date:   2016-04-01
+start_time: "08:00"
+end_time: "10:15"
+location: "H1W "
+#event organiser details
+organiser: "Sylvain"
+
+---
+
+Here's a question about filenames.
+
+
+Are dates inside filenames unnecessary?

@@ -1,6 +1,9 @@
+[![Stories in Ready](https://badge.waffle.io/bettermtl/bettermtl.github.io.png?label=ready&title=Ready)](https://waffle.io/bettermtl/bettermtl.github.io)
+[![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg?style=plastic)](https://gitter.im/bettermtl/general)
+
 # BetterMTL
 
-A simple way for a whole city to contribute to a shared calendar of activities.
+Lets anyone contribute to a shared calendar of activities.
 
 [Add your activities](http://bettermtl.github.io/about/)
 
