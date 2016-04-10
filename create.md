@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Create an event using Evento
+title: Create an event using BetterMTL
 navigation_title: Create Event
 permalink: /create/
 button: true
