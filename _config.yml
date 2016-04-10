@@ -4,20 +4,34 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Activity for BetterMTL
+title:
+  en: BetterMTL Activity
+  fr: Activité MieuxMTL
 
 # What is the name of the events or talks you would like to host? (Example Brownbags, Talks, Lighting Talks)
-event_label: Activity
+event_label:
+  en: Activity
+  fr: Activité
 
-description: Montrealers team up better city
+description:
+  en: Montrealers team up better city
+  fr: Les Montréalais se équipent meilleure ville
+
+index:
+  en:
+  fr: accueil.html
+
+feed:
+  en: /feed.xml
+  fr: /flux.xml
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://bettermtl.github.io" # the base hostname & protocol for your site
+url: "http://bettermtl.com/" # the base hostname & protocol for your site
 
 timezone: America/Montreal
 
 author: Paul Cuciureanu
-twitter_username: pcuci
+twitter_username: BetterMTL
 github_username:  bettermtl
 company_name: BetterMTL
 

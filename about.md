@@ -3,6 +3,8 @@ layout: page
 navigation_title: About
 title: About BetterMTL
 permalink: /about/
+ref: about
+lang: en
 ---
 BetterMTL is for Montrealers to self-organize bottoms-up and speak with one voice.
 
@@ -42,6 +44,6 @@ We hope to rally and merge a few groups of organizers-admins-curators to create 
 
 If you added all these calendars, great! You almost don't need BetterMTL.
 
-We believe we can fix this mess, collaboratively.
+We believe we can fix this mess. :-)
 
 To contribute directly you can fork the repo and send us pull-requests, jump right into the [discussion](gitter.im/bettermtl/general), help prioritize [issues](waffle.io/bettermtl/bettermtl.github.io), and report new bugs

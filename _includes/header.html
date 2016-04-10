@@ -1,9 +1,6 @@
 <header class="site-header">
-
   <div class="wrapper">
-
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
-
+    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title[page.lang] }}</a>
     <nav class="site-nav">
       <a href="#" class="menu-icon">
         <svg viewBox="0 0 18 15">
@@ -12,20 +9,20 @@
           <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
         </svg>
       </a>
-
       <div class="trigger">
-        {% for my_page in site.pages %}
+        {% assign pages=site.pages | where:"lang", page.lang %}
+        {% for my_page in pages %}
           {% if my_page.navigation_title %}
-            {% if my_page.button %}
-                <a class="page-link button button-primary" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.navigation_title }}</a>
-            {% else %}
-                <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.navigation_title }}</a>
-            {% endif %}
+            <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.navigation_title }}</a>
           {% endif %}
         {% endfor %}
       </div>
     </nav>
-
   </div>
-
 </header>
+<div class="wrapper" style="text-align: right; line-height: 2em">
+  {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+  {% for post in posts %} <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang }}</a> {% endfor %}
+  {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+  {% for page in pages %} <a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a> {% endfor %}
+</div>

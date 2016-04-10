@@ -10,7 +10,9 @@ organiser: SamErgo
 published: true
 rsvp:
  register: http://www.eventbrite.com/
-activity-id: samergo-workshop-competitive-analysis
+ref: samergo-workshop-competitive-analysis
+categories: design ux prototyping workshop
+lang: en
 ---
 Who else does what you do? Research and analyze the competition to better position your project's value proposition.
 

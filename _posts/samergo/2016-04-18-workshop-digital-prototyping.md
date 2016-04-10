@@ -10,7 +10,9 @@ organiser: SamErgo
 published: true
 rsvp:
  register: http://www.eventbrite.com/
-activity-id: samergo-workshop-digital-prototyping
+ref: samergo-workshop-digital-prototyping
+categories: design ux prototyping workshop
+lang: en
 ---
 How to improve the UI? Build higher-fidelity mock-ups and demo your killer UX to gain new key insights.
 

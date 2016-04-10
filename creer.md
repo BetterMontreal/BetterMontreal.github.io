@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Create an event using BetterMTL
-navigation_title: Create Event
-permalink: /create/
+title: Publier une activité sur MieuxMTL
+navigation_title: Publier activité
+permalink: /creer/
 button: true
 ref: create
-lang: en
+lang: fr
 ---
 
 Adding an event to your site is easy.

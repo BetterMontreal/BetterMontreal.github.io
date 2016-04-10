@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "What the hell is UX Strategy and why it’s crucial!"
+title: "Qu'est-ce qui est la stratégie UX et pourquoi il est crucial!"
 cover: "http://toutlemonde-ux.com/wp-content/uploads/2016/03/jaimelevy-3.png"
 date: 2016-04-13T17:55:00.000Z
 start_time: "17:55"
@@ -14,9 +14,10 @@ rsvp:
  purchase: http://www.amazon.com/UX-Strategy-Innovative-Digital-Products/dp/1449372864
 ref: 2016-04-13-tlmux-jaime-strategy
 categories: design ux strategy conference
-lang: en
+lang: fr
 ---
-User experience (UX) strategy lies at the intersection of UX design and business strategy. This talk delves into this crucial practice, which relies on empirical, lightweight tactics for pushing cross-functional teams toward a unique digital solution that customers want.
+
+L'expérience (UX) stratégie de l'utilisateur se trouve à l'intersection de la conception UX et la stratégie d'entreprise. Cette conférence se penche sur cette pratique cruciale, qui repose sur des tactiques légers empiriques pour pousser les équipes inter-fonctionnelles vers une solution numérique unique que les clients veulent.
 
 Several UX strategy techniques will be demonstrated that you can use for crafting consumer products regardless of your work environment. It will start with a primer covering topics such as competitive analysis, validated user research, disruptive mental models, and why your product must deliver superior value through a « killer » user experience. The business case of Airbnb will be deconstructed so you can see how they started (by running experiments), ambitiously scaled (with growth hacking techniques), and monetized their value proposition (with an innovative business model).
 

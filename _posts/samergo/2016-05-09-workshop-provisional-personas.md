@@ -10,7 +10,9 @@ organiser: SamErgo
 published: true
 rsvp:
  register: http://www.eventbrite.com/
-activity-id: samergo-workshop-provisional-personas
+ref: samergo-workshop-provisional-personas
+categories: design ux prototyping workshop
+lang: en
 ---
 Use empathy maps and design thinking to build your provisional user personas.
 
