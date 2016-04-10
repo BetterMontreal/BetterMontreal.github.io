@@ -14,6 +14,8 @@ description: Montrealers team up better city
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://bettermtl.github.io" # the base hostname & protocol for your site
 
+timezone: America/Montreal
+
 author: Paul Cuciureanu
 twitter_username: pcuci
 github_username:  bettermtl

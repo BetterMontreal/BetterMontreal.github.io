@@ -339,6 +339,7 @@
   height: 160px;
   width: 160px;
   border-radius: 6px;
+  background-color: white;
   background-size: cover;
   box-shadow: 1px 1px 2px 1px #C4C4C4;
   @include media-query($on-laptop){

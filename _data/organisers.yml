@@ -1,19 +1,24 @@
 Paul Cuciureanu:
-    name: Paul Cuciureanu
-    email: "paul@enfluence.io"
-    photo: "https://lh3.googleusercontent.com/xsEiA93TJJn3mM9dayVSXs5meXnRxb97Ui06vIjGsayw-H174rPdikSlaNoOwEj2QAfP=w1920-h1200-rw-no"
+  name: Paul Cuciureanu
+  email: "paul@enfluence.io"
+  photo: "https://lh3.googleusercontent.com/xsEiA93TJJn3mM9dayVSXs5meXnRxb97Ui06vIjGsayw-H174rPdikSlaNoOwEj2QAfP=w1920-h1200-rw-no"
 
 Francis Brunelle:
-    name: Francis Brunelle
-    email: "frabrunelle@gmail.com"
-    photo: "https://lh3.googleusercontent.com/-IPNGecs-4FVUv7C6sg5M-Q_bHdfoGeb8aVlr41XVnqvPsco2zClxZAOQCA-w-UdLmsW=w1920-h1200-rw-no"
+  name: Francis Brunelle
+  email: "frabrunelle@gmail.com"
+  photo: "https://lh3.googleusercontent.com/-IPNGecs-4FVUv7C6sg5M-Q_bHdfoGeb8aVlr41XVnqvPsco2zClxZAOQCA-w-UdLmsW=w1920-h1200-rw-no"
 
 David Rowley:
-    name: David Rowley
-    email: "davidrowley01@gmail.com"
-    photo: "http://photos1.meetupstatic.com/photos/member/b/1/1/4/highres_200865332.jpeg"
+  name: David Rowley
+  email: "davidrowley01@gmail.com"
+  photo: "http://photos1.meetupstatic.com/photos/member/b/1/1/4/highres_200865332.jpeg"
 
 Tout le Monde UX:
-    name: Tout le Monde UX
-    email: "info@toutlemonde-ux.com"
-    photo: "http://planculturelnumerique.culturepourtous.ca/wp-content/uploads/2015/08/TLMUX.jpeg"
+  name: Tout le Monde UX
+  email: "info@toutlemonde-ux.com"
+  photo: "http://planculturelnumerique.culturepourtous.ca/wp-content/uploads/2015/08/TLMUX.jpeg"
+
+SamErgo:
+  name: SamErgo
+  email: "happy@samergo.org"
+  photo: "https://i.imgur.com/PgZsDp2.png"
