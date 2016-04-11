@@ -1,0 +1,14 @@
+article.post {
+  .improve {
+    margin-top: 8px;
+    float: right;
+    a {
+      &:link, &:visited {
+        color: rgba(0, 0, 0, 0.4);
+      }
+      &:hover {
+        color: rgba(0, 0, 0, 0.8);
+      }
+    }
+  }
+}

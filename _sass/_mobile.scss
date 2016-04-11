@@ -1,0 +1,10 @@
+/* Responsive Stuff */
+@include media-query($on-palm) {
+  /* Sometimes, you just want to be different on small screens */
+  .center-on-mobiles {
+    text-align: center !important;
+  }
+  .hide-on-mobiles {
+    display: none !important;
+  }
+}
