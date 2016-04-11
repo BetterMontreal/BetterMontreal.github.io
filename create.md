@@ -6,30 +6,30 @@ permalink: /create/
 button: true
 ref: create
 lang: en
+published: true
 ---
+
 
 Adding an event to your site is easy.
 
-#Getting started
+## Getting started
 Create a new .md file or copy an existing post in the  `_posts` directory to get started. The post file name must be in this format:
 
 {% highlight markdown%}
 YYYY-MM-DD-title.md
-#Example 2016-01-01-Back-At-Work-After-New-Year.md
+# Example 2016-01-01-Back-At-Work-After-New-Year.md
 {% endhighlight %}
 
-#Config for posts
-
+# Config for posts
 {% highlight markdown%}
 ---
-#leave this alone
+# leave this alone
 layout: post
 
-#Whats the title of your event.
+# Whats the title of your event.
 title:  "Talk on ES6 JavaScript"
 
-#Url to your cover photo for your event. [optional - default will be used if not given]
-cover: "https://frontendmasters.com/assets/es6-logo.png"
+# Url to your cover photo for your event. [optional - default will be used if not given]cover: "https://frontendmasters.com/assets/es6-logo.png"
 
 #The date of the event.
 date:   2016-02-01 16:04:19 +0000
@@ -50,11 +50,11 @@ organiser: "Paul Cuciureanu"
 ---
 {% endhighlight %}
 
-#Post content
+## Post content
 
 After you have setup your config, all you need to do know is write your content using markdown.
 
-#Example Post
+## Example Post
 
 {% highlight markdown%}
 ---
@@ -87,5 +87,5 @@ If this sounds interesting please register your interest below.
 
 {% endhighlight %}
 
-##Thats all folks
+## Thats all folks
 Thats all you need to do. Once the website is built again using `jekyll build` or `jekyll serve` your new event will be shown.
