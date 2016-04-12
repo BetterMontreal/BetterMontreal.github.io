@@ -9,9 +9,7 @@ location: "OVH, 1801 McGill College 8th Floor, Montréal, QC"
 organiser: Lean Startup Circle
 published: true
 rsvp:
- more: http://toutlemonde-ux.com/avril2016/
- register: http://www.eventbrite.com/e/what-the-hell-is-ux-strategy-and-why-its-crucial-tlmux-avril-2016-tickets-24019887129
- purchase: http://www.amazon.com/UX-Strategy-Innovative-Digital-Products/dp/1449372864
+ register: http://www.meetup.com/Lean-Startup-Circle-Montreal/events/230297882/
 ref: 2016-04-27-tlmux-jaime-strategy
 categories: lean strategy business workshop
 lang: en
