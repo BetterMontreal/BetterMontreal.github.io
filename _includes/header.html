@@ -10,6 +10,7 @@
         </svg>
       </a>
       <div class="trigger">
+        <a class="page-link" href="/locations/">Locations</a>
         {% assign pages=site.pages | where:"lang", page.lang %}
         {% for my_page in pages %}
           {% if my_page.navigation_title %}
@@ -21,8 +22,10 @@
   </div>
 </header>
 <div class="wrapper langs">
-  {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+  {% assign posts=site.posts | where: "ref", page.ref | sort: 'lang' %}
   {% for post in posts %} <a href="{{ post.url }}" class="lang {{ post.lang }}">{{ post.lang }}</a> {% endfor %}
-  {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+  {% assign pages=site.pages | where: "ref", page.ref | sort: 'lang' %}
   {% for page in pages %} <a href="{{ page.url }}" class="lang {{ page.lang }}">{{ page.lang }}</a> {% endfor %}
+  {% assign locations=site.locations | where: "ref", page.ref | sort: 'lang' %}
+  {% for location in locations %} <a href="{{ location.url }}" class="lang {{ location.lang }}">{{ location.lang }}</a> {% endfor %}
 </div>

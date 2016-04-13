@@ -15,9 +15,9 @@ lang: fr
       {% if blogDate >= currentDate %}
         <a href="{{ post.url | prepend: site.baseurl }}">
           {% if post.cover %}
-            <div class="event-sqaure" style="background-image:url({{post.cover}});">
+            <div class="event-card" style="background-image:url({{post.cover}});">
           {% else %}
-            <div class="event-sqaure" style="background-image:url(http://evento.io/img/cover.jpg);">
+            <div class="event-card" style="background-image:url(http://evento.io/img/cover.jpg);">
           {% endif %}
             <h2>{{ post.title }} <span>{{ post.date | date: "%b %-d, %Y" }}</span></h2>
              <div class='event-square-overlay'></div>
@@ -33,9 +33,9 @@ lang: fr
       {% if blogDate < currentDate %}
         <a href="{{ post.url | prepend: site.baseurl }}">
           {% if post.cover %}
-            <div class="event-sqaure" style="background-image:url({{post.cover}});">
+            <div class="event-card" style="background-image:url({{post.cover}});">
           {% else %}
-            <div class="event-sqaure" style="background-image:url(http://static1.squarespace.com/static/54db2500e4b06f24f8c5a607/t/54dbbfc5e4b03442c79b422e/1423687627142/Start+up+Party.jpeg?format=2500w);">
+            <div class="event-card" style="background-image:url(http://static1.squarespace.com/static/54db2500e4b06f24f8c5a607/t/54dbbfc5e4b03442c79b422e/1423687627142/Start+up+Party.jpeg?format=2500w);">
           {% endif %}
             <h2>{{ post.title }} <span>{{ post.date | date: "%b %-d, %Y" }}</span></h2>
             <div class='event-square-overlay'></div>

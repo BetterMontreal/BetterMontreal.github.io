@@ -3,6 +3,11 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
+collections:
+  locations:
+    output: true
+    permalink: /l/:path/
+
 # Site settings
 title:
   en: BetterMTL Activity

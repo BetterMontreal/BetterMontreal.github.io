@@ -1,0 +1,46 @@
+---
+layout: default
+---
+{% assign organiser = site.data.community.[location.administrator[0]] %}
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header class="post-header">
+    <div class="improve right hide-on-mobiles">
+      <a href="http://prose.io/#bettermtl/bettermtl.github.io/edit/master/{{ location.path }}"><i class="fa fa-pencil"></i> &nbsp;Improve this page</a>
+    </div>
+    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+    {% if organiser.photo %}
+      <h3 class="post-organisers-name">By {{organiser.name}}</h3>
+    {% endif %}
+  </header>
+    {% if organiser.photo %}
+      <div class="author" style="background-image:url({{organiser.photo}});"></div>
+    {% endif %}
+    <div class="post-content" itemprop="articleBody">
+    {{content}}
+  </div>
+  <div>
+    {% if location.rsvp.more %}
+      <a href='{{location.rsvp.more}}' class="button button-primary">More</a>
+    {% endif %}
+    {% if location.rsvp.purchase %}
+      <a href='{{location.rsvp.purchase}}' class="button button-secondary">Purchase collateral</a>
+    {% endif %}
+    {% if location.rsvp.register %}
+      <a href='{{location.rsvp.register}}' class="button button-secondary">Register</a>
+    {% endif %}
+  </div>
+  <div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function () {
+      this.location.url = bettermtl.com;
+      this.location.identifier = "{{location.ref}}";
+    };
+    (function() {
+      var d = document, s = d.createElement('script');
+      s.src = '//bettermtl.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', + new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+</article>

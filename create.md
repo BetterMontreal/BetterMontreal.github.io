@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Create an event using BetterMTL
-navigation_title: Create Event
+navigation_title: Create Activity
 permalink: /create/
 button: true
 ref: create
@@ -45,7 +45,7 @@ end_time: "13:00"
 #event organiser details
 organiser: "Paul Cuciureanu"
 
-#Make sure you setup your Organiser details in the _data directory in the organisers.yml file
+#Make sure you setup your Organiser details in the _data directory in the community.yml file
 
 ---
 {% endhighlight %}
