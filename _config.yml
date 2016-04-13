@@ -19,7 +19,7 @@ description:
 
 index:
   en:
-  fr: accueil.html
+  fr: accueil
 
 feed:
   en: /feed.xml
