@@ -14,8 +14,8 @@ event_label:
   fr: Activité
 
 description:
-  en: Montrealers team up better city
-  fr: Les Montréalais se équipent meilleure ville
+  en: BetterMTL is free and open-source. <br/> Run by <a href='https://github.com/bettermtl/bettermtl.github.io/graphs/contributors'>contributors</a>.
+  fr: MieuxMTL est un logiciel libre. <br/> Géré par <a href='https://github.com/bettermtl/bettermtl.github.io/graphs/contributors'>contributeurs</a>.
 
 index:
   en:
@@ -31,6 +31,7 @@ url: "http://bettermtl.com/" # the base hostname & protocol for your site
 timezone: America/Montreal
 
 author: Paul Cuciureanu
+facebook_username: bettermtl
 twitter_username: BetterMTL
 github_username:  bettermtl
 company_name: BetterMTL
