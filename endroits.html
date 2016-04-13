@@ -6,7 +6,7 @@ ref: locations
 lang: fr
 ---
 <div class="home">
-  <h1 class="page-heading">Endroits</h1>
+  <h1 class="post-title">Endroits</h1>
   {% assign locations=site.locations | where:"lang", page.lang %}
   {% for location in locations %}
     <a href="{{ location.url | prepend: site.baseurl }}">
@@ -16,7 +16,7 @@ lang: fr
         <div class="location-card" style="background-image:url(http://evento.io/img/cover.jpg);">
       {% endif %}
         <h2>{{ location.title }} <span>{{ location.date | date: "%b %-d, %Y" }}</span></h2>
-         <div class='event-square-overlay'></div>
+         <div class='location-card-overlay'></div>
       </div>
     </a>
   {% endfor %}

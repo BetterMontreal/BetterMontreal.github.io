@@ -6,7 +6,30 @@
 collections:
   locations:
     output: true
-    permalink: /l/:path/
+    permalink: /l/:title:output_ext
+
+lang:
+  primary: fr
+  fallback: en
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      lang: "fr"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: ""
+      type: locations
+    values:
+      layout: location
 
 # Site settings
 title:
