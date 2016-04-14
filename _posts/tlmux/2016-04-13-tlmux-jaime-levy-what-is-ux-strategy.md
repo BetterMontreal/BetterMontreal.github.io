@@ -5,8 +5,8 @@ cover: "http://toutlemonde-ux.com/wp-content/uploads/2016/03/jaimelevy-3.png"
 date: 2016-04-13T17:55:00.000Z
 start_time: "17:55"
 end_time: "21:00"
-location: "Coop Ecto, 936 Avenue du Mont-Royal Est, H2J 1X2"
-organiser: Tout le Monde UX
+location: ecto-coop
+organizer: tlmux
 published: true
 rsvp:
  more: http://toutlemonde-ux.com/avril2016/

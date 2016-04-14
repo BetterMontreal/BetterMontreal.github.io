@@ -6,7 +6,7 @@ date: 2016-04-27T18:00:00.000Z
 start_time: "18:00"
 end_time: "21:00"
 location: "OVH, 1801 McGill College 8th Floor, Montréal, QC"
-organiser: Lean Startup Circle
+organizer: Lean Startup Circle
 published: true
 rsvp:
  register: http://www.meetup.com/Lean-Startup-Circle-Montreal/events/230297882/

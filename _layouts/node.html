@@ -3,16 +3,16 @@ layout: default
 ---
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
   <header class="post-header">
-    <div class="improve right hide-on-mobiles">
+    <div class="improve right">
       <a href="http://prose.io/#bettermtl/bettermtl.github.io/edit/master/{{ location.path }}"><i class="fa fa-pencil"></i> &nbsp;Improve this page</a>
     </div>
     <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-    {% if organiser.photo %}
-      <h3 class="post-organisers-name">By {{organiser.name}}</h3>
+    {% if organizer.photo %}
+      <h3 class="post-organizers-name">By {{organizer.name}}</h3>
     {% endif %}
   </header>
-    {% if organiser.photo %}
-      <div class="author" style="background-image:url({{organiser.photo}});"></div>
+    {% if organizer.photo %}
+      <div class="author" style="background-image:url({{organizer.photo}});"></div>
     {% endif %}
     <div class="post-content" itemprop="articleBody">
     {{content}}

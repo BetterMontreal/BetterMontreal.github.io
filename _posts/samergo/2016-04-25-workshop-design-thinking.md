@@ -6,7 +6,7 @@ date: 2016-04-25T17:30:00.000Z
 start_time: "17:30"
 end_time: "20:15"
 location: "inside the Salon 1861, 550 rue Richmond, Montréal, QC"
-organiser: SamErgo
+organizer: SamErgo
 published: true
 rsvp:
  register: http://www.eventbrite.com/

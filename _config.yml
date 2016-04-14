@@ -75,4 +75,4 @@ markdown: kramdown
 # Show future posts for future events.
 future: true
 
-permalink: /event/:title.html
+permalink: /a/:title.html

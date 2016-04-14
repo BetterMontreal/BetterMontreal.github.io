@@ -40,10 +40,10 @@ start_time: "12:00"
 #end time of the event
 end_time: "13:00"
 
-#event organiser details
+#event organizer details
 
-#event organiser details
-organiser: "Paul Cuciureanu"
+#event organizer details
+organizer: "Paul Cuciureanu"
 
 #Make sure you setup your Organiser details in the _data directory in the community.yml file
 
@@ -67,10 +67,10 @@ date:   2016-03-28
 start_time: "12:00"
 end_time: "13:00"
 
-#event organiser details
-organiser_email: "david.boyne@test.com"
-organiser_name : "David Boyne"
-organiser_photo: "https://pbs.twimg.com/profile_images/660943257795457030/igA_joVD.jpg"
+#event organizer details
+organizer_email: "david.boyne@test.com"
+organizer_name : "David Boyne"
+organizer_photo: "https://pbs.twimg.com/profile_images/660943257795457030/igA_joVD.jpg"
 
 ---
 

@@ -6,7 +6,7 @@ date:   2016-03-28
 start_time: "12:00"
 end_time: "13:00"
 location: "Salon 1861, 550 rue Richmond"
-organiser: "Francis Brunelle"
+organizer: "Francis Brunelle"
 ---
 a small talk on:
 

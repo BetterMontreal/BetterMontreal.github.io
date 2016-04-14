@@ -6,7 +6,7 @@ date:   2016-04-01
 start_time: "10:00"
 end_time: "11:00"
 location: "Salon 1861, 550 rue Richmond"
-organiser: "Paul Cuciureanu"
+organizer: "Paul Cuciureanu"
 ---
 
 keep up to date with web security.
