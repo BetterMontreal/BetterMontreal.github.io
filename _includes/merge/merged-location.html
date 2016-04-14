@@ -1,0 +1,27 @@
+{% assign location = site.locations | where: "ref", page.location | where: "lang", page.lang | first %}
+{% assign llprimary = site.locations | where: "ref", page.location | where: "lang", site.lang.primary | first %}
+{% assign llsecondary = site.locations | where: "ref", page.location | where: "lang", site.lang.secondary | first %}
+
+{% if location.title %}
+  {% assign l_title = location.title %}
+{% elsif llprimary.title %}
+  {% assign l_title = llprimary.title %}
+{% elsif llsecondary.title %}
+  {% assign l_title = llprimary.title %}
+{% endif %}
+
+{% if location.cover %}
+  {% assign l_cover = location.cover %}
+{% elsif llprimary.title %}
+  {% assign l_cover = llprimary.cover %}
+{% elsif llsecondary.title %}
+  {% assign l_cover = llprimary.cover %}
+{% endif %}
+
+{% if location.room %}
+  {% assign l_room = location.room %}
+{% elsif llprimary.title %}
+  {% assign l_room = llprimary.room %}
+{% elsif llsecondary.title %}
+  {% assign l_room = llprimary.room %}
+{% endif %}

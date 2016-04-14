@@ -7,7 +7,7 @@ lang: en
 ---
 <div class="home">
   <h1 class="post-title">Locations</h1>
-  {% assign locations=site.locations | where:"lang", page.lang %}
+  {% assign locations=site.locations | where: "lang", page.lang %}
   {% for location in locations %}
     <a href="{{ location.url | prepend: site.baseurl }}">
       {% if location.cover %}

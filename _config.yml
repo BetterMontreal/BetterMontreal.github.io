@@ -13,7 +13,7 @@ collections:
 
 lang:
   primary: fr
-  fallback: en
+  secondary: en
 
 defaults:
   - scope:

@@ -8,7 +8,7 @@ permalink: /sitemaps.xml
     {% if post.id contains "404" %}{% else %}
       <url>
         <loc>{{site.base}}{{ post.url }}</loc>
-        {% assign versions=site.posts | where:"ref", post.ref %}
+        {% assign versions=site.posts | where: "ref", post.ref %}
         {% for version in versions %}
           <xhtml:link rel="alternate" hreflang="{{ version.lang }}" href="{{site.base}}{{ version.url }}" />
         {% endfor %}
@@ -21,7 +21,7 @@ permalink: /sitemaps.xml
     {% if page.id contains "404" %}{% else %}
       <url>
         <loc>{{site.base}}{{ page.url }}</loc>
-        {% assign versions=site.pages | where:"ref", page.ref %}
+        {% assign versions=site.pages | where: "ref", page.ref %}
         {% for version in versions %}
           <xhtml:link rel="alternate" hreflang="{{ version.lang }}" href="{{site.base}}{{ version.url }}" />
         {% endfor %}
