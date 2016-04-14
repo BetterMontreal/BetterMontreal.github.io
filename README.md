@@ -13,6 +13,7 @@ Lets anyone contribute to a shared calendar of activities.
 * Easy to add events, by and for the community
 * Future and past events in one list
 
+
 ---
 
 ### Install and Test
