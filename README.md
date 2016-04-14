@@ -8,7 +8,7 @@ Lets anyone contribute to a shared calendar of activities.
 [Add your activities](http://bettermtl.github.io/about/)
 
 
-### Features
+### Features here
 * Clean responsive layout
 * Easy to add events, by and for the community
 * Future and past events in one list
