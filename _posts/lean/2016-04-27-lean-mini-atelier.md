@@ -12,7 +12,6 @@ rsvp:
  register: http://www.meetup.com/Lean-Startup-Circle-Montreal/events/230297882/
 ref: 2016-04-27-tlmux-jaime-strategy
 categories: lean strategy business workshop
-lang: fr
 ---
 
 Assez de blabla! La meilleurs façon d'apprendre le Lean Startup (en à être entpreneur) est simplement de le faire.

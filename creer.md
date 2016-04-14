@@ -5,7 +5,7 @@ navigation_title: Publier activité
 permalink: /creer/
 button: true
 ref: create
-lang: fr
+
 ---
 
 Adding an event to your site is easy.

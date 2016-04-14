@@ -14,7 +14,6 @@ rsvp:
  purchase: http://www.amazon.com/UX-Strategy-Innovative-Digital-Products/dp/1449372864
 ref: 2016-04-13-tlmux-jaime-strategy
 categories: design ux strategy conference
-lang: fr
 ---
 
 L'expérience (UX) stratégie de l'utilisateur se trouve à l'intersection de la conception UX et la stratégie d'entreprise. Cette conférence se penche sur cette pratique cruciale, qui repose sur des tactiques légers empiriques pour pousser les équipes inter-fonctionnelles vers une solution numérique unique que les clients veulent.

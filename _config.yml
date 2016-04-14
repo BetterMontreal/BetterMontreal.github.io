@@ -7,29 +7,34 @@ collections:
   locations:
     output: true
     permalink: /l/:title:output_ext
+  network:
+    output: true
+    permalink: /n/:name:output_ext
 
 lang:
   primary: fr
   fallback: en
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
     values:
       lang: "fr"
-  -
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
-  -
-    scope:
+  - scope:
       path: ""
       type: locations
     values:
       layout: location
+  - scope:
+      path: ""
+      type: network
+    values:
+      layout: node
 
 # Site settings
 title:
