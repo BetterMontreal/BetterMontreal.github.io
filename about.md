@@ -8,11 +8,12 @@ lang: en
 published: true
 ---
 
-BetterMTL is for Montrealers to self-organize bottoms-up and speak with one voice.
+
+BetterMTL is for a city to self-organize bottom-up and speak with one voice.
 
 It is a free open source project which allows you to create events, showing times and information for anybody that wants to attend, add information, publish, or help out.
 
-# Who we ares
+# Who we are
 
 We are a group of community organizers of large and small mostly tech events in Montreal.
 
