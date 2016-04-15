@@ -10,13 +10,10 @@ lang: en
   {% assign locations=site.locations | where: "lang", page.lang %}
   {% for location in locations %}
     <a href="{{ location.url | prepend: site.baseurl }}">
-      {% if location.cover %}
-        <div class="location-card" style="background-image:url({{location.cover}});">
-      {% else %}
-        <div class="location-card" style="background-image:url(http://evento.io/img/cover.jpg);">
-      {% endif %}
+      {% capture location_cover %}{% include merge/location-cover.html loc = location default_loc = 'http://evento.io/img/cover.jpg' %}{% endcapture %}
+      <div class="location-card" style="background-image:url({{location_cover}});">
         <h2>{{ location.title }} <span>{{ location.date | date: "%b %-d, %Y" }}</span></h2>
-         <div class='location-card-overlay'></div>
+        <div class='location-card-overlay'></div>
       </div>
     </a>
   {% endfor %}
