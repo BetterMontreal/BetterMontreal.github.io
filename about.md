@@ -28,7 +28,8 @@ Star ★ the [bettermtl.github.io](https://github.com/bettermtl/bettermtl.github
 Show you care - about the success of this project. It motivates us. 
 Thank you because we appreciate your vote of confidence!
 
-See your way through to [publish](/create) an event or at least to post a proposed new topic.
+See your way through to [publish](/create) an event.
+At least propose a topic.
 
 # The Problem we are solving
 
