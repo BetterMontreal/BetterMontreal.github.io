@@ -23,15 +23,16 @@ If you are active as participant or volunteer organizing subject-matter activity
 
 # How to get involved
 
-Begin by ★ staring the [bettermtl.github.io](https://github.com/bettermtl/bettermtl.github.io) repo - we really appreciate your vote of confidence! It keeps us motivated to know you care about the success of this project.
+Star ★ the [bettermtl.github.io](https://github.com/bettermtl/bettermtl.github.io) repo. Show you care about the success of this project. It motivates us - we appreciate your vote of confidence!
 
-Secondly, see how you can [publish](/create) an event.
+See your way through to [publish](/create) an event.
 
 # The Problem we are solving
 
-Many activities conflict with one another and there are many sources of information — calendars in Facebook, in specialized websites like Eventbrite or Meetup, or independent mailing lists. It's haphazard — much time wasted checking for corrections or comments here and there.
+Many activities conflict with one another and there are many sources of information. It's haphazard — much time wasted. Checking for corrections or comments here and there is a hassle.
 
-Together we're creating a collaborative city-wide attention management platform for you and me, the people, to post an event, submit corrections, even publish a newsletter at same time, or let anyone else include your event in their newsletter — with a single click.
+Together we're creating a collaborative city-wide attention management platform for you and me, the people, to post an event, let anyone submit corrections, and turn it into a newsletter at same time. Anyone can include your event in their newsletter — with a single click.
+
 
 # The co-opetition
 We hope to rally and merge a few groups of organizers-admins-curators to create a more collaborative event space for Montreal, for a better Montreal.
