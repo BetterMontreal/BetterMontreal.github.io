@@ -54,9 +54,11 @@ E.g.
 If you have all these calendars feeding your personal .ics calendar, great! 
 If you read them all - comparing and contrasting - and 
 if you're happy doing that work, then you don't need this project.
-But, if you find it to be a mess, please contribut to this project.
+But, if you find it to be a mess, please contribute to this project.
 
 # To contribute
-You can fork the repo (modify and send us pull-requests), or 
-comment to report and prioritize [bugs and development issues](waffle.io/bettermtl/bettermtl.github.io) or
-add to the [discussion here](gitter.im/bettermtl/general).
+Fork the repo (modify and send us pull-requests).
+
+Comment to report and prioritize [bugs and development issues](waffle.io/bettermtl/bettermtl.github.io).
+
+Add to the [discussion here](gitter.im/bettermtl/general) especially for better methods of showing information about attention management (rsvp'ing, attending, volunteering, contributing).
