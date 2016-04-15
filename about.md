@@ -53,6 +53,8 @@ E.g.
 1. UPGlobal's (this is the Startup Weekend crowd) [Montreal Startup Digest calendar](https://www.startupdigest.com/digests/montreal) - you need to register to receive the weekly newsletter
 1. [Montreal in Technology calendar](http://www.montrealintechnology.com/calendar/)
 1. *Add your own favorite events lists here*
+1. *Any of these sources might propagate errors instead of propagating the right copy of your event*
+
 
 If you have all these calendars feeding your personal .ics calendar, great! 
 If you read them all - comparing and contrasting - and 
