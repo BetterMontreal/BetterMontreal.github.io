@@ -4,6 +4,7 @@
   {% for location in locations %}
     {% if location.lang == site.lang.primary %}
       {% assign locations_sorted = locations_sorted | push: location %}
+      {% break %}
     {% endif %}
   {% endfor %}
 {% endif %}
@@ -11,6 +12,7 @@
   {% for location in locations %}
     {% if location.lang == site.lang.secondary %}
       {% assign locations_sorted = locations_sorted | push: location %}
+      {% break %}
     {% endif %}
   {% endfor %}
 {% endif %}
