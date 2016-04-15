@@ -11,8 +11,8 @@ layout: default
     <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
     <h3 class="post-date"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %} <span class="post-time">{{ page.start_time }} - {{ page.end_time }}</span></h3>
     <h3 class="post-location">
-      {{ l_title }},
-      {{ l_room }}, {{ location.address }}
+      {{ location_title }},
+      {{ location_room }}, {{ location_address }}
     </h3>
   </header>
     {% if organizer.photo %}
