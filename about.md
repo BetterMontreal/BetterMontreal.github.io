@@ -37,7 +37,7 @@ Many activities are calendar conflicts. We get information from many sources at 
 
 Together we can build an open collaborative attention management platform for you me and everyone, to post a topic or an event, let anyone correct details and also turn it into a newsletter item at same time. Anyone can include your event in their newsletter — with a single click. 
 
-If they correct details, it's for all to see: a common source file. As an attendee we want to easily choose and honour our RSVP's. When we are an event organizer we want valid data, to know whose RSVP is still valid (e.g. arrive on time and stay for the event).
+If people correct details, it's for all to see: a common source file. As an attendee we want to easily choose and honour our RSVP's. When we are an event organizer we want valid data, to know whose RSVP is still valid (e.g. arrive on time and stay for the event).
 
 
 # The co-opetition
