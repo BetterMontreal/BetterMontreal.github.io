@@ -8,7 +8,7 @@ lang: en
 published: true
 ---
 
-BetterMTL is for a city to self organize bottom-up and speak with one voice.
+BetterMTL is to get citydwellers to self organize bottom-up and speak with one voice.
 
 The software is open source and free of legal constraint. You may modify this software. You may create topics. You may associate a place and a day to your topic so that it becomes an event. You may add comments and requests. Please add requests for better methods of showing information about attention management (rsvp'ing, attending, volunteering, contributing).
 
