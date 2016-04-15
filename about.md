@@ -11,14 +11,15 @@ published: true
 
 BetterMTL is for a city to self-organize bottom-up and speak with one voice.
 
-The software is open source and free of legal constraint. You may modify this software. You may create topics. Your topic may have a day associated to it: then it becomes an event. 
+The software is open source and free of legal constraint. You may modify this software. You may create topics. Your topic may have a day associated to it: then it becomes an event. Please add requests for better methods of showing information about attention management (rsvp'ing, attending, volunteering, contributing).
 
 
 # Who we are
 
-We are a group of community organizers of large and small mostly tech events in Montreal.
+We are community organizers holding events.
 
-If you are organizing a tech meetup or are an active participant or volunteer in the startup community, the BetterMTL project will affect how you go about promoting and collaboration with other active groups in Montreal.
+
+If you are active as participant or volunteer organizing subject-matter activity, this project will help you promote and collaborate with other active participants and groups.
 
 # How to get involved
 
