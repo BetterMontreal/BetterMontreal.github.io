@@ -11,7 +11,8 @@ published: true
 
 BetterMTL is for a city to self-organize bottom-up and speak with one voice.
 
-It is a free open source project which allows you to create events, showing times and information for anybody that wants to attend, add information, publish, or help out.
+The software is open source and free of legal constraint. You may modify this software. You may create topics. Your topic may have a day associated to it: then it becomes an event. 
+
 
 # Who we are
 
