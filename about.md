@@ -26,9 +26,9 @@ See your way through to [publish](/create) an event.
 
 # The Problem we are solving
 
-Many activities are calendar conflicts. For many of us, we have many sources of information. It's haphazard — much time wasted. It's a hassle to check for corrections or comments here and there.
+Many activities are calendar conflicts. We get information from many sources at various times. It's haphazard — much time wasted. It's a hassle to check for corrections or comments here and there. It can be hard to choose whether to undo an RSVP sent in already so often leave this till the last minute or not at all.
 
-Together we can build an open collaborative attention management platform for you and me, the people, to post a topic or an event, let anyone correct details and also turn it into a newsletter item at same time. Anyone can include your event in their newsletter — with a single click. When they correct details, it's for all to see: a common source file.
+Together we can build an open collaborative attention management platform for you and me, the people, to post a topic or an event, let anyone correct details and also turn it into a newsletter item at same time. Anyone can include your event in their newsletter — with a single click. When they correct details, it's for all to see: a common source file. As an attendee we want to easily choose and honour our RSVP's. When we are organizers we want valid data, to know who's intending to participate (arrive on time and stay till the end).
 
 
 # The co-opetition
