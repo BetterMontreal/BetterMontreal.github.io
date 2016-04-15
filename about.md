@@ -28,7 +28,7 @@ Star ★ the [bettermtl.github.io](https://github.com/bettermtl/bettermtl.github
 Show you care - about the success of this project. It motivates us. 
 Thank you because we appreciate your vote of confidence!
 
-See your way through to [publish](/create) an event.
+See your way through to [publish](/create) an event or at least to post a proposed new topic.
 
 # The Problem we are solving
 
@@ -56,11 +56,11 @@ E.g.
 If you have all these calendars feeding your personal .ics calendar, great! 
 If you read them all - comparing and contrasting - and 
 if you're happy doing that work, then you don't need this project.
-But, if you find it to be a mess, please contribute to this project.
+But, if you find it to be a mess, then contribute to this project.
 
 # To contribute
-Fork the repo (modify and send us pull-requests).
-
-Comment to report and prioritize [bugs and development issues](waffle.io/bettermtl/bettermtl.github.io).
+Comment on [bugs and development issues](waffle.io/bettermtl/bettermtl.github.io) to help report and prioritize.
 
 Add to the [discussion here](gitter.im/bettermtl/general) especially for better methods of showing information about attention management (rsvp'ing, attending, volunteering, contributing, fact-checking).
+
+Fork the repo (modify and send us pull-requests).
