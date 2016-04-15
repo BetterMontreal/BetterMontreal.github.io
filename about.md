@@ -8,36 +8,31 @@ lang: en
 published: true
 ---
 
+BetterMTL is for a city to self organize bottom-up and speak with one voice.
 
-BetterMTL is for a city to self-organize bottom-up and speak with one voice.
-
-The software is open source and free of legal constraint. You may modify this software. You may create topics. Your topic may have a day associated to it: then it becomes an event. Please add requests for better methods of showing information about attention management (rsvp'ing, attending, volunteering, contributing).
-
+The software is open source and free of legal constraint. You may modify this software. You may create topics. You may associate a place and a day to your topic so that it becomes an event. You may add comments and requests. Please add requests for better methods of showing information about attention management (rsvp'ing, attending, volunteering, contributing).
 
 # Who we are
 
-We are community organizers holding events.
-
-
-If you are active as participant or volunteer organizing subject-matter activity, this project will help you promote and collaborate with other active participants and groups.
+We are people interested in a subject matter (any "subject matter") and some of us are organizers who host events. Together we can make the city better. If you are active as participant or volunteer organizing subject-matter activity, this project will help you promote and collaborate with others (other participants and other groups.)
 
 # How to get involved
 
-Star ★ the [bettermtl.github.io](https://github.com/bettermtl/bettermtl.github.io) repo. Show you care about the success of this project. It motivates us - we appreciate your vote of confidence!
+Star ★ the [bettermtl.github.io](https://github.com/bettermtl/bettermtl.github.io) repo. Show you care - about the success of this project. It motivates us. Thank you because we appreciate your vote of confidence!
 
 See your way through to [publish](/create) an event.
 
 # The Problem we are solving
 
-Many activities conflict with one another and there are many sources of information. It's haphazard — much time wasted. Checking for corrections or comments here and there is a hassle.
+Many activities are calendar conflicts. For many of us, we have many sources of information. It's haphazard — much time wasted. It's a hassle to check for corrections or comments here and there.
 
-Together we're creating a collaborative city-wide attention management platform for you and me, the people, to post an event, let anyone submit corrections, and turn it into a newsletter at same time. Anyone can include your event in their newsletter — with a single click.
+Together we can build an open collaborative attention management platform for you and me, the people, to post a topic or an event, let anyone correct details and turn it into a newsletter item at same time. Anyone can include your event in their newsletter — with a single click.
 
 
 # The co-opetition
-We hope to rally and merge a few groups of organizers-admins-curators to create a more collaborative event space for Montreal, for a better Montreal.
+We can rally and merge groups of organizers-admins-curators to create a more collaborative event space. E.g.
 
-**Independently curated calendars**
+**Independently curated calendars in Spring 2016**
 
 1. [Montreal NewTech & Startup Events calendar](http://notman.org/event-space/#mtltech) curated by [Ilias Benjelloun](https://www.linkedin.com/in/iliasbenjelloun)
 1. [Your Meetups](http://www.meetup.com/find/events/?allMeetups=true&radius=50&userFreeform=Montr%C3%A9al%2C+QC&mcId=z278063&mcName=Montr%C3%A9al%2C+Qu%C3%A9bec%2C+CA&eventFilter=mysugg), see *Export to...* link on the right sidebar
@@ -48,8 +43,6 @@ We hope to rally and merge a few groups of organizers-admins-curators to create 
 1. [Montreal in Technology calendar](http://www.montrealintechnology.com/calendar/)
 1. *Add your own favorite events lists here*
 
-If you added all these calendars, great! You almost don't need BetterMTL.
+If you have all these calendars feeding your personal .ics calendar, great! If you read them all, and compare and contrast, then you almost don't need this BetterMTL project.
 
-We believe we can fix this mess. :-)
-
-To contribute directly you can fork the repo and send us pull-requests, jump right into the [discussion](gitter.im/bettermtl/general), help prioritize [issues](waffle.io/bettermtl/bettermtl.github.io), and report new bugs
+To contribute, you can fork the repo (modify and send us pull-requests), or add to the [discussion here](gitter.im/bettermtl/general), or comment to report and prioritize [bugs and development issues](waffle.io/bettermtl/bettermtl.github.io).
