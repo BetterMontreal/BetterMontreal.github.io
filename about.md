@@ -18,7 +18,9 @@ We are people interested in a subject matter (any "subject matter") and some of 
 
 # How to get involved
 
-Star ★ the [bettermtl.github.io](https://github.com/bettermtl/bettermtl.github.io) repo. Show you care - about the success of this project. It motivates us. Thank you because we appreciate your vote of confidence!
+Star ★ the [bettermtl.github.io](https://github.com/bettermtl/bettermtl.github.io) repo. 
+Show you care - about the success of this project. It motivates us. 
+Thank you because we appreciate your vote of confidence!
 
 See your way through to [publish](/create) an event.
 
@@ -26,13 +28,13 @@ See your way through to [publish](/create) an event.
 
 Many activities are calendar conflicts. For many of us, we have many sources of information. It's haphazard — much time wasted. It's a hassle to check for corrections or comments here and there.
 
-Together we can build an open collaborative attention management platform for you and me, the people, to post a topic or an event, let anyone correct details and turn it into a newsletter item at same time. Anyone can include your event in their newsletter — with a single click.
+Together we can build an open collaborative attention management platform for you and me, the people, to post a topic or an event, let anyone correct details and also turn it into a newsletter item at same time. Anyone can include your event in their newsletter — with a single click. When they correct details, it's for all to see: a common source file.
 
 
 # The co-opetition
-We can rally and merge groups of organizers-admins-curators to create a more collaborative event space. E.g.
-
-**Independently curated calendars in Spring 2016**
+We can rally and merge groups of organizers-admins-curators to create a more collaborative event space. 
+E.g.
+**Independently curated calendars (Spring 2016)**
 
 1. [Montreal NewTech & Startup Events calendar](http://notman.org/event-space/#mtltech) curated by [Ilias Benjelloun](https://www.linkedin.com/in/iliasbenjelloun)
 1. [Your Meetups](http://www.meetup.com/find/events/?allMeetups=true&radius=50&userFreeform=Montr%C3%A9al%2C+QC&mcId=z278063&mcName=Montr%C3%A9al%2C+Qu%C3%A9bec%2C+CA&eventFilter=mysugg), see *Export to...* link on the right sidebar
@@ -43,6 +45,12 @@ We can rally and merge groups of organizers-admins-curators to create a more col
 1. [Montreal in Technology calendar](http://www.montrealintechnology.com/calendar/)
 1. *Add your own favorite events lists here*
 
-If you have all these calendars feeding your personal .ics calendar, great! If you read them all, and compare and contrast, then you almost don't need this BetterMTL project.
+If you have all these calendars feeding your personal .ics calendar, great! 
+If you read them all - comparing and contrasting - and 
+if you're happy doing that work, then you don't need this project.
+But, if you find it to be a mess, please contribut to this project.
 
-To contribute, you can fork the repo (modify and send us pull-requests), or add to the [discussion here](gitter.im/bettermtl/general), or comment to report and prioritize [bugs and development issues](waffle.io/bettermtl/bettermtl.github.io).
+# To contribute
+You can fork the repo (modify and send us pull-requests), or 
+comment to report and prioritize [bugs and development issues](waffle.io/bettermtl/bettermtl.github.io) or
+add to the [discussion here](gitter.im/bettermtl/general).
