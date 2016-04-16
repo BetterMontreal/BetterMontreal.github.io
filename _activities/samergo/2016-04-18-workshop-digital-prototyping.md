@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Digital Prototyping Workshop"
 cover: "http://tubikstudio.com/wp-content/uploads/2016/03/tubikstudio-ui-ux-design.jpg"
 date: 2016-04-18T17:30:00.000Z

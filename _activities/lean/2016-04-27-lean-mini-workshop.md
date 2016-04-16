@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Lean Mini Workshop"
 cover: "http://www.wamda.com/application/rapyd/assets/mfm_012/upload/LeanStartupMachine_Amman1.jpg"
 date: 2016-04-27T18:00:00.000Z

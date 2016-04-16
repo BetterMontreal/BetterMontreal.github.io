@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Competitive Analysis Workshop"
 cover: "https://i.imgur.com/T8ZstCC.png"
 date: 2016-04-11T17:30:00.000Z

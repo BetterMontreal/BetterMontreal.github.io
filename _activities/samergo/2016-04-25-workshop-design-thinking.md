@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Design Thinking Workshop"
 cover: "http://hpi.de/fileadmin/user_upload/fachgebiete/d-school/images/BG_Whiteboard.jpg"
 date: 2016-04-25T17:30:00.000Z

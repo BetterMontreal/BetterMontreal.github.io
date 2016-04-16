@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Provisional Personas Workshop"
 cover: "https://i.imgur.com/0B6m3dT.png"
 date: 2016-05-09T17:30:00.000Z

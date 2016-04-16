@@ -7,17 +7,17 @@ ref: index
   {% capture currentDate %}{{'now' | date: '%s' }}{% endcapture %}
   <div class="clearfix">
     <h1 class="event-time-heading fix-top">{% if site.event_label[page.lang] %} {{site.event_label[page.lang]}} {% else %} Activité {% endif %} à venir</h1>
-    {% assign posts=site.posts | where: "lang", page.lang %}
-    {% for post in posts reversed %}
-      {% capture blogDate %}{{post.date | date: '%s' }}{% endcapture %}
+    {% assign activities=site.activities | where: "lang", page.lang %}
+    {% for activity in activities reversed %}
+      {% capture blogDate %}{{activity.date | date: '%s' }}{% endcapture %}
       {% if blogDate >= currentDate %}
-        <a href="{{ post.url | prepend: site.baseurl }}">
-          {% if post.cover %}
-            <div class="event-card" style="background-image:url({{post.cover}});">
+        <a href="{{ activity.url | prepend: site.baseurl }}">
+          {% if activity.cover %}
+            <div class="event-card" style="background-image:url({{activity.cover}});">
           {% else %}
             <div class="event-card" style="background-image:url(http://evento.io/img/cover.jpg);">
           {% endif %}
-            <h2>{{ post.title }} <span>{{ post.date | date: "%b %-d, %Y" }}</span></h2>
+            <h2>{{ activity.title }} <span>{{ activity.date | date: "%b %-d, %Y" }}</span></h2>
              <div class='event-card-overlay'></div>
           </div>
         </a>
@@ -26,16 +26,16 @@ ref: index
   </div>
   <div class="clearfix">
     <h1 class="event-time-heading">{% if site.event_label[page.lang] %} {{site.event_label[page.lang]}} {% else %} Activité {% endif %} passées</h1>
-    {% for post in posts %}
-      {% capture blogDate %}{{post.date | date: '%s' }}{% endcapture %}
+    {% for activity in activities %}
+      {% capture blogDate %}{{activity.date | date: '%s' }}{% endcapture %}
       {% if blogDate < currentDate %}
-        <a href="{{ post.url | prepend: site.baseurl }}">
-          {% if post.cover %}
-            <div class="event-card" style="background-image:url({{post.cover}});">
+        <a href="{{ activity.url | prepend: site.baseurl }}">
+          {% if activity.cover %}
+            <div class="event-card" style="background-image:url({{activity.cover}});">
           {% else %}
             <div class="event-card" style="background-image:url(http://static1.squarespace.com/static/54db2500e4b06f24f8c5a607/t/54dbbfc5e4b03442c79b422e/1423687627142/Start+up+Party.jpeg?format=2500w);">
           {% endif %}
-            <h2>{{ post.title }} <span>{{ post.date | date: "%b %-d, %Y" }}</span></h2>
+            <h2>{{ activity.title }} <span>{{ activity.date | date: "%b %-d, %Y" }}</span></h2>
             <div class='event-card-overlay'></div>
           </div>
         </a>

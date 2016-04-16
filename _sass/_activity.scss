@@ -1,0 +1,28 @@
+.langs {
+  text-align: right;
+  height: 0; // the magic happens here
+  font-size: 0;
+  .lang {
+    background-color: rgba(255, 255, 255, 0.8);
+    top: 0;
+    font-size: $base-font-size;
+    margin: 0px;
+    padding: 7px;
+  }
+}
+
+article.post {
+  .improve {
+    margin-top: 2px;
+    float: right;
+    a {
+      &:link, &:visited {
+        color: rgba(42,122,226,0.80);
+        text-shadow: 0 1px 3px rgba(0,0,0,0.15);
+      }
+      &:hover {
+        color: rgba(0, 0, 0, 0.8);
+      }
+    }
+  }
+}

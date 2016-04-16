@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "UX Prototyping Workshop"
 cover: "http://najux.com/img/portfolio/trello/sketches.jpg"
 date: 2016-05-02T17:30:00.000Z

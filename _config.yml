@@ -10,6 +10,9 @@ collections:
   network:
     output: true
     permalink: /n/:name:output_ext
+  activities:
+    output: true
+    permalink: /a/:title:output_ext
 
 lang:
   primary: fr
@@ -20,6 +23,11 @@ defaults:
       path: ""
     values:
       lang: "fr"
+  - scope:
+      path: ""
+      type: "activities"
+    values:
+      layout: "activity"
   - scope:
       path: ""
       type: "posts"
@@ -103,4 +111,4 @@ markdown: kramdown
 # Show future posts for future events.
 future: true
 
-permalink: /a/:title.html
+permalink: /p/:title.html
