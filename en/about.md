@@ -8,13 +8,14 @@ lang: en
 published: true
 ---
 
-Citydwellers self organize bottom-up. You create topics. 
+Citydwellers self organize, bottom-up or top-down.
 
-You may link a place and a day **to a topic** so that it becomes an event. 
+Everyone may
+- item create topics
+- item link a place-date-time **to a topic** so that it becomes an event
+- item comment-correct any aspect of a topic or event
 
-You may add corrections, comments, and requests - to anyone's topic or event.
-
-This software is free of legal constraint. It's open source: you may modify this software.
+This software is free of legal constraint. You may modify this software; it's open source.
 
 
 
