@@ -23,7 +23,7 @@ We use "topics" as a starting point. Some of us attend events; some organize eve
 
 # Problem to solve
 
-Many activities are calendar conflicts. Information comes in at haphazard times and from various sources. Do you undo an RSVP sent in, or leave it till the last minute or till never?
+Many activities are calendar conflicts. Information comes in at haphazard times and from various sources. Do you undo an RSVP right away, or leave it till the last minute, or till never?
 
 Together we can build / wikify an attention platform, to post a topic / event, let anyone correct details, and turn it into a newsletter item. Then, anyone can send news to friends / followers, and knowing that it's been community-verified.
 
