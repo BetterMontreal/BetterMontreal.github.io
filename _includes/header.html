@@ -10,15 +10,17 @@
         </svg>
       </a>
       <div class="trigger">
-        <a class="page-link" href="/locations/">Locations</a>
-        <a class="page-link" href="/network/">Network</a>
-        <a class="page-link" href="/blog/">Blog</a>
-        {% assign pages=site.pages | where: "lang", page.lang %}
-        {% for my_page in pages %}
-          {% if my_page.navigation_title %}
-            <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.navigation_title }}</a>
-          {% endif %}
-        {% endfor %}
+        <ul>
+          {% for link in site.navigation[page.lang] %}
+            {% assign current = nil %}
+            {% if page.url == link.url %}
+              {% assign current = 'current' %}
+            {% endif %}
+            <li class="page-link element {% if forloop.first %}first{% endif %} {{ current }} {% if forloop.last %}last{% endif %}">
+              <a href="{{ link.url }}">{{ link.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
       </div>
     </nav>
   </div>

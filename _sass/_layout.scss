@@ -4,17 +4,13 @@
 .site-header {
   border-top: 5px solid $grey-color-dark;
   border-bottom: 1px solid $grey-color-light;
-  min-height: 56px;
   // Positioning context for the mobile navigation icon
   position: relative;
 }
 
 .site-title {
-  font-size: 26px;
-  font-weight: 300;
-  line-height: 56px;
-  letter-spacing: -1px;
-  margin-bottom: 0;
+  font-weight: bold;
+  line-height: $nav-line-height;
   float: left;
   &,
   &:visited {
@@ -22,35 +18,50 @@
   }
 }
 
+nav a {
+  text-decoration: none;
+}
+
+nav li {
+  display: inline;
+  line-height: $nav-line-height;
+  &:last-child {
+    padding-right: 0;
+  }
+}
+
+nav li.current a {
+  color: #333;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
 .site-nav {
   float: right;
-  line-height: 56px;
   .menu-icon {
     display: none;
   }
   .page-link {
     color: $text-color;
-    line-height: $base-line-height;
-    // Gaps between nav items, but not on the last one
+    line-height: $nav-line-height;
     &:not(:last-child) {
       margin-right: 20px;
     }
   }
   @include media-query($on-palm) {
-    position: absolute;
-    top: 9px;
     right: $spacing-unit / 2;
     background-color: $background-color;
-    border: 1px solid $grey-color-light;
-    border-radius: 5px;
     text-align: right;
     .menu-icon {
       display: block;
       float: right;
-      width: 36px;
-      height: 26px;
       line-height: 0;
-      padding-top: 10px;
+      padding-top: 8px;
       text-align: center;
       > svg {
         width: 18px;
@@ -70,11 +81,10 @@
     }
     .page-link {
       display: block;
-      padding: 5px 10px;
+      padding: 5px 0 0 10px;
       &:not(:last-child) {
         margin-right: 0;
       }
-      margin-left: 20px;
     }
     .button.button-primary{
       background: none;
@@ -265,16 +275,16 @@
 }
 
 .blog-cover{
-  height: 320px;
+  height: 180px;
   background-size: cover;
   background-position: center center;
   z-index: 1;
   border-bottom:1px solid #E8E8E8;
   @include media-query($on-laptop) {
-    height: 250px;
+    height: 130px;
   }
   @include media-query($on-palm) {
-    height: 200px;
+    height: 100px;
   }
 }
 

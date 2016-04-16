@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Publier une activité sur MieuxMTL
+title: Publier une activité sur CapMTL
 navigation_title: Publier activité
 permalink: /creer/
 button: true

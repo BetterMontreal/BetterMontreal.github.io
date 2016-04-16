@@ -36,10 +36,38 @@ defaults:
     values:
       layout: node
 
+navigation:
+  fr:
+  - title: Activité
+    url: /
+  - title: Réseau
+    url: /reseau/
+  - title: Endroits
+    url: /endroits/
+  - title: Blogue
+    url: /blogue/
+  - title: À propos
+    url: /a-propos/
+  - title: Publier
+    url: /creer/
+  en:
+  - title: Activity
+    url: /welcome/
+  - title: Network
+    url: /network/
+  - title: Locations
+    url: /locations/
+  - title: Blog
+    url: /blog/
+  - title: About
+    url: /about/
+  - title: Create
+    url: /create/
+
 # Site settings
 title:
-  en: BetterMTL Activity
-  fr: Activité MieuxMTL
+  en: BetterMTL
+  fr: CapMTL
 
 # What is the name of the events or talks you would like to host? (Example Brownbags, Talks, Lighting Talks)
 event_label:
@@ -48,11 +76,11 @@ event_label:
 
 description:
   en: BetterMTL is free and open-source. <br/> Run by <a href='https://github.com/bettermtl/bettermtl.github.io/graphs/contributors'>contributors</a>.
-  fr: MieuxMTL est un logiciel libre. <br/> Géré par <a href='https://github.com/bettermtl/bettermtl.github.io/graphs/contributors'>contributeurs</a>.
+  fr: CapMTL est un logiciel libre. <br/> Géré par <a href='https://github.com/bettermtl/bettermtl.github.io/graphs/contributors'>contributeurs</a>.
 
 index:
-  en:
-  fr: accueil
+  en: welcome
+  fr:
 
 feed:
   en: /feed.xml
