@@ -1,7 +1,6 @@
 ---
 layout: page
 title: À propos
-navigation_title: À propos
 permalink: /a-propos/
 ref: about
 

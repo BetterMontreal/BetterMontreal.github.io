@@ -27,11 +27,35 @@
 </header>
 <div class="wrapper langs">
   {% assign activities=site.activities | where: "ref", page.ref | sort: 'lang' %}
-  {% for activity in activities %} <a href="{{ activity.url }}" class="lang {{ activity.lang }}">{{ activity.lang }}</a> {% endfor %}
+  {% for activity in activities %}
+    {% if activity.lang == page.lang %}
+      <p>{{ activity.lang }}</p>
+    {% else %}
+      <a href="{{ activity.url }}" class="lang {{ activity.lang }}">{{ activity.lang }}</a>
+    {% endif %}
+  {% endfor %}
   {% assign posts=site.posts | where: "ref", page.ref | sort: 'lang' %}
-  {% for post in posts %} <a href="{{ post.url }}" class="lang {{ post.lang }}">{{ post.lang }}</a> {% endfor %}
+  {% for post in posts %}
+    {% if post.lang == page.lang %}
+      <p>{{ post.lang }}</p>
+    {% else %}
+      <a href="{{ post.url }}" class="lang {{ post.lang }}">{{ post.lang }}</a>
+    {% endif %}
+  {% endfor %}
   {% assign pages=site.pages | where: "ref", page.ref | sort: 'lang' %}
-  {% for page in pages %} <a href="{{ page.url }}" class="lang {{ page.lang }}">{{ page.lang }}</a> {% endfor %}
+  {% for post in pages %}
+    {% if post.lang == page.lang %}
+      <p>{{ post.lang }}</p>
+    {% else %}
+      <a href="{{ post.url }}" class="lang {{ post.lang }}">{{ post.lang }}</a>
+    {% endif %}
+  {% endfor %}
   {% assign locations=site.locations | where: "ref", page.ref | sort: 'lang' %}
-  {% for location in locations %} <a href="{{ location.url }}" class="lang {{ location.lang }}">{{ location.lang }}</a> {% endfor %}
+  {% for location in locations %}
+    {% if location.lang == page.lang %}
+      <p>{{ location.lang }}</p>
+    {% else %}
+      <a href="{{ location.url }}" class="lang {{ location.lang }}">{{ location.lang }}</a>
+    {% endif %}
+  {% endfor %}
 </div>

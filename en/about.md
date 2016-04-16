@@ -1,6 +1,5 @@
 ---
 layout: page
-navigation_title: About
 title: About BetterMTL
 permalink: /about/
 ref: about
@@ -49,11 +48,10 @@ We can rally groups of organizers-admins-curators. E.g. here are **independently
 1. *Any of these sources might propagate errors instead of propagating the right (newly changed) copy of your event*
 
 
-# Summary 
+# Summary
 
 If you have all these calendars feeding your personal .ics calendar, great! If you read them all - comparing and contrasting - and if you're happy doing that work, then you don't need this BetterMtl project. But, if you find it to be a mess, then contribute to this project.
 
 # To contribute big-time
 
 Fork, modify, send us pull-requests. Or, star ★  [bettermtl.github.io](https://github.com/bettermtl/bettermtl.github.io) repo. Show you care - about the success of this project. It motivates us. Thank you because we appreciate your vote of confidence!
-

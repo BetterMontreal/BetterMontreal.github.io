@@ -1,15 +1,12 @@
 ---
 layout: page
 title: Create an event using BetterMTL
-navigation_title: Create Activity
 permalink: /create/
 button: true
 ref: create
 lang: en
 published: true
 ---
-
-
 Adding an event to your site is easy.
 
 ## Getting started

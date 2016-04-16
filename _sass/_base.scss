@@ -6,6 +6,7 @@ p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
   margin: 0;
   padding: 0;
+  font-size: $base-font-size;
 }
 
 /**
@@ -72,6 +73,24 @@ li {
  */
 h1, h2, h3, h4, h5, h6 {
   font-weight: $base-font-weight;
+  font-size: $base-font-size;
+}
+
+h1 {
+  font-weight: 900;
+  color: lighten(black, 10%);
+}
+h2 {
+  font-weight: 900;
+  color: lighten(black, 20%);
+}
+h3 {
+  font-weight: 700;
+  color: lighten(black, 30%);
+}
+h4 {
+  font-weight: 300;
+  color: lighten(black, 40%);
 }
 
 /**
@@ -96,8 +115,7 @@ blockquote {
   color: $grey-color;
   border-left: 4px solid $grey-color-light;
   padding-left: $spacing-unit / 2;
-  font-size: 18px;
-  letter-spacing: -1px;
+  font-size: $base-font-size;
   font-style: italic;
   > :last-child {
     margin-bottom: 0;
@@ -109,7 +127,7 @@ blockquote {
  */
 pre,
 code {
-  font-size: 15px;
+  font-size: $base-font-size;
   border: 1px solid $grey-color-light;
   border-radius: 3px;
   background-color: #eef;

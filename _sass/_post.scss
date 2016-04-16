@@ -1,16 +1,3 @@
-.langs {
-  text-align: right;
-  height: 0; // the magic happens here
-  font-size: 0;
-  .lang {
-    background-color: rgba(255, 255, 255, 0.8);
-    top: 0;
-    font-size: $base-font-size;
-    margin: 0px;
-    padding: 7px;
-  }
-}
-
 article.post {
   .improve {
     margin-top: 2px;

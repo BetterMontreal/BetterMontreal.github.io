@@ -77,11 +77,6 @@ title:
   en: BetterMTL
   fr: CapMTL
 
-# What is the name of the events or talks you would like to host? (Example Brownbags, Talks, Lighting Talks)
-event_label:
-  en: Activity
-  fr: Activité
-
 description:
   en: BetterMTL is free and open-source. <br/> Run by <a href='https://github.com/bettermtl/bettermtl.github.io/graphs/contributors'>contributors</a>.
   fr: CapMTL est un logiciel libre. <br/> Géré par <a href='https://github.com/bettermtl/bettermtl.github.io/graphs/contributors'>contributeurs</a>.

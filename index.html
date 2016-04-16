@@ -6,7 +6,7 @@ ref: index
 <div class="home">
   {% capture currentDate %}{{'now' | date: '%s' }}{% endcapture %}
   <div class="clearfix">
-    <h1 class="event-time-heading fix-top">{% if site.event_label[page.lang] %} {{site.event_label[page.lang]}} {% else %} Activité {% endif %} à venir</h1>
+    <h1 class="title">Activité à venir</h1>
     {% assign activities=site.activities | sort 'date' %}
     {% assign refs = nil %}
     {% for activity in activities %}
@@ -26,18 +26,9 @@ ref: index
       <a href="{{ activity.url | prepend: site.baseurl }}">
         {% capture activity_cover %}{% include merge/activity-cover.html act = activity default_act = 'http://evento.io/img/cover.jpg' %}{% endcapture %}
         <div class="activity-card" style="background-image:url({{activity_cover}});">
-          {% assign activ = nil %}
-          {% if page.lang == activity.lang %}
-            {% assign activ = activity %}
-          {% else %}
-            {% assign activ=site.activities | where: "ref", activity.ref | where: "lang", page.lang | first %}
-            {% unless activ %}
-              {% assign activ=site.activities | where: "ref", activity.ref | where: "lang", site.lang.primary | first %}
-            {% endunless %}
-            {% unless activ %}
-              {% assign activ=site.activities | where: "ref", activity.ref | where: "lang", site.lang.secondary | first %}
-            {% endunless %}
-          {% endif %}
+          {% capture activity_ref_lang_str %}{% include merge/activity.html act = activity %}{% endcapture %}
+          {% assign activity_ref_lang = activity_ref_lang_str | strip_newlines | split: "," %}
+          {% assign activ = site.activities | where: "ref", activity_ref_lang[0] | where: "lang", activity_ref_lang[1] | first %}
           <h2>{{ activ.title }} <span>{{ activ.date | date: "%b %-d, %Y" }}</span></h2>
           {% if page.lang == activ.lang %}
             <div class='activity-card-overlay'></div>
@@ -50,7 +41,7 @@ ref: index
     {% endfor %}
   </div>
   <div class="clearfix">
-    <h1 class="event-time-heading">{% if site.event_label[page.lang] %} {{site.event_label[page.lang]}} {% else %} Activité {% endif %} passées</h1>
+    <h1 class="title">Activité passée</h1>
     {% assign refs = nil %}
     {% for activity in activities reversed %}
       {% assign skip = false %}
@@ -69,18 +60,9 @@ ref: index
         <a href="{{ activity.url | prepend: site.baseurl }}">
           {% capture activity_cover %}{% include merge/activity-cover.html act = activity default_act = 'http://evento.io/img/cover.jpg' %}{% endcapture %}
           <div class="activity-card" style="background-image:url({{activity_cover}});">
-            {% assign activ = nil %}
-            {% if page.lang == activity.lang %}
-              {% assign activ = activity %}
-            {% else %}
-              {% assign activ=site.activities | where: "ref", activity.ref | where: "lang", page.lang | first %}
-              {% unless activ %}
-                {% assign activ=site.activities | where: "ref", activity.ref | where: "lang", site.lang.primary | first %}
-              {% endunless %}
-              {% unless activ %}
-                {% assign activ=site.activities | where: "ref", activity.ref | where: "lang", site.lang.secondary | first %}
-              {% endunless %}
-            {% endif %}
+            {% capture activity_ref_lang_str %}{% include merge/activity.html act = activity %}{% endcapture %}
+            {% assign activity_ref_lang = activity_ref_lang_str | strip_newlines | split: "," %}
+            {% assign activ = site.activities | where: "ref", activity_ref_lang[0] | where: "lang", activity_ref_lang[1] | first %}
             <h2>{{ activ.title }} <span>{{ activ.date | date: "%b %-d, %Y" }}</span></h2>
             {% if page.lang == activ.lang %}
               <div class='activity-card-overlay'></div>

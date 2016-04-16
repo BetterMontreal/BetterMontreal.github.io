@@ -1,13 +1,10 @@
 ---
 layout: page
-title: Publier une activité sur CapMTL
-navigation_title: Publier activité
+title: Publier activité
 permalink: /creer/
 button: true
 ref: create
-
 ---
-
 Adding an event to your site is easy.
 
 #Getting started
