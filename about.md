@@ -24,16 +24,7 @@ We are people interested in using any "subject matter" as a pivot point. Some of
 
 # How to get involved
 
-Star ★ the [bettermtl.github.io](https://github.com/bettermtl/bettermtl.github.io) repo. 
-Show you care - about the success of this project. It motivates us. 
-Thank you because we appreciate your vote of confidence!
-
-See your way through to [publish](/create) an event.
-At least propose a topic.
-
-Comment on [bugs and development issues](waffle.io/bettermtl/bettermtl.github.io) to help report and prioritize.
-
-Add to the [discussion here](gitter.im/bettermtl/general) especially for better methods of showing information about attention management (rsvp'ing, attending, volunteering, contributing, fact-checking).
+See your way through to [publish an event](/create). At least propose a topic. Comment on [bugs and development issues](waffle.io/bettermtl/bettermtl.github.io) to help report and prioritize. Add to the [discussion here](gitter.im/bettermtl/general) especially for better methods of showing information about attention management (rsvp'ing, attending, volunteering, contributing, fact-checking). Star ★ the [bettermtl.github.io](https://github.com/bettermtl/bettermtl.github.io) repo. Show you care - about the success of this project. It motivates us. Thank you because we appreciate your vote of confidence!
 
 
 # Problem to solve
@@ -68,9 +59,6 @@ If you read them all - comparing and contrasting - and
 if you're happy doing that work, then you don't need this project.
 But, if you find it to be a mess, then contribute to this project.
 
-# To contribute
-Comment on [bugs and development issues](waffle.io/bettermtl/bettermtl.github.io) to help report and prioritize.
+# To contribute big-time
 
-Add to the [discussion here](gitter.im/bettermtl/general) especially for better methods of showing information about attention management (rsvp'ing, attending, volunteering, contributing, fact-checking).
-
-Fork the repo (modify and send us pull-requests).
+Fork the repo, modify and send us a pull-request. Send no money.
