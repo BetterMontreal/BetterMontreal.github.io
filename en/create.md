@@ -10,7 +10,7 @@ published: true
 ---
 
 
-Adding an event to your site is easy.
+Adding an event.
 
 ## Getting started
 Create a new .md file or copy an existing post in the  `_posts` directory to get started. The post file name must be in this format:
@@ -52,7 +52,7 @@ organizer: "Paul Cuciureanu"
 
 ## Post content
 
-After you have setup your config, all you need to do know is write your content using markdown.
+After you have setup your config, all you need to do now is write your content using markdown.
 
 ## Example Post
 
