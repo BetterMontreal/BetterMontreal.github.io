@@ -8,36 +8,31 @@ lang: en
 published: true
 ---
 
-Citydwellers self organize, bottom-up or top-down.
-
-Everyone may
+Citydwellers self-organize: you and everyone may
 
 - create topics
 - link a place-date-time **to a topic** so that it becomes an event
-- comment-correct any aspect of a topic or event
+- comment or correct any aspect of any event
 
-This software is free of legal constraint. You may modify this software; it's open source.
-
+This software is free of legal constraint, and you may modify this software because it's open source.
 
 
 # Who we are
 
-We are people interested in using any "subject matter" as a pivot point. Some of us are organizers who host events. Together we can make the city better. If you are attend, or are active as a participant in any subject-matter activity, this project will help you promote and collaborate with others (other participants and other groups.)
+We use a "subject matter" as a pivot point. Some of us are organizers who host events; some of us attend events. Together we can make the city better. If you participate in any subject-matter activity, BetterMtl will help you promote and collaborate with others.
 
-# How to get involved
+# How to
 
-See your way through to [publish an event](/create). At least propose a topic. Comment on [bugs and development issues](waffle.io/bettermtl/bettermtl.github.io) to help report and prioritize. Add to the [discussion here](gitter.im/bettermtl/general) especially for better methods of showing information about attention management (rsvp'ing, attending, volunteering, contributing, fact-checking). Star ★ the [bettermtl.github.io](https://github.com/bettermtl/bettermtl.github.io) repo. Show you care - about the success of this project. It motivates us. Thank you because we appreciate your vote of confidence!
+[Publish an event](/create). At least propose a topic. Comment on [bugs and development issues](waffle.io/bettermtl/bettermtl.github.io) to help prioritize. [Discuss methods here](gitter.im/bettermtl/general) about rsvp'ing, attending, volunteering, contributing, fact-checking.
 
 
 # Problem to solve
 
-Many activities are calendar conflicts. We get information about them at various times, from many sources. It's haphazard — much time wasted. It's a hassle to check for corrections or comments here and there. It can be hard to choose whether to undo an RSVP sent in, so you may leave this till the last minute or not at all.
+Many activities are calendar conflicts. Information comes in at various times from various sources. It's haphazard and a hassle to choose whether to undo an RSVP sent in, or leave this till the last minute or not at all.
 
-Together we can build an open collaborative attention management platform, to post a topic or an event, let anyone correct details and also turn it into a newsletter item at same time.  
+Together we can build an open collaborative attention management platform, to post a topic or an event, let anyone correct details, and also turn it into a newsletter item at same time.
 
-If people correct details, it's for all to see: a common source file. As an attendee we want to easily choose and honour our RSVP's. When we are an event organizer we want valid data, to know whose RSVP is still valid (e.g. arrive on time and stay for the event). 
-
-Anyone can include your event in their newsletter — with a single click.
+As an attendee we want to choose and honour our RSVP's. When we are an event organizer we want valid data, to know those who RSVP are indeed valid (e.g. will arrive on time and stay for the event). 
 
 
 # The co-opetition
@@ -63,4 +58,7 @@ But, if you find it to be a mess, then contribute to this project.
 
 # To contribute big-time
 
-Fork the repo, modify and send us a pull-request. Send no money.
+Fork the repo, modify and send us a pull-request.
+
+Star ★ the [bettermtl.github.io](https://github.com/bettermtl/bettermtl.github.io) repo. Show you care - about the success of this project. It motivates us. Thank you because we appreciate your vote of confidence!
+
