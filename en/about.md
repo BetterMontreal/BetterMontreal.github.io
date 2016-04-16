@@ -23,22 +23,20 @@ We use a "subject matter" as a pivot point. Some of us are organizers who host e
 
 # How to
 
-[Publish an event](/create). At least propose a topic. Comment on [bugs and development issues](waffle.io/bettermtl/bettermtl.github.io) to help prioritize. [Discuss methods here](gitter.im/bettermtl/general) about rsvp'ing, attending, volunteering, contributing, fact-checking.
+[Publish an event](/create). At least propose a topic. Comment on [bugs and development issues](waffle.io/bettermtl/bettermtl.github.io) to help prioritize. [Discuss methods here](gitter.im/bettermtl/general).
 
 
 # Problem to solve
 
 Many activities are calendar conflicts. Information comes in at various times from various sources. It's haphazard and a hassle to choose whether to undo an RSVP sent in, or leave this till the last minute or not at all.
 
-Together we can build an open collaborative attention management platform, to post a topic or an event, let anyone correct details, and also turn it into a newsletter item at same time.
+Together we can build a collaborative wikified attention-management platform, to post a topic or an event, let anyone correct details, and also turn it into a newsletter item at same time so anyone can send news out to friends-followers.
 
-As an attendee we want to choose and honour our RSVP's. When we are an event organizer we want valid data, to know those who RSVP are indeed valid (e.g. will arrive on time and stay for the event). 
+As an attendee we want to honour our RSVP's. When we are event organizers we want valid data, to know those who RSVP are indeed valid (e.g. will arrive on time and stay for the event). When we are a sponsor we want valid data too.
 
 
 # The co-opetition
-We can rally and merge groups of organizers-admins-curators to create a more collaborative event space. 
-E.g.
-**Independently curated calendars (Spring 2016)**
+We can rally groups of organizers-admins-curators. E.g. **Independently curated calendars** (Spring 2016)
 
 1. [Montreal NewTech & Startup Events calendar](http://notman.org/event-space/#mtltech) curated by [Ilias Benjelloun](https://www.linkedin.com/in/iliasbenjelloun)
 1. [Your Meetups](http://www.meetup.com/find/events/?allMeetups=true&radius=50&userFreeform=Montr%C3%A9al%2C+QC&mcId=z278063&mcName=Montr%C3%A9al%2C+Qu%C3%A9bec%2C+CA&eventFilter=mysugg), see *Export to...* link on the right sidebar
@@ -51,14 +49,13 @@ E.g.
 1. *Any of these sources might propagate errors instead of propagating the right copy of your event*
 
 
-If you have all these calendars feeding your personal .ics calendar, great! 
-If you read them all - comparing and contrasting - and 
-if you're happy doing that work, then you don't need this project.
-But, if you find it to be a mess, then contribute to this project.
+# Summary 
+
+If you have all these calendars feeding your personal .ics calendar, great! If you read them all - comparing and contrasting - and if you're happy doing that work, then you don't need this BetterMtl project. But, if you find it to be a mess, then contribute to this project.
 
 # To contribute big-time
 
-Fork the repo, modify and send us a pull-request.
+Fork, modify, send us pull-requests.
 
-Star ★ the [bettermtl.github.io](https://github.com/bettermtl/bettermtl.github.io) repo. Show you care - about the success of this project. It motivates us. Thank you because we appreciate your vote of confidence!
+Star ★ [bettermtl.github.io](https://github.com/bettermtl/bettermtl.github.io) repo. Show you care - about the success of this project. It motivates us. Thank you because we appreciate your vote of confidence!
 
