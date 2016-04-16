@@ -26,6 +26,8 @@
   </div>
 </header>
 <div class="wrapper langs">
+  {% assign activities=site.activities | where: "ref", page.ref | sort: 'lang' %}
+  {% for activity in activities %} <a href="{{ activity.url }}" class="lang {{ activity.lang }}">{{ activity.lang }}</a> {% endfor %}
   {% assign posts=site.posts | where: "ref", page.ref | sort: 'lang' %}
   {% for post in posts %} <a href="{{ post.url }}" class="lang {{ post.lang }}">{{ post.lang }}</a> {% endfor %}
   {% assign pages=site.pages | where: "ref", page.ref | sort: 'lang' %}

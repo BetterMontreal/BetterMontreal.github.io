@@ -15,12 +15,12 @@ lang: en
       {% if blogDate >= currentDate %}
         <a href="{{ activity.url | prepend: site.baseurl }}">
           {% if activity.cover %}
-            <div class="event-card" style="background-image:url({{activity.cover}});">
+            <div class="activity-card" style="background-image:url({{activity.cover}});">
           {% else %}
-            <div class="event-card" style="background-image:url(http://evento.io/img/cover.jpg);">
+            <div class="activity-card" style="background-image:url(http://evento.io/img/cover.jpg);">
           {% endif %}
             <h2>{{ activity.title }} <span>{{ activity.date | date: "%b %-d, %Y" }}</span></h2>
-             <div class='event-card-overlay'></div>
+             <div class='activity-card-overlay'></div>
           </div>
         </a>
       {% endif %}
@@ -33,12 +33,12 @@ lang: en
       {% if blogDate < currentDate %}
         <a href="{{ activity.url | prepend: site.baseurl }}">
           {% if activity.cover %}
-            <div class="event-card" style="background-image:url({{activity.cover}});">
+            <div class="activity-card" style="background-image:url({{activity.cover}});">
           {% else %}
-            <div class="event-card" style="background-image:url(http://static1.squarespace.com/static/54db2500e4b06f24f8c5a607/t/54dbbfc5e4b03442c79b422e/1423687627142/Start+up+Party.jpeg?format=2500w);">
+            <div class="activity-card" style="background-image:url(http://static1.squarespace.com/static/54db2500e4b06f24f8c5a607/t/54dbbfc5e4b03442c79b422e/1423687627142/Start+up+Party.jpeg?format=2500w);">
           {% endif %}
             <h2>{{ activity.title }} <span>{{ activity.date | date: "%b %-d, %Y" }}</span></h2>
-            <div class='event-card-overlay'></div>
+            <div class='activity-card-overlay'></div>
           </div>
         </a>
       {% endif %}

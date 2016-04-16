@@ -1,5 +1,5 @@
 ---
-title: "Provisional Personas Workshop"
+title: "Provisional Personas"
 cover: "https://i.imgur.com/0B6m3dT.png"
 date: 2016-05-09T17:30:00.000Z
 start_time: "17:30"

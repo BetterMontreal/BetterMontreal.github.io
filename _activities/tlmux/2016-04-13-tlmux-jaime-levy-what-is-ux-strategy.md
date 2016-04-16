@@ -1,6 +1,5 @@
 ---
 title: "What the hell is UX Strategy and why it’s crucial!"
-cover: "http://toutlemonde-ux.com/wp-content/uploads/2016/03/jaimelevy-3.png"
 date: 2016-04-13T17:55:00.000Z
 start_time: "17:55"
 end_time: "21:00"

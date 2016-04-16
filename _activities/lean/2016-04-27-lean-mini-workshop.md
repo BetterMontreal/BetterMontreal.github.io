@@ -1,5 +1,5 @@
 ---
-title: "Lean Mini Workshop"
+title: "Lean Mini"
 cover: "http://www.wamda.com/application/rapyd/assets/mfm_012/upload/LeanStartupMachine_Amman1.jpg"
 date: 2016-04-27T18:00:00.000Z
 start_time: "18:00"
@@ -9,7 +9,7 @@ organizer: Lean Startup Circle
 published: true
 rsvp:
  register: http://www.meetup.com/Lean-Startup-Circle-Montreal/events/230297882/
-ref: 2016-04-27-tlmux-jaime-strategy
+ref: lean-workshop
 categories: lean strategy business workshop
 lang: en
 ---

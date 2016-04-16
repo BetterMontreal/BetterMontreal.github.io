@@ -1,5 +1,5 @@
 ---
-title: "Competitive Analysis Workshop"
+title: "Competitive Analysis"
 cover: "https://i.imgur.com/T8ZstCC.png"
 date: 2016-04-11T17:30:00.000Z
 start_time: "17:30"

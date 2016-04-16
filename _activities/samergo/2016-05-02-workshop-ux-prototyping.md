@@ -1,5 +1,5 @@
 ---
-title: "UX Prototyping Workshop"
+title: "UX Prototyping"
 cover: "http://najux.com/img/portfolio/trello/sketches.jpg"
 date: 2016-05-02T17:30:00.000Z
 start_time: "17:30"
