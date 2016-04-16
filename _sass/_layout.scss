@@ -292,7 +292,7 @@ nav ul {
   }
 }
 
-.activity-card {
+.activity-card, .location-card {
   color:white;
   border: 1px solid #372121;
   position: relative;
@@ -300,7 +300,7 @@ nav ul {
   background-position: center center;
   width: 30%;
   float: left;
-  margin: 20px 20px 0 0;
+  margin: 0 20px 20px 0;
   height: 100%;
   box-sizing: border-box;
   height: 180px;
@@ -325,31 +325,10 @@ nav ul {
 }
 
 .location-card {
-  color:white;
-  border: 1px solid #372121;
-  position: relative;
-  background-size: cover;
-  background-position: center center;
   width: 100%;
-  float: left;
-  margin: 20px 20px 0 0;
-  height: 100%;
-  box-sizing: border-box;
-  height: 150px;
-  border-radius: 3px;
-  background-color: #333;
-  box-shadow: 0 0 1px rgba(0, 0, 0, .05);
-  border: 1px solid #ddd;
-  -webkit-tap-highlight-color: transparent;
   h2 {
-    position: absolute;
-    bottom: 0px;
-    left: 10px;
-    font-size: $base-font-size;
-    z-index: 3;
-    span{
-      font-size: $base-font-size;
-      display: block;
+    span {
+      display: inline;
     }
   }
 }
