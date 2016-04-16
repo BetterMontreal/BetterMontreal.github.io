@@ -8,19 +8,19 @@ lang: en
 published: true
 ---
 
-BetterMTL is to get citydwellers to self organize bottom-up. 
+Citydwellers self organize bottom-up. You create topics. 
 
-You may create topics. You may associate a place and a day to your topic so that it becomes an event. 
+You may associate a place and a day to your topic so that it becomes an event. 
 
-You may add corrections, comments and requests.
+You may add corrections, comments, and requests - to anyone's topic or event.
 
-It's open source, and free of legal constraint. You may modify this software.
+This software is free of legal constraint. It's open source: you may modify this software.
 
 
 
 # Who we are
 
-We are people interested in a subject matter (any "subject matter") and some of us are organizers who host events. Together we can make the city better. If you are active as participant or volunteer organizing subject-matter activity, this project will help you promote and collaborate with others (other participants and other groups.)
+We are people interested in using any "subject matter" as a pivot point. Some of us are organizers who host events. Together we can make the city better. If you are attend, or are active as a participant in any subject-matter activity, this project will help you promote and collaborate with others (other participants and other groups.)
 
 # How to get involved
 
@@ -31,13 +31,20 @@ Thank you because we appreciate your vote of confidence!
 See your way through to [publish](/create) an event.
 At least propose a topic.
 
-# The Problem we are solving
+Comment on [bugs and development issues](waffle.io/bettermtl/bettermtl.github.io) to help report and prioritize.
 
-Many activities are calendar conflicts. We get information from many sources at various times. It's haphazard — much time wasted. It's a hassle to check for corrections or comments here and there. It can be hard to choose whether to undo an RSVP sent in, so we leave this till the last minute or not at all.
+Add to the [discussion here](gitter.im/bettermtl/general) especially for better methods of showing information about attention management (rsvp'ing, attending, volunteering, contributing, fact-checking).
 
-Together we can build an open collaborative attention management platform for you me and everyone, to post a topic or an event, let anyone correct details and also turn it into a newsletter item at same time. Anyone can include your event in their newsletter — with a single click. 
 
-If people correct details, it's for all to see: a common source file. As an attendee we want to easily choose and honour our RSVP's. When we are an event organizer we want valid data, to know whose RSVP is still valid (e.g. arrive on time and stay for the event).
+# Problem to solve
+
+Many activities are calendar conflicts. We get information about them at various times, from many sources. It's haphazard — much time wasted. It's a hassle to check for corrections or comments here and there. It can be hard to choose whether to undo an RSVP sent in, so you may leave this till the last minute or not at all.
+
+Together we can build an open collaborative attention management platform, to post a topic or an event, let anyone correct details and also turn it into a newsletter item at same time.  
+
+If people correct details, it's for all to see: a common source file. As an attendee we want to easily choose and honour our RSVP's. When we are an event organizer we want valid data, to know whose RSVP is still valid (e.g. arrive on time and stay for the event). 
+
+Anyone can include your event in their newsletter — with a single click.
 
 
 # The co-opetition
