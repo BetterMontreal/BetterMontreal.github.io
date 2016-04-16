@@ -22,13 +22,18 @@ On se sert de "sujet" comme point de départ. Certains assistent aux événement
 
 # Comment...
 
-[Publiez un événement](/create). Du moins, proposez un sujet. Commentez [bogues et développements souhaités](waffle.io/bettermtl/bettermtl.github.io) pour prioriser. [Discutez de méthodes ici](gitter.im/bettermtl/general).
+[Publiez un événement](/create). Du moins, proposez _un sujet_. Commentez [bogues et développements souhaités](waffle.io/bettermtl/bettermtl.github.io). Ensuite [discutez de méthodes ici](gitter.im/bettermtl/general).
 
 # Problème à résoudre
 
 Many activities are calendar conflicts. Information comes in at haphazard times and from various sources. Do you undo an RSVP sent in, or leave it till the last minute or till never?
 
-Together we can build / wikify an attention platform, to post a topic / event, let anyone correct details, and turn it into a newsletter item. Then, anyone can send news to friends / followers, and knowing that it's been community-verified.
+Together we can build / wikify an attention platform
+
+- item post a topic / event
+- item let anyone correct details
+- item turn it into a newsletter item
+Then, anyone can send news to friends / followers, and confident that it's been community-verified.
 
 As an attendee we want to honour our RSVP's. When we are event organizers we want valid data, to know those who RSVP'd are indeed arriving and staying for the event. When we are a sponsor we want valid data too.
 
