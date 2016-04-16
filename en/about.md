@@ -11,15 +11,15 @@ published: true
 Citydwellers self-organize: you and everyone may
 
 - create topics
-- add place-date-time **to a topic** so that it becomes an event
-- comment or correct any aspect of any event
+- link a place-date-time _to any topic_: make it an event
+- comment _or correct any aspect of any event_
 
 This software is free of legal constraint, and you may modify this software because it's open source.
 
 
 # Who we are
 
-We use a "subject matter" as a pivot point. Some of us are organizers who host events; some of us attend events. Together we can make the city better. If you participate in any subject-matter activity, BetterMtl will help you create an activity stream and promote it, while collaborating with others more and more all the time.
+We use "subject matter" as a starting point. Some of us attend events; some organize events. Together we can make the city better. With BetterMtl you create an activity stream and promote it, while you collaborate with others more and more all the time.
 
 # How to
 
@@ -28,9 +28,9 @@ We use a "subject matter" as a pivot point. Some of us are organizers who host e
 
 # Problem to solve
 
-Many activities are calendar conflicts. Information comes in at various times from various sources. It's haphazard and a hassle to choose whether to undo an RSVP sent in, or leave it till the last minute or not at all.
+Many activities are calendar conflicts. Information comes in at haphazard times and from various sources. Do you undo an RSVP sent in, or leave it till the last minute or till never?
 
-Together we can build (or wikify) an attention-management platform, to post a topic or an event, to let anyone correct details, and to turn it into a newsletter item, so anyone can send good news to friends / followers.
+Together we can build (wikify) an attention platform, to post a topic (or event), to let anyone correct details, and to turn it into a newsletter item, so anyone can send good news to friends / followers.
 
 As an attendee we want to honour our RSVP's. When we are event organizers we want valid data, to know those who RSVP'd are indeed arriving and staying for the event. When we are a sponsor we want valid data too.
 
