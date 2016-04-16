@@ -13,11 +13,6 @@ On s'autoorganise : on peut tous
 - lier _à tout sujet_ un lieu-date-heure : ceci le rend événement
 - commenter _ou corriger tout aspect_
 
-Cette plate-forme est libre de contrainte, et on peut tous la modifier parce qu'elle est faite de logiciel à source ouverte.
-
-
-# Qui on est
-
 On se sert de "sujet" comme point de départ. Certains assistent aux événements; d'autres les organisent. Ensemble on améliore la ville. Vous créez un flot d'activités et vous le faites promouvoir, pendant que vous collaborez avec d'autres de plus en plus tout le temps.
 
 # Comment...
@@ -60,14 +55,13 @@ If you have all these calendars feeding your personal .ics calendar, great! If y
 
 Fork, modifiez, faites des pull-requests. Ou cliquez sur ★  [bettermtl.github.io](https://github.com/bettermtl/bettermtl.github.io) dans Github. Show you care - about the success of this project. It motivates us. Thank you because we appreciate your vote of confidence!
 
+Cette plate-forme est libre de contrainte, et on peut tous la modifier parce qu'elle est faite de logiciel à source ouverte. Ceci est le thème par défaut de JekyllRB. Vous pouvez en savoir plus sur les façons de personnaliser votre propre thème, ainsi que la documation de Jekyll sur [jekyllrb.com](http://jekyllrb.com/)
 
-Ceci est le thème par défaut de Jekyll. Vous pouvez en savoir plus sur les façons de personnaliser votre propre thème, ainsi que la documation de Jekyll sur [jekyllrb.com](http://jekyllrb.com/)
-
-Vous pouvez trouver ce thème multilingue sur :
+Vous retrouvez ce thème multilingue sur :
 {% include icon-github.html username="sylvaindurand" %} /
 [multilingual-jekyll](https://github.com/sylvaindurand/multilingual-jekyll)
 
-Vous pouvez trouver le code source de ce nouveau thème Jekyll sur :
+Vous trouverez le code source de ce thème Jekyll sur :
 {% include icon-github.html username="jglovier" %} /
 [jekyll-new](https://github.com/jglovier/jekyll-new)
 
