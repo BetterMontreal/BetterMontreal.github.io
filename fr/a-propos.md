@@ -58,7 +58,7 @@ If you have all these calendars feeding your personal .ics calendar, great! If y
 
 # Pour contribuer grandement
 
-Fork, modify, send us pull-requests. Or, star ★  [bettermtl.github.io](https://github.com/bettermtl/bettermtl.github.io) repo. Show you care - about the success of this project. It motivates us. Thank you because we appreciate your vote of confidence!
+Fork, modifiez, faites des pull-requests. Ou cliquez sur ★  [bettermtl.github.io](https://github.com/bettermtl/bettermtl.github.io) dans Github. Show you care - about the success of this project. It motivates us. Thank you because we appreciate your vote of confidence!
 
 
 Ceci est le thème par défaut de Jekyll. Vous pouvez en savoir plus sur les façons de personnaliser votre propre thème, ainsi que la documation de Jekyll sur [jekyllrb.com](http://jekyllrb.com/)
