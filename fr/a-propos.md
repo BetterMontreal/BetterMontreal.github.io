@@ -18,7 +18,7 @@ Cette plate-forme est libre de contrainte, et on peut tous la modifier parce qu'
 
 # Qui on est
 
-On se sert de "sujet" comme point de départ. Certains assistent aux événements; d'autres les organisent. Ensemble on améliore la ville. Vous créez un flot d'activités et vous le faites promouvoid, pendant que vous collaborez avec autrui de plus en plus tout le temps.
+On se sert de "sujet" comme point de départ. Certains assistent aux événements; d'autres les organisent. Ensemble on améliore la ville. Vous créez un flot d'activités et vous le faites promouvoir, pendant que vous collaborez avec d'autres de plus en plus tout le temps.
 
 # Comment...
 
