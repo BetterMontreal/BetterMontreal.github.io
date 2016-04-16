@@ -11,7 +11,7 @@ published: true
 Citydwellers self-organize: we all may
 
 - create topics
-- link a place-date-time _to any topic_: make it an event
+- link a place-date-time _to any topic_: that makes it an event
 - comment _or correct any aspect of any event_
 
 This platform is free of legal constraint, and you may modify it because it's open source software.
@@ -30,7 +30,7 @@ We use "subject matter" as a starting point. Some of us attend events; some orga
 
 Many activities are calendar conflicts. Information comes in at haphazard times and from various sources. Do you undo an RSVP sent in, or leave it till the last minute or till never?
 
-Together we can build (wikify) an attention platform, to post a topic (or event), to let anyone correct details, and to turn it into a newsletter item, so anyone can send good news to friends / followers.
+Together we can build / wikify an attention platform, to post a topic / event, let anyone correct details, and turn it into a newsletter item. Then, anyone can send news to friends / followers, and knowing that it's been community-verified.
 
 As an attendee we want to honour our RSVP's. When we are event organizers we want valid data, to know those who RSVP'd are indeed arriving and staying for the event. When we are a sponsor we want valid data too.
 
