@@ -10,7 +10,7 @@ published: true
 
 Citydwellers self organize bottom-up. You create topics. 
 
-You may associate a place and a day to your topic so that it becomes an event. 
+You may link a place and a day **to a topic** so that it becomes an event. 
 
 You may add corrections, comments, and requests - to anyone's topic or event.
 
