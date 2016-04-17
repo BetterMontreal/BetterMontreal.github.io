@@ -11,9 +11,10 @@ published: true
 Adding a topic or event
 
 #Getting started
-Créez un fichier .md p.e. en copiant un post existant dans le directory `_posts`. Laisser vide les champs où vous n'aurez pas de réponse. Donc pour créer un sujet, ne donnez ni date ni heure, et possiblement pas de lieu, de commanditaire, d'organisateur.
 
-Le nom que vous donnerez au fichier doit avoir un nom du format suivant, alors choisissez une date des semaines our mois à l'avenir:
+Copiez un fichier .md d'un de ceux que vous verrez dans le directory `_posts`. Laisser vide les champs où vous n'aurez pas de réponse. Donc pour créer un sujet, ne donnez ni date ni heure. Vous pourrez aussi ne donner ni lieu, ni commanditaire, ni organisateur.
+
+Le nom du fichier que vous créez doit suivre le format suivant, alors choisissez une date plusieurs semaines ou mois à l'avenir:
 
 {% highlight markdown%}
 YYYY-MM-DD-title.md
