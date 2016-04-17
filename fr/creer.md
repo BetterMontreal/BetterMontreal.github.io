@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Publier un sujet ou événement (activité)
+title: Publier un sujet ou événement
 permalink: /creer/
 button: true
 ref: create
