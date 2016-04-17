@@ -25,6 +25,6 @@ Agenda:
 - pitch your pen+paper prototype and pick a digital tool to prototype with
 - present your digital prototypes and gain structured feedback from peers
 
-This is a team-based workshop, a great way to prepare for your next hackathon and take your team/project to the next level!
+This is a team-based workshop. A great way to prepare for your next hackathon and take your project to the next level!
 
 *[Get paid back to be active](http://goo.gl/7D26a0): team up to produce a result and gain your deposit back.*
