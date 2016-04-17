@@ -8,11 +8,11 @@ ref: create
 published: true
 ---
 
-Adding a topic or event
+Ajouter un sujet ou événement
 
 #Getting started
 
-Copiez un fichier .md d'un de ceux que vous verrez dans le directory `_posts`. Laisser vide les champs où vous n'aurez pas de réponse. Donc pour créer un sujet, ne donnez ni date ni heure. Vous pourrez aussi ne donner ni lieu, ni commanditaire, ni organisateur.
+Copiez un fichier .md d'un de ceux que vous verrez dans le directory `_posts` et changer tous les détails. Effacer et laisser vide les champs où vous n'aurez pas de réponse. Donc pour créer un sujet, ne donnez ni date ni heure. Vous pourrez aussi ne donner ni lieu, ni commanditaire, ni organisateur. Ajoutez votre fichier .md dans le directory `_posts`.
 
 Le nom du fichier que vous créez doit suivre le format suivant, alors choisissez une date plusieurs semaines ou mois à l'avenir:
 
@@ -21,7 +21,7 @@ YYYY-MM-DD-title.md
 #Example 2016-01-01-Back-At-Work-After-New-Year.md
 {% endhighlight %}
 
-#Config for posts
+#format de la config des posts
 
 {% highlight markdown%}
 ---
@@ -34,21 +34,21 @@ title:  "Talk on ES6 JavaScript"
 #Url to your cover photo for your event. [optional - default will be used if not given]
 cover: "https://frontendmasters.com/assets/es6-logo.png"
 
-#The date of the event
+#date of the event
 date:   2016-02-01 16:04:19 +0000
 
-#Start time of the event
+#start time of the event
 start_time: "12:00"
 
 #end time of the event
 end_time: "13:00"
 
 #event organizer details
-
-#event organizer details
 organizer: "Paul Cuciureanu"
 
-#Make sure you setup your Organiser details in the _data directory in the community.yml file
+#Organiser details go in the _data directory in the community.yml file
+
+#Add your organiser details if you have named an organizer not yet in the data
 
 ---
 {% endhighlight %}
