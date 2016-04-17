@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Create activity
+title: Create topic or event activity
 permalink: /create/
 button: true
 ref: create
@@ -9,11 +9,9 @@ published: true
 ---
 Adding a topic or event
 
-Copy an existing post in the  `_posts` directory to get started. Delete the specific details and leave blank (empty) the parts that you cannot specify. To create a topic you'll leave blank lines after the date and time lines. You can leave other lines blank too: location, sponsor, organizer, etc.
+Copy an existing post in the  `_posts` directory to get started. Delete the specific details and leave empty (blank) the parts that you cannot specify. To create a topic you'll leave empty lines after the date and time lines. You can leave other lines empty too: location, sponsor, organizer, etc.
 
 Relabel your file, keeping the .md ending. Add your .md file into the `_posts` directory. The post file name must be in the following format, so if it's a topic, choose a date several weeks or months in the future:
-
-
 
 {% highlight markdown%}
 YYYY-MM-DD-title.md
