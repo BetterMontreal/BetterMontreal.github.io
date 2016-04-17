@@ -10,9 +10,9 @@ On peut tous et chacun
 
 - créer un sujet, c'est un départ
 - lier _au sujet_ un lieu-date-heure : ceci le rend événement
-- remplir détails, commenter ou corriger _tout aspect_
-- créez un flux d'activités et laissez aux autres le soins
-de le promouvoir dans leurs communications
+- remplir détails ou corriger _tout aspect_
+- promouvoir dans nos communications
+- offrir un soutien d'ordre financier ou logistique
 
 Certains de nous assistent aux événements ; d'autres les organisent ; ensemble on améliore la ville.
 
