@@ -10,10 +10,10 @@ published: true
 ---
 
 
-Adding an event.
+Adding a topic or event.
 
 ## Getting started
-Create a new .md file or copy an existing post in the  `_posts` directory to get started. The post file name must be in this format:
+Create a new .md file or copy an existing post in the  `_posts` directory to get started. To post a topic, leave empty the parts that you cannot specify (definitely date and time, and perhaps also place, sponsor, key organizer) The post file name must be in this format:
 
 {% highlight markdown%}
 YYYY-MM-DD-title.md
