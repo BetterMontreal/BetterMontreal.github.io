@@ -7,17 +7,19 @@ ref: about
 published: true
 ---
 
-On s'autoorganise : on peut tous
+On s'autoorganise : on peut tous et chacun
 
-- créer un sujet 话题
-- lier _à tout sujet_ un lieu-date-heure : ceci le rend événement
+- créer un sujet
+- lier _au sujet_ un lieu-date-heure : ceci le rend événement
 - commenter _ou corriger tout aspect_
 
-On se sert de "sujet" comme point de départ. Certains assistent aux événements; d'autres les organisent. Ensemble on améliore la ville. Vous créez un flot d'activités et vous le faites promouvoir, pendant que vous collaborez avec d'autres de plus en plus tout le temps.
+Le "sujet" sert de point de départ. 
+
+Créez un flot d'activités et laissez aux autres le soins de le promouvoir, pendant que vous collaborez avec d'autres de plus en plus tout le temps. Certains de nous assistent aux événements; d'autres les organisent; ensemble on améliore la ville.
 
 # Comment faire 
 
-[Publiez un événement](/create). Du moins, proposez _un sujet_. Commentez [bogues et développements souhaités](waffle.io/bettermtl/bettermtl.github.io). Ensuite [discutez de méthodes ici](gitter.im/bettermtl/general).
+[Publiez un sujet ou événement](/create). Commentez [bogues et développements souhaités](waffle.io/bettermtl/bettermtl.github.io). Ensuite [discutez de méthodes ici](gitter.im/bettermtl/general).
 
 # Problème à résoudre
 
