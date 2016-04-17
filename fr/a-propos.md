@@ -18,7 +18,7 @@ Certains de nous assistent aux événements ; d'autres les organisent ; ensemble
 
 # Comment faire
 
-[Publiez un sujet ou événement](/create). Commentez [bogues et développements souhaités](waffle.io/bettermtl/bettermtl.github.io). Ensuite [discutez de méthodes ici](gitter.im/bettermtl/general).
+[Publiez un sujet ou événement](/create). Commentez [bogues et développements souhaités](https://waffle.io/bettermtl/bettermtl.github.io). Ensuite [discutez de méthodes ici](https://gitter.im/bettermtl/general).
 
 # Problème à résoudre
 

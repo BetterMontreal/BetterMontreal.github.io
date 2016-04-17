@@ -17,7 +17,7 @@ Create an activity stream and let the community promote it, while you collaborat
 
 # How to
 
-[Publish an event](/create). At least propose a topic. Comment on [bugs and development issues](waffle.io/bettermtl/bettermtl.github.io) to help prioritize. [Discuss methods here](gitter.im/bettermtl/general).
+[Publish an event](/create). At least propose a topic. Comment on [bugs and development issues](https://waffle.io/bettermtl/bettermtl.github.io) to help prioritize. [Discuss methods here](https://gitter.im/bettermtl/general).
 
 
 # Problem to solve
