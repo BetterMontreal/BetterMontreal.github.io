@@ -6,9 +6,9 @@ ref: about
 published: true
 ---
 
-On s'autoorganise : on peut tous et chacun
+On s'auto-organise : on peut tous et chacun
 
-- créer un sujet ; c'est un départ
+- créer un sujet, c'est un départ
 - lier _au sujet_ un lieu-date-heure : ceci le rend événement
 - remplir détails, commenter ou corriger _tout aspect_
 
@@ -52,9 +52,9 @@ If you have all these calendars feeding your personal .ics calendar, great! If y
 
 # Pour contribuer grandement
 
-Fork, modifiez, faites des pull-requests. Ou cliquez sur ★  [bettermtl.github.io](https://github.com/bettermtl/bettermtl.github.io) dans Github. Show you care - about the success of this project. It motivates us. Thank you because we appreciate your vote of confidence!
+Fork-ez, modifiez, faites des pull-requests. Ou cliquez sur ★  [bettermtl.github.io](https://github.com/bettermtl/bettermtl.github.io) dans Github. Show you care - about the success of this project. It motivates us. Thank you because we appreciate your vote of confidence!
 
-Cette plate-forme est libre de contrainte, et on peut tous la modifier parce qu'elle est faite de logiciel à source ouverte. Ceci est le thème par défaut de JekyllRB. Vous pouvez en savoir plus sur les façons de personnaliser votre propre thème, ainsi que la documation de Jekyll sur [jekyllrb.com](http://jekyllrb.com/)
+Cette plate-forme est libre de contrainte, et on peut tous la modifier parce qu'elle est faite de logiciel à source ouverte. Ce site est fait en JekyllRB. Vous pouvez personnaliser votre propre thème Jekyll, en lisant la documentation de Jekyll sur [jekyllrb.com](http://jekyllrb.com/)
 
 Vous retrouvez ce thème multilingue sur :
 {% include icon-github.html username="sylvaindurand" %} /
@@ -64,6 +64,6 @@ Vous trouverez le code source de ce thème Jekyll sur :
 {% include icon-github.html username="jglovier" %} /
 [jekyll-new](https://github.com/jglovier/jekyll-new)
 
-Enfin, le code source de Jekyll est présenté sur
+Le code source de Jekyll est présenté sur
 {% include icon-github.html username="jekyll" %} /
 [jekyll](https://github.com/jekyll/jekyll)
