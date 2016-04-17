@@ -9,10 +9,10 @@ published: true
 On peut tous et chacun
 
 - créer un sujet, c'est un départ
-- lier _au sujet_ un lieu-date-heure : ceci le rend événement
+- ajouter lieu-date-heure : ceci le rend "_événement_"
 - remplir détails ou corriger _tout aspect_
-- promouvoir dans nos communications
-- offrir un soutien d'ordre financier ou logistique
+- soutenir un aspect de la logistique
+- communiquer de manière intégrée à ce système-ci
 
 Certains de nous assistent aux événements ; d'autres les organisent ; ensemble on améliore la ville.
 
@@ -24,7 +24,7 @@ Certains de nous assistent aux événements ; d'autres les organisent ; ensemble
 
 Many activities are calendar conflicts. Information comes in at haphazard times and from various sources. Do you undo an RSVP sent in, or leave it till the last minute or till never?
 
-Together we can build / wikify an attention platform
+Together we can wikify an attention platform
 
 - item post a topic / event
 - item let anyone correct details
