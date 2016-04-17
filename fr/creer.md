@@ -8,9 +8,11 @@ published: true
 ---
 Ajouter un sujet ou événement
 
-Copiez un fichier .md parmi ceux que vous verrez dans le directory `_posts` et changez tous les détails. Laissez vide les champs où vous n'aurez pas de réponse. Vous pourrez ne donner ni lieu, ni commanditaire, ni organisateur. Surtout, pour créer un sujet, ne donnez ni date ni heure.
+Copiez un fichier .md parmi ceux que vous verrez dans le directory `_posts`, changez tous les détails et sauvegardez-le dans le même directory. 
 
-Ajoutez votre nouveau fichier .md dans le directory `_posts`. Le nom que vous donnerez au fichier doit suivre le format suivant, alors s'il s'agit d'un sujet, choisissez une date plusieurs semaines ou mois à l'avenir:
+Surtout, pour créer un sujet, ne donnez ni date ni heure. Laissez vide les champs où vous n'aurez pas de réponse. Par exemple, vous pourrez ne donner ni lieu, ni commanditaire, ni organisateur. 
+
+Lorsque vous sauvegarder votre nouveau fichier .md dans le directory `_posts` le nom que vous donnerez au fichier doit suivre le format suivant. Alors s'il s'agit d'un sujet, pour nommer le fichier choisissez une date plusieurs semaines ou mois à l'avenir:
 
 
 {% highlight markdown%}
