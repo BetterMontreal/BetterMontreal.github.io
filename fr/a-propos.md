@@ -15,7 +15,7 @@ On s'autoorganise : on peut tous
 
 On se sert de "sujet" comme point de départ. Certains assistent aux événements; d'autres les organisent. Ensemble on améliore la ville. Vous créez un flot d'activités et vous le faites promouvoir, pendant que vous collaborez avec d'autres de plus en plus tout le temps.
 
-# Comment...
+# Comment faire 
 
 [Publiez un événement](/create). Du moins, proposez _un sujet_. Commentez [bogues et développements souhaités](waffle.io/bettermtl/bettermtl.github.io). Ensuite [discutez de méthodes ici](gitter.im/bettermtl/general).
 
