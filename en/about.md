@@ -1,16 +1,16 @@
 ---
 layout: page
-title: About BetterMTL
+title: "Citydwellers self-organize"
 permalink: /about/
 ref: about
 lang: en
 published: true
 ---
 
-Citydwellers self-organize: we all can
+We all can
 
 - create a topic: it's a starting point
-- link a place-date-time _to any topic_: that makes it an event
+- lin _to a topic_ its place-date-time: that makes it an event
 - fill in details, comment or correct _any aspect_
 
 Create an activity stream and let the community promote it, while you collaborate with others more and more all the time. Some of us attend events; some organize events: together we better the city.
