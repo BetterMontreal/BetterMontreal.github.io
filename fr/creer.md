@@ -11,9 +11,9 @@ published: true
 Adding a topic or event
 
 #Getting started
-Create a new .md file or copy an existing post in the  `_posts` directory to get started. 
+Créez un fichier .md p.e. en copiant un post existant dans le directory `_posts`. Laisser vide les champs où vous n'aurez pas de réponse. Donc pour créer un sujet, ne donnez ni date ni heure, et possiblement pas de lieu, de commanditaire, d'organisateur.
 
-The post file name must be in this format, so for a topic choose a date several weeks or months in the future:
+Le nom que vous donnerez au fichier doit avoir un nom du format suivant, alors choisissez une date des semaines our mois à l'avenir:
 
 {% highlight markdown%}
 YYYY-MM-DD-title.md
@@ -24,16 +24,16 @@ YYYY-MM-DD-title.md
 
 {% highlight markdown%}
 ---
-#leave this alone
+#leave this next line as is
 layout: post
 
-#Whats the title of your event.
+#Whats the title of your subject or event
 title:  "Talk on ES6 JavaScript"
 
 #Url to your cover photo for your event. [optional - default will be used if not given]
 cover: "https://frontendmasters.com/assets/es6-logo.png"
 
-#The date of the event.
+#The date of the event
 date:   2016-02-01 16:04:19 +0000
 
 #Start time of the event
