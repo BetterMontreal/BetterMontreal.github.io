@@ -12,6 +12,7 @@ Copiez un fichier .md parmi ceux que vous verrez dans le directory `_posts` et c
 
 Ajoutez votre nouveau fichier .md dans le directory `_posts`. Le nom que vous donnerez au fichier doit suivre le format suivant, alors s'il s'agit d'un sujet, choisissez une date plusieurs semaines ou mois à l'avenir:
 
+
 {% highlight markdown%}
 YYYY-MM-DD-title.md
 # 2017-01-02-Sujet-Ardent-Debut-Nouvel-An.md
