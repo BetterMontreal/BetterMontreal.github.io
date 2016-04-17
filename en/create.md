@@ -1,16 +1,20 @@
 ---
 layout: page
-title: Create an event using BetterMTL
+title: Create activity
 permalink: /create/
 button: true
 ref: create
 lang: en
 published: true
 ---
-Adding an event to your site is easy.
+
+
+Adding a topic or event.
 
 ## Getting started
-Create a new .md file or copy an existing post in the  `_posts` directory to get started. The post file name must be in this format:
+Create a new .md file or copy an existing post in the  `_posts` directory to get started. To post a topic, leave empty the parts that you cannot specify (definitely date and time, and perhaps also place, sponsor, key organizer).
+
+The post file name must be in the following format, so for a topic choose a date several weeks or months in the future
 
 {% highlight markdown%}
 YYYY-MM-DD-title.md
@@ -49,7 +53,7 @@ organizer: "Paul Cuciureanu"
 
 ## Post content
 
-After you have setup your config, all you need to do know is write your content using markdown.
+After you have setup your config, all you need to do now is write your content using markdown.
 
 ## Example Post
 

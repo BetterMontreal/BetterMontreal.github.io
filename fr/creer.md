@@ -4,11 +4,16 @@ title: Publier activité
 permalink: /creer/
 button: true
 ref: create
+published: true
 ---
-Adding an event to your site is easy.
+
+Adding a topic or event
 
 #Getting started
-Create a new .md file or copy an existing post in the  `_posts` directory to get started. The post file name must be in this format:
+
+Copiez un fichier .md d'un de ceux que vous verrez dans le directory `_posts`. Laisser vide les champs où vous n'aurez pas de réponse. Donc pour créer un sujet, ne donnez ni date ni heure. Vous pourrez aussi ne donner ni lieu, ni commanditaire, ni organisateur.
+
+Le nom du fichier que vous créez doit suivre le format suivant, alors choisissez une date plusieurs semaines ou mois à l'avenir:
 
 {% highlight markdown%}
 YYYY-MM-DD-title.md
@@ -19,16 +24,16 @@ YYYY-MM-DD-title.md
 
 {% highlight markdown%}
 ---
-#leave this alone
+#leave this next line as is
 layout: post
 
-#Whats the title of your event.
+#Whats the title of your subject or event
 title:  "Talk on ES6 JavaScript"
 
 #Url to your cover photo for your event. [optional - default will be used if not given]
 cover: "https://frontendmasters.com/assets/es6-logo.png"
 
-#The date of the event.
+#The date of the event
 date:   2016-02-01 16:04:19 +0000
 
 #Start time of the event
