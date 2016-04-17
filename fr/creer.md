@@ -1,26 +1,23 @@
 ---
 layout: page
-title: Publier activité
+title: Publier un sujet ou événement (activité)
 permalink: /creer/
 button: true
 ref: create
 published: true
 ---
-
 Ajouter un sujet ou événement
 
-##Getting started
+Copiez un fichier .md d'un de ceux que vous verrez dans le directory `_posts` et changez tous les détails. Laissez vide les champs où vous n'aurez pas de réponse : pour créer un sujet, ne donnez ni date ni heure, laissez une ligne vide. Vous pourrez aussi ne donner ni lieu, ni commanditaire, ni organisateur. 
 
-Copiez un fichier .md d'un de ceux que vous verrez dans le directory `_posts` et changez tous les détails. Laissez vide les champs où vous n'aurez pas de réponse : pour créer un sujet, ne donnez ni date ni heure. Vous pourrez aussi ne donner ni lieu, ni commanditaire, ni organisateur. 
-
-Ajoutez votre fichier .md dans le directory `_posts`. Le nom du fichier que vous créez doit suivre le format suivant, alors s'il s'agit d'un sujet, choisissez une date plusieurs semaines ou mois à l'avenir:
+Ajoutez votre fichier .md dans le directory `_posts`. Le nom que vous donnerez au fichier doit suivre le format suivant, alors s'il s'agit d'un sujet, choisissez une date plusieurs semaines ou mois à l'avenir:
 
 {% highlight markdown%}
 YYYY-MM-DD-title.md
-#Example 2016-01-01-Back-At-Work-After-New-Year.md
+# 2017-01-02-Sujet-Ardent-Debut-Nouvel-An.md
 {% endhighlight %}
 
-#format de la config des posts
+#format de la config du fichier
 
 {% highlight markdown%}
 ---
