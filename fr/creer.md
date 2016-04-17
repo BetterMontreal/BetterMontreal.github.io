@@ -1,17 +1,19 @@
 ---
 layout: page
-title: Publier une activité sur CapMTL
+title: Publier un sujet sur CapMTL
 navigation_title: Publier activité
 permalink: /creer/
 button: true
 ref: create
-
+published: true
 ---
 
-Adding an event to your site is easy.
+Adding a topic or event
 
 #Getting started
-Create a new .md file or copy an existing post in the  `_posts` directory to get started. The post file name must be in this format:
+Create a new .md file or copy an existing post in the  `_posts` directory to get started. 
+
+The post file name must be in this format, so for a topic choose a date several weeks or months in the future:
 
 {% highlight markdown%}
 YYYY-MM-DD-title.md
