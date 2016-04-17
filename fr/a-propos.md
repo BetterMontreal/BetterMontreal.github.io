@@ -12,7 +12,7 @@ On peut tous et chacun
 - lier _au sujet_ un lieu-date-heure : ceci le rend événement
 - remplir détails, commenter ou corriger _tout aspect_
 
-Créez un flot d'activités et laissez aux autres le soins de le promouvoir, pendant que vous collaborez avec d'autres de plus en plus tout le temps. Certains de nous assistent aux événements ; d'autres les organisent ; ensemble on améliore la ville.
+Créez un flux d'activités et laissez aux autres le soins de le promouvoir, pendant que vous collaborez avec d'autres de plus en plus tout le temps. Certains de nous assistent aux événements ; d'autres les organisent ; ensemble on améliore la ville.
 
 # Comment faire
 
