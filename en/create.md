@@ -7,13 +7,7 @@ ref: create
 lang: en
 published: true
 ---
-
-
 Adding a topic or event
-
-
-## Getting started
-
 
 Copy an existing post in the  `_posts` directory to get started. Delete the specific details and leave blank (empty) the parts that you cannot specify. To create a topic you'll leave blank lines after the date and time lines. You can leave other lines blank too: location, sponsor, organizer, etc.
 
@@ -23,7 +17,7 @@ Relabel your file, keeping the .md ending. Add your .md file into the `_posts` d
 
 {% highlight markdown%}
 YYYY-MM-DD-title.md
-# Example 2016-01-01-Back-At-Work-After-New-Year.md
+# Example 2017-01-02-Hot-Topic-Right-After-New-Year.md
 {% endhighlight %}
 
 # Config for posts
