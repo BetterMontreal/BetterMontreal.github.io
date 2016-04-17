@@ -1,15 +1,15 @@
 ---
-title: "Digital Prototyping"
+title: Digital Prototyping
 cover: "http://tubikstudio.com/wp-content/uploads/2016/03/tubikstudio-ui-ux-design.jpg"
-date: 2016-04-18T17:30:00.000Z
+date: {}
 start_time: "17:30"
 end_time: "20:15"
 location: "inside the Salon 1861, 550 rue Richmond, Montréal, QC"
 organizer: SamErgo
 published: true
-rsvp:
- register: http://www.eventbrite.com/
-ref: samergo-workshop-digital-prototyping
+rsvp: 
+  register: "http://www.eventbrite.com/"
+ref: "samergo-workshop-digital-prototyping"
 categories: design ux prototyping workshop
 lang: en
 ---
@@ -27,4 +27,4 @@ Agenda:
 
 This is a team-based workshop, a great way to prepare for your next hackathon and take your team/project to the next level!
 
-*[Get paid to be active](http://goo.gl/7D26a0): team up to produce a result and gain your deposit back.*
+*[Get paid back to be active](http://goo.gl/7D26a0): team up to produce a result and gain your deposit back.*
