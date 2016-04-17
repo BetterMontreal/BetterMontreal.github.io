@@ -10,7 +10,7 @@ published: true
 We all can
 
 - create a topic: it's a starting point
-- lin _to a topic_ its place-date-time: that makes it an event
+- link _a topic_ to place-date-time: that makes it an event
 - fill in details, comment or correct _any aspect_
 
 Create an activity stream and let the community promote it, while you collaborate with others more and more all the time. Some of us attend events; some organize events: together we better the city.
