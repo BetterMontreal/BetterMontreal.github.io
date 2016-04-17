@@ -14,6 +14,7 @@ Ajoutez votre nouveau fichier .md dans le directory `_posts`. Le nom que vous do
 
 
 {% highlight markdown%}
+
 YYYY-MM-DD-title.md
 # 2017-01-02-Sujet-Ardent-Debut-Nouvel-An.md
 {% endhighlight %}
