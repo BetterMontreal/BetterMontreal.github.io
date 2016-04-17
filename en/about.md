@@ -12,7 +12,7 @@ Citydwellers self-organize: we all can
 
 - create a topic: it's a starting point
 - link a place-date-time _to any topic_: that makes it an event
-- comment _or correct any aspect_
+- fill in details, comment or correct _any aspect_
 
 Create an activity stream and let the community promote it, while you collaborate with others more and more all the time. Some of us attend events; some organize events: together we better the city.
 
@@ -23,7 +23,7 @@ Create an activity stream and let the community promote it, while you collaborat
 
 # Problem to solve
 
-Many activities are calendar conflicts. Information comes in at haphazard times and from various sources. Do you undo an RSVP right away, or leave it till the last minute, or till never?
+Many activities are calendar conflicts. Information comes to you at haphazard times and from various sources. Do you undo an RSVP right away, or leave it till the last minute, or till never?
 
 Together we can build / wikify an attention platform, to post a topic / event, let anyone correct details, and turn it into a newsletter item. Then, anyone can send news to friends / followers, and confident that it's been community-verified.
 
