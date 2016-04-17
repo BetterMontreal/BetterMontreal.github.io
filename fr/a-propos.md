@@ -11,8 +11,10 @@ On peut tous et chacun
 - créer un sujet, c'est un départ
 - lier _au sujet_ un lieu-date-heure : ceci le rend événement
 - remplir détails, commenter ou corriger _tout aspect_
+- créez un flux d'activités et laissez aux autres le soins
+de le promouvoir dans leurs communications
 
-Créez un flux d'activités et laissez aux autres le soins de le promouvoir, pendant que vous collaborez avec d'autres de plus en plus tout le temps. Certains de nous assistent aux événements ; d'autres les organisent ; ensemble on améliore la ville.
+Certains de nous assistent aux événements ; d'autres les organisent ; ensemble on améliore la ville.
 
 # Comment faire
 
