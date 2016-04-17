@@ -1,12 +1,12 @@
 ---
 layout: page
-title: À propos
+title: "On s'auto-organise"
 permalink: "/a-propos/"
 ref: about
 published: true
 ---
 
-On s'auto-organise : on peut tous et chacun
+On peut tous et chacun
 
 - créer un sujet, c'est un départ
 - lier _au sujet_ un lieu-date-heure : ceci le rend événement
