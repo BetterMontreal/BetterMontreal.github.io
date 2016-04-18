@@ -111,6 +111,21 @@ nav ul {
   }
 }
 
+.tagline {
+  height: 0;
+  padding: 0;
+  p {
+    top: -100px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    font-size: $base-font-size;
+    padding: 6px;
+    color: white;
+    margin: 0;
+    max-width: 75%;
+  }
+}
+
 /**
  * Site footer
  */
