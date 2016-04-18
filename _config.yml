@@ -3,6 +3,8 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
+exclude: [Rakefile, Gemfile, Gemfile.lock, README.md, vendor, deploy.bash]
+
 collections:
   locations:
     output: true

@@ -1,4 +1,5 @@
 language: ruby
+cache: bundler
 rvm:
  - 2.3.0
 
@@ -12,5 +13,3 @@ branches:
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
-
-sudo: false # route your build to the container-based infrastructure for a faster build
