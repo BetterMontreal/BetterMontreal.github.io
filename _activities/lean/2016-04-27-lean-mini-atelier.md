@@ -1,15 +1,16 @@
 ---
+ref: lean-workshop
 title: "Mini-ateli­er Lean"
+cover: "http://www.wamda.com/application/rapyd/assets/mfm_012/upload/LeanStartupMachine_Amman1.jpg"
 date: 2016-04-27T18:00:00.000Z
 start_time: "18:00"
 end_time: "21:00"
-location: "OVH, 1801 McGill College 8th Floor, Montréal, QC"
+location: ovh
 organizer: Lean Startup Circle
 published: true
 rsvp:
  register: http://www.meetup.com/Lean-Startup-Circle-Montreal/events/230297882/
-ref: lean-workshop
-categories: lean strategy business workshop
+categories: lean stratégie entreprise atelier
 ---
 
 Assez de blabla! La meilleurs façon d'apprendre le Lean Startup (en à être entpreneur) est simplement de le faire.
