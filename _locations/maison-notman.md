@@ -6,4 +6,4 @@ room: 3rd floor
 ref: notman-house
 ---
 Le maison du web
-[!()](https://i.imgur.com/WZyzEu2.png)
+![()](https://i.imgur.com/WZyzEu2.png)
