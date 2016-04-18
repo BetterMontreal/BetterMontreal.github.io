@@ -4,10 +4,10 @@
 {% else %}
   {% assign activ=site.activities | where: "ref", include.act.ref | where: "lang", page.lang | first %}
   {% unless activ %}
-    {% assign activ=site.activities | where: "ref", include.act.ref | where: "lang", site.lang.primary | first %}
+    {% assign activ=site.activities | where: "ref", include.act.ref | where: "lang", site.lang[0] | first %}
   {% endunless %}
   {% unless activ %}
-    {% assign activ=site.activities | where: "ref", include.act.ref | where: "lang", site.lang.secondary | first %}
+    {% assign activ=site.activities | where: "ref", include.act.ref | where: "lang", site.lang[1] | first %}
   {% endunless %}
 {% endif %}
 {{activ.ref}},{{activ.lang}}

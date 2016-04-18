@@ -29,7 +29,7 @@ lang: en
         {% assign activity_ref_lang = activity_ref_lang_str | strip_newlines | split: "," %}
         {% assign activ = site.activities | where: "ref", activity_ref_lang[0] | where: "lang", activity_ref_lang[1] | first %}
         <a href="{{ activ.url | prepend: site.baseurl }}">
-          {% capture activity_cover %}{% include merge/activity-cover.html act = activity default_act = 'http://evento.io/img/cover.jpg' %}{% endcapture %}
+          {% capture activity_cover %}{% include merge.html collection = "activities" ref = activity.ref leaf="cover" default = 'http://evento.io/img/cover.jpg' %}{% endcapture %}
           <div class="activity-card" style="background-image:url({{activity_cover}});">
             <h2>{{ activ.title }} <span>{{ activ.date | date: "%b %-d, %Y" }}</span></h2>
             {% if page.lang == activ.lang %}
@@ -63,7 +63,7 @@ lang: en
         {% assign activity_ref_lang = activity_ref_lang_str | strip_newlines | split: "," %}
         {% assign activ = site.activities | where: "ref", activity_ref_lang[0] | where: "lang", activity_ref_lang[1] | first %}
         <a href="{{ activ.url | prepend: site.baseurl }}">
-          {% capture activity_cover %}{% include merge/activity-cover.html act = activity default_act = 'http://evento.io/img/cover.jpg' %}{% endcapture %}
+          {% capture activity_cover %}{% include merge.html collection = "activities" ref = activity.ref leaf="cover" default = 'http://evento.io/img/cover.jpg' %}{% endcapture %}
           <div class="activity-card" style="background-image:url({{activity_cover}});">
             <h2>{{ activ.title }} <span>{{ activ.date | date: "%b %-d, %Y" }}</span></h2>
             {% if page.lang == activ.lang %}

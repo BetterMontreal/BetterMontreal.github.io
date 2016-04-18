@@ -1,23 +1,23 @@
 {% assign locations = site.locations | where: "ref", page.location %}
 {% assign locations_sorted = locations | where: "lang", page.lang %}
-{% if page.lang != site.lang.primary %}
+{% if page.lang != site.lang[0] %}
   {% for location in locations %}
-    {% if location.lang == site.lang.primary %}
+    {% if location.lang == site.lang[0] %}
       {% assign locations_sorted = locations_sorted | push: location %}
       {% break %}
     {% endif %}
   {% endfor %}
 {% endif %}
-{% if page.lang != site.lang.secondary %}
+{% if page.lang != site.lang[1] %}
   {% for location in locations %}
-    {% if location.lang == site.lang.secondary %}
+    {% if location.lang == site.lang[1] %}
       {% assign locations_sorted = locations_sorted | push: location %}
       {% break %}
     {% endif %}
   {% endfor %}
 {% endif %}
 {% for location in locations %}
-  {% if location.lang != site.lang.secondary and location.lang != site.lang.primary %}
+  {% if location.lang != site.lang[1] and location.lang != site.lang[0] %}
     {% assign locations_sorted = locations_sorted | push: location %}
   {% endif %}
 {% endfor %}

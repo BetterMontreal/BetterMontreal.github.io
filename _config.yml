@@ -26,8 +26,10 @@ collections:
     permalink: /a/:title:output_ext
 
 lang:
-  primary: fr
-  secondary: en
+  - fr
+  - en
+  - ru
+  - cn
 
 defaults:
   - scope:

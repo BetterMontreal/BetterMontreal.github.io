@@ -9,7 +9,7 @@ ref: locations
   {% assign locations=site.locations | where: "lang", page.lang %}
   {% for location in locations %}
     <a href="{{ location.url | prepend: site.baseurl }}">
-      {% capture location_cover %}{% include merge/location-cover.html loc = location default_loc = 'http://evento.io/img/cover.jpg' %}{% endcapture %}
+      {% capture location_cover %}{% include merge.html collection = "locations" ref = location.ref leaf="cover" default = 'http://evento.io/img/cover.jpg' %}{% endcapture %}
       <div class="location-card" style="background-image:url({{location_cover}});">
         <h2>{{ location.title }} &nbsp; <span>{{ location.address }}</span></h2>
         <div class='location-card-overlay'></div>
