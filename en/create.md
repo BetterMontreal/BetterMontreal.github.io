@@ -11,12 +11,16 @@ Adding a topic or event
 
 Copy an existing post in the  `_posts` directory to get started. Delete the specific details and leave empty (blank) the parts that you cannot specify. To create a topic you'll leave empty lines after the date and time lines. You can leave other lines empty too: location, sponsor, organizer, etc.
 
-Relabel your file, keeping the .md ending. Add your .md file into the `_posts` directory. The post file name must be in the following format, so if it's a topic, choose a date several weeks or months in the future:
+Relabel your file, keeping the .md ending. Add your .md file into the `_posts` directory. 
+
+Give your new post a file name in the following format:
 
 {% highlight markdown%}
 YYYY-MM-DD-title.md
 # Example 2017-01-02-Hot-Topic-Right-After-New-Year.md
 {% endhighlight %}
+
+If your post is to be a topic, choose a file name that has a date that is many weeks or months in the future. This is for the file name. It helps to set a target for date of an eventual in-person meeting activity.
 
 # Config for posts
 {% highlight markdown%}
