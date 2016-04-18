@@ -5,6 +5,15 @@
 
 exclude: [Rakefile, Gemfile, Gemfile.lock, README.md, vendor, deploy.bash]
 
+index:
+  en: welcome
+  fr:
+  ru: welcome
+
+feed:
+  en: /feed.xml
+  fr: /flux.xml
+
 collections:
   locations:
     output: true
@@ -45,51 +54,6 @@ defaults:
       type: network
     values:
       layout: node
-
-navigation:
-  fr:
-  - title: Activité
-    url: /
-  - title: Réseau
-    url: /reseau/
-  - title: Endroits
-    url: /endroits/
-  - title: Blogue
-    url: /blogue/
-  - title: À propos
-    url: /a-propos/
-  - title: Publier
-    url: /creer/
-  en:
-  - title: Activity
-    url: /welcome/
-  - title: Network
-    url: /network/
-  - title: Locations
-    url: /locations/
-  - title: Blog
-    url: /blog/
-  - title: About
-    url: /about/
-  - title: Create
-    url: /create/
-
-# Site settings
-title:
-  en: BetterMTL
-  fr: CapMTL
-
-description:
-  en: BetterMTL is free and open-source. <br/> Run by <a href='https://github.com/bettermtl/bettermtl.github.io/graphs/contributors'>contributors</a>.
-  fr: CapMTL est un logiciel libre. <br/> Géré par <a href='https://github.com/bettermtl/bettermtl.github.io/graphs/contributors'>contributeurs</a>.
-
-index:
-  en: welcome
-  fr:
-
-feed:
-  en: /feed.xml
-  fr: /flux.xml
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://bettermtl.com/" # the base hostname & protocol for your site

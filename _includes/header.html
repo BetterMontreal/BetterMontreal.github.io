@@ -1,6 +1,6 @@
 <header class="site-header">
   <div class="wrapper">
-    <a class="site-title" href="{{ site.baseurl }}/{% if site.title[page.lang] %}{{site.index[page.lang]}}{% endif %}">{{ site.title[page.lang] }}</a>
+    <a class="site-title" href="{{ site.baseurl }}/{% if site.data.dictionary.title[page.lang] %}{{site.index[page.lang]}}{% endif %}">{{ site.data.dictionary.title[page.lang] }}</a>
     <nav class="site-nav">
       <a href="javascript:" class="menu-icon">
         <svg viewBox="0 0 18 15">
@@ -11,7 +11,7 @@
       </a>
       <div class="trigger">
         <ul>
-          {% for link in site.navigation[page.lang] %}
+          {% for link in site.data.dictionary.navigation[page.lang] %}
             {% assign current = nil %}
             {% if page.url == link.url %}
               {% assign current = 'current' %}
