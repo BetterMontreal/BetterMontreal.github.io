@@ -7,7 +7,7 @@ lang: en
 <div class="home">
   <h1 class="title">Network</h1>
   <ul class="post-list">
-    {% assign network=site.network | where: "lang", page.lang %}
+    {% assign network=site.network %}
     {% for node in network %}
       <li>
         <a class="post-link" href="{{ node.url | prepend: site.baseurl }}">{{ node.name }}</a>
