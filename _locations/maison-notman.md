@@ -5,5 +5,5 @@ address: 51 Rue Sherbrooke O, Montréal, QC H2X 1X2
 room: 3rd floor
 ref: notman-house
 ---
-Le maison du web
+La maison du web
 ![()](https://i.imgur.com/WZyzEu2.png)
