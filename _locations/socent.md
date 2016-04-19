@@ -6,7 +6,7 @@ room: étage souterrain
 ref: "socent-salon"
 published: true
 ---
-SOCENT connecte les entrepreneurs sociaux de Montréal entre eux, avec la ville et le monde.
+[SOCENT](http://www.socentnetwork.com/ "SOCENT") connecte les entrepreneurs sociaux de Montréal entre eux, avec la ville et le monde.
 
 Nous organisons des activités pour lutter contre le changement climatique, le transport inactif, les défis de l'éducation, et nous gérons le laboratoire de co-création, Le Salon 1861, pour les innovateurs sociaux.
 
