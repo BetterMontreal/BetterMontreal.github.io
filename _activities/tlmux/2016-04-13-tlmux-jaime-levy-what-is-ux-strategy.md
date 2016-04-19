@@ -1,6 +1,6 @@
 ---
 title: "What the hell is UX Strategy and why it’s crucial!"
-date: 2016-04-13T17:55:00.000Z
+date: "2016-04-13T17:55:00.000Z"
 start_time: "17:55"
 end_time: "21:00"
 location: ecto-coop

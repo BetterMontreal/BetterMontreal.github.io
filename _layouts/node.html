@@ -3,9 +3,7 @@ layout: default
 ---
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
   <header class="post-header">
-    <div class="improve right">
-      <a href="http://prose.io/#bettermtl/bettermtl.github.io/edit/master/{{ location.path }}"><i class="fa fa-pencil"></i> &nbsp;{{site.data.dictionary[page.lang].improve-page}}</a>
-    </div>
+    {% include page-edit.html %}
     <h1 class="title" itemprop="name headline">{{ page.title }}</h1>
     {% if organizer.photo %}
       <h3 class="post-organizers-name">By {{organizer.name}}</h3>

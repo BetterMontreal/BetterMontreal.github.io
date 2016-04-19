@@ -1,7 +1,7 @@
 ---
 title: "Provisional Personas"
 cover: "https://i.imgur.com/0B6m3dT.png"
-date: 2016-05-09T17:30:00.000Z
+date: "2016-05-09T17:30:00.000Z"
 start_time: "17:30"
 end_time: "20:15"
 location: "inside the Salon 1861, 550 rue Richmond, Montréal, QC"
