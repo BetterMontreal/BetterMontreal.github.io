@@ -1,7 +1,7 @@
 ---
 title: "Design Thinking"
 cover: "http://hpi.de/fileadmin/user_upload/fachgebiete/d-school/images/BG_Whiteboard.jpg"
-date: 2016-04-25T17:30:00.000Z
+date: "2016-04-25T17:30:00.000Z"
 start_time: "17:30"
 end_time: "20:15"
 location: "inside the Salon 1861, 550 rue Richmond, Montréal, QC"

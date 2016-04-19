@@ -1,7 +1,7 @@
 ---
 title: "Qu'est-ce qui est la stratégie UX et pourquoi il est crucial!"
 cover: "http://toutlemonde-ux.com/wp-content/uploads/2016/03/jaimelevy-3.png"
-date: 2016-04-13T17:55:00.000Z
+date: "2016-04-13T17:55:00.000Z"
 start_time: "17:55"
 end_time: "21:00"
 location: ecto-coop
