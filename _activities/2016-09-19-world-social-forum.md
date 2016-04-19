@@ -16,3 +16,5 @@ categories: "green-tech"
 Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
 
 This is going to be great!
+
+What do you think?
