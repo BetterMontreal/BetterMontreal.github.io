@@ -6,7 +6,7 @@ ref: "socent-salon"
 lang: en
 published: true
 ---
-SOCENT exposes Montreal's social entrepreneurs to each other, the city, and the world.
+[SOCENT](http://www.socentnetwork.com/ "SOCENT") exposes Montreal's social entrepreneurs to each other, the city, and the world.
 
 We organize activities to tackle climate change, transportation, and education challenges, manage the Salon 1861 co-creation lab for social innovators.
 
@@ -14,4 +14,3 @@ We organize activities to tackle climate change, transportation, and education c
 ## Our Mission
 Creating a ripple effect for social change!
 
-http://www.socentnetwork.com/
