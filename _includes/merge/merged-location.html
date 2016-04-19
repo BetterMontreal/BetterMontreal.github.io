@@ -1,27 +1,37 @@
-{% assign location = site.locations | where: "ref", page.location | where: "lang", page.lang | first %}
-{% assign llprimary = site.locations | where: "ref", page.location | where: "lang", site.lang.primary | first %}
-{% assign llsecondary = site.locations | where: "ref", page.location | where: "lang", site.lang.secondary | first %}
-
-{% if location.title %}
-  {% assign l_title = location.title %}
-{% elsif llprimary.title %}
-  {% assign l_title = llprimary.title %}
-{% elsif llsecondary.title %}
-  {% assign l_title = llprimary.title %}
+{% assign locations = site.locations | where: "ref", page.location %}
+{% assign locations_sorted = locations | where: "lang", page.lang %}
+{% if page.lang != site.lang[0] %}
+  {% for location in locations %}
+    {% if location.lang == site.lang[0] %}
+      {% assign locations_sorted = locations_sorted | push: location %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
 {% endif %}
-
-{% if location.cover %}
-  {% assign l_cover = location.cover %}
-{% elsif llprimary.title %}
-  {% assign l_cover = llprimary.cover %}
-{% elsif llsecondary.title %}
-  {% assign l_cover = llprimary.cover %}
+{% if page.lang != site.lang[1] %}
+  {% for location in locations %}
+    {% if location.lang == site.lang[1] %}
+      {% assign locations_sorted = locations_sorted | push: location %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
 {% endif %}
-
-{% if location.room %}
-  {% assign l_room = location.room %}
-{% elsif llprimary.title %}
-  {% assign l_room = llprimary.room %}
-{% elsif llsecondary.title %}
-  {% assign l_room = llprimary.room %}
-{% endif %}
+{% for location in locations %}
+  {% if location.lang != site.lang[1] and location.lang != site.lang[0] %}
+    {% assign locations_sorted = locations_sorted | push: location %}
+  {% endif %}
+{% endfor %}
+{% for location in locations_sorted %}
+  {% unless location_title %}
+    {% assign location_title = location.title %}
+  {% endunless %}
+  {% unless location_cover %}
+    {% assign location_cover = location.cover %}
+  {% endunless %}
+  {% unless location_room %}
+    {% assign location_room = location.room %}
+  {% endunless %}
+  {% unless location_address %}
+    {% assign location_address = location.address %}
+  {% endunless %}
+{% endfor %}

@@ -1,0 +1,13 @@
+{% assign insts = site[include.collection] | where: "ref", include.ref %}
+{% assign inst = insts | where: "lang", page.lang | first %}
+{% assign merged_leaf = inst[include.leaf] %}
+{% unless merged_leaf %}
+  {% for l in site.lang %}
+    {% assign inst = insts | where: "lang", l | first %}
+    {% assign merged_leaf = inst[include.leaf] %}
+    {% if merged_leaf %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+{% endunless %}
+{{merged_leaf | default: include.default}}

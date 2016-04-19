@@ -3,6 +3,17 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
+exclude: [Rakefile, Gemfile, Gemfile.lock, README.md, vendor, deploy.bash]
+
+index:
+  en: welcome
+  fr:
+  ru: welcome
+
+feed:
+  en: /feed.xml
+  fr: /flux.xml
+
 collections:
   locations:
     output: true
@@ -10,16 +21,26 @@ collections:
   network:
     output: true
     permalink: /n/:name:output_ext
+  activities:
+    output: true
+    permalink: /a/:title:output_ext
 
 lang:
-  primary: fr
-  secondary: en
+  - fr
+  - en
+  - ru
+  - cn
 
 defaults:
   - scope:
       path: ""
     values:
       lang: "fr"
+  - scope:
+      path: ""
+      type: "activities"
+    values:
+      layout: "activity"
   - scope:
       path: ""
       type: "posts"
@@ -35,28 +56,6 @@ defaults:
       type: network
     values:
       layout: node
-
-# Site settings
-title:
-  en: BetterMTL Activity
-  fr: Activité MieuxMTL
-
-# What is the name of the events or talks you would like to host? (Example Brownbags, Talks, Lighting Talks)
-event_label:
-  en: Activity
-  fr: Activité
-
-description:
-  en: BetterMTL is free and open-source. <br/> Run by <a href='https://github.com/bettermtl/bettermtl.github.io/graphs/contributors'>contributors</a>.
-  fr: MieuxMTL est un logiciel libre. <br/> Géré par <a href='https://github.com/bettermtl/bettermtl.github.io/graphs/contributors'>contributeurs</a>.
-
-index:
-  en:
-  fr: accueil
-
-feed:
-  en: /feed.xml
-  fr: /flux.xml
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://bettermtl.com/" # the base hostname & protocol for your site
@@ -75,4 +74,4 @@ markdown: kramdown
 # Show future posts for future events.
 future: true
 
-permalink: /a/:title.html
+permalink: /p/:title.html

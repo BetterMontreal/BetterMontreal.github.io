@@ -1,5 +1,5 @@
-[![Stories in Ready](https://badge.waffle.io/bettermtl/bettermtl.github.io.png?label=ready&title=Ready)](https://waffle.io/bettermtl/bettermtl.github.io)
-[![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg?style=plastic)](https://gitter.im/bettermtl/general)
+[![BetterMTL](https://img.shields.io/badge/better-mtl-blue.svg)](http://bettermtl.com) [![Build Status](https://travis-ci.org/bettermtl/bettermtl.github.io.svg?branch=master)](https://travis-ci.org/bettermtl/bettermtl.github.io) [![Stories in progress](https://img.shields.io/waffle/label/bettermtl/bettermtl.github.io/in%20progress.svg)](https://waffle.io/bettermtl/bettermtl.github.io)
+[![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/bettermtl/general)
 
 # BetterMTL
 
@@ -7,12 +7,10 @@ Lets anyone contribute to a shared calendar of activities.
 
 [Add your activities](http://bettermtl.github.io/about/)
 
-
 ### Features here
 * Clean responsive layout
 * Easy to add events, by and for the community
 * Future and past events in one list
-
 
 ---
 
@@ -26,5 +24,4 @@ Access via: [http://localhost:4000](http://localhost:4000)
 ---
 
 ### Copyright and license
-
-[MIT license](/LICENSE).
+[MIT licensed](/LICENSE) data and code.

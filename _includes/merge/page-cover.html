@@ -1,0 +1,12 @@
+{% assign page_cover = page.cover %}
+{% unless page_cover %}
+  {% if page.layout == 'location' %}
+    {% assign views = site.locations | where: "ref", page.ref %}
+  {% endif %}
+  {% for view in views %}
+    {% unless page_cover %}
+      {% assign page_cover = view.cover %}
+      {% break %}
+    {% endunless %}
+  {% endfor %}
+{% endunless %}

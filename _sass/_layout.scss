@@ -4,17 +4,13 @@
 .site-header {
   border-top: 5px solid $grey-color-dark;
   border-bottom: 1px solid $grey-color-light;
-  min-height: 56px;
   // Positioning context for the mobile navigation icon
   position: relative;
 }
 
 .site-title {
-  font-size: 26px;
-  font-weight: 300;
-  line-height: 56px;
-  letter-spacing: -1px;
-  margin-bottom: 0;
+  font-weight: 600;
+  line-height: $nav-line-height;
   float: left;
   &,
   &:visited {
@@ -22,35 +18,50 @@
   }
 }
 
+nav a {
+  text-decoration: none;
+}
+
+nav li {
+  display: inline;
+  line-height: $nav-line-height;
+  &:last-child {
+    padding-right: 0;
+  }
+}
+
+nav li.current a {
+  color: #333;
+  font-weight: 600;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
 .site-nav {
   float: right;
-  line-height: 56px;
   .menu-icon {
     display: none;
   }
   .page-link {
     color: $text-color;
-    line-height: $base-line-height;
-    // Gaps between nav items, but not on the last one
+    line-height: $nav-line-height;
     &:not(:last-child) {
       margin-right: 20px;
     }
   }
   @include media-query($on-palm) {
-    position: absolute;
-    top: 9px;
     right: $spacing-unit / 2;
     background-color: $background-color;
-    border: 1px solid $grey-color-light;
-    border-radius: 5px;
     text-align: right;
     .menu-icon {
       display: block;
       float: right;
-      width: 36px;
-      height: 26px;
       line-height: 0;
-      padding-top: 10px;
+      padding-top: 8px;
       text-align: center;
       > svg {
         width: 18px;
@@ -70,11 +81,10 @@
     }
     .page-link {
       display: block;
-      padding: 5px 10px;
+      padding: 5px 0 0 10px;
       &:not(:last-child) {
         margin-right: 0;
       }
-      margin-left: 20px;
     }
     .button.button-primary{
       background: none;
@@ -85,6 +95,34 @@
         background:none;
       }
     }
+  }
+}
+
+.langs {
+  text-align: right;
+  height: 0; // push langs over cover magic
+  font-size: 0;
+  p, .lang {
+    display: inline;
+    background-color: rgba(255, 255, 255, 0.8);
+    top: 0;
+    font-size: $base-font-size;
+    padding: 6px;
+  }
+}
+
+.tagline {
+  height: 0;
+  padding: 0;
+  p {
+    top: -100px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    font-size: $base-font-size;
+    padding: 6px;
+    color: white;
+    margin: 0;
+    max-width: 75%;
   }
 }
 
@@ -103,7 +141,7 @@
 }
 
 .footer-heading {
-  font-size: 18px;
+  font-size: $base-font-size;
   margin-bottom: $spacing-unit / 2;
 }
 
@@ -114,7 +152,7 @@
 }
 
 .footer-col-wrapper {
-  font-size: 15px;
+  font-size: $base-font-size;
   color: $grey-color;
   margin-left: -$spacing-unit / 2;
   @extend %clearfix;
@@ -134,6 +172,12 @@
 .footer-col-right {
   width: -webkit-calc(33% - (#{$spacing-unit} / 2));
   width:         calc(33% - (#{$spacing-unit} / 2));
+}
+
+#mc-embedded-subscribe-form {
+  &.validate {
+    padding: 0;
+  }
 }
 
 @include media-query($on-laptop) {
@@ -165,7 +209,7 @@
 }
 
 .page-heading {
-  font-size: 20px;
+  font-size: $base-font-size;
 }
 
 .post{
@@ -187,11 +231,11 @@
 
 .post-link {
     display: block;
-    font-size: 24px;
+    font-size: $base-font-size;
 }
 
 .post-organizers-name{
-  color:grey;
+  color: grey;
 }
 
 /**
@@ -201,13 +245,12 @@
   margin-bottom: $spacing-unit;
 }
 
-.post-date{
+.post-date {
   margin: 10px 0 0 0;
   padding: 0;
 }
 
-.post-time{
-  line-height: 18px;
+.post-time {
 }
 
 .post-time, .post-organizers-name{
@@ -215,16 +258,11 @@
   color: #A6A6A6;
 }
 
-.post-title {
-  font-size: 42px;
-  letter-spacing: -1px;
-  line-height: 1;
+.title {
   word-wrap: break-word;
-  padding:0;
-  margin:0;
   width: 75%;
   @include media-query($on-laptop) {
-    font-size: 36px;
+    font-size: $base-font-size;
     width: 70%;
   }
   @include media-query($on-palm) {
@@ -232,29 +270,26 @@
   }
 }
 
-.post-content {
+.content {
   margin-bottom: $spacing-unit;
   h2 {
-    font-size: 32px;
-    @include media-query($on-laptop) {
-      font-size: 28px;
-    }
+    font-size: $base-font-size;
+    font-weight: 900;
+    color: lighten(white, 20%);
   }
   h3 {
-    font-size: 26px;
-    @include media-query($on-laptop) {
-      font-size: 22px;
-    }
+    font-size: $base-font-size;
+    font-weight: 700;
+    color: lighten(black, 30%);
   }
   h4 {
-    font-size: 20px;
-    @include media-query($on-laptop) {
-      font-size: 18px;
-    }
+    font-size: $base-font-size;
+    font-weight: 300;
+    color: lighten(black, 40%);
   }
 }
 
-.clearfix{
+.clearfix {
   &:before, &:after {
     content: " "; /* 1 */
     display: table; /* 2 */
@@ -264,31 +299,21 @@
   }
 }
 
-.blog-cover{
-  height: 320px;
+.cover {
+  height: 180px;
   background-size: cover;
   background-position: center center;
   z-index: 1;
   border-bottom:1px solid #E8E8E8;
   @include media-query($on-laptop) {
-    height: 250px;
+    height: 130px;
   }
   @include media-query($on-palm) {
-    height: 200px;
+    height: 100px;
   }
 }
 
-.blog-cover-credit {
-  color: #848484;
-  font-size: 10px;
-  letter-spacing: 1px;
-  text-align: right;
-  padding-right: 40px;
-  display: block;
-  margin-top: 5px;
-}
-
-.event-card {
+.activity-card, .location-card {
   color:white;
   border: 1px solid #372121;
   position: relative;
@@ -296,70 +321,63 @@
   background-position: center center;
   width: 30%;
   float: left;
-  margin: 20px 20px 0 0;
+  margin: 0 20px 20px 0;
   height: 100%;
   box-sizing: border-box;
   height: 180px;
-  border-radius: 3px;
-  background-color: #333;
-  box-shadow: 0 0 1px rgba(0,0,0,.05);
-  border: 1px solid #ddd;
-  -webkit-tap-highlight-color: transparent;
-  h2 {
-    position: absolute;
-    bottom: 0px;
-    left: 10px;
-    font-size: 20px;
-    z-index: 3;
-    span{
-      font-size: 14px;
-      display: block;
-    }
-  }
-}
-
-.location-card {
-  color:white;
-  border: 1px solid #372121;
-  position: relative;
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  float: left;
-  margin: 20px 20px 0 0;
-  height: 100%;
-  box-sizing: border-box;
-  height: 150px;
   border-radius: 3px;
   background-color: #333;
   box-shadow: 0 0 1px rgba(0, 0, 0, .05);
   border: 1px solid #ddd;
   -webkit-tap-highlight-color: transparent;
   h2 {
+    font-weight: $base-font-weight;
     position: absolute;
+    color: darken(white, 5%);
     bottom: 0px;
     left: 10px;
-    font-size: 20px;
     z-index: 3;
-    span{
-      font-size: 14px;
+    span {
       display: block;
+      font-size: $small-font-size;
+      color: darken(white, 25%);
     }
   }
 }
 
-.event-card-overlay {
+.location-card {
+  width: 100%;
+  h2 {
+    span {
+      display: inline;
+    }
+  }
+}
+
+.activity-card-overlay {
   z-index: 2;
   position: absolute;
   top: 0px;
   left: 0px;
   height: 100%;
   width: 100%;
-  line-height: 25px;
   word-wrap: break-word;
   background-color: rgba(0, 0, 0, 0);
-  background-image: -webkit-linear-gradient(rgba(15, 20, 31, 0) 0, rgba(15, 20, 31, .1) 25%, rgba(15, 20, 31, .8) 100%);
-  background-image: linear-gradient(rgba(15, 20, 31, 0) 0, rgba(15, 20, 31 ,.1) 25%, rgba(15, 20, 31, .8) 100%);
+  background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.7) 0, rgba(15, 20, 31, .1) 25%, rgba(15, 20, 31, .8) 100%);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.7) 0, rgba(15, 20, 31 ,.1) 25%, rgba(15, 20, 31, .8) 100%);
+}
+
+.activity-card-foreign-overlay {
+  z-index: 2;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  word-wrap: break-word;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.3) 0, rgba(100, 100, 100, .5) 50%, rgba(100, 100, 100, .8) 100%);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.8) 0, rgba(100, 100, 100,.5) 50%, rgba(100, 100, 100, .8) 100%);
 }
 
 .location-card-overlay {
@@ -369,7 +387,6 @@
   left: 0px;
   height: 100%;
   width: 100%;
-  line-height: 25px;
   word-wrap: break-word;
   background-color: rgba(0, 0, 0, 0);
   background-image: -webkit-linear-gradient(rgba(15, 20, 31, 0) 0, rgba(15, 20, 31, .3) 75%, rgba(15, 20, 31, .8) 100%);
@@ -378,27 +395,28 @@
 
 .author {
   position: absolute;
-  top: -250px;
+  top: -170px;
   right: 0px;
-  height: 160px;
-  width: 160px;
+  height: 120px;
+  width: 120px;
   border-radius: 2px;
   background-color: white;
   background-size: cover;
   box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.5);
   @include media-query($on-laptop) {
-    height: 140px;
-    width: 140px;
+    top: -120px;
+    height: 70px;
+    width: 70px;
   }
   @include media-query($on-palm) {
-    height: 100px;
-    width: 100px;
-    top: 0px;
+    height: 60px;
+    width: 60px;
+    top: 40px;
   }
 }
 
 @include media-query($on-laptop) {
-  .event-card {
+  .activity-card {
     margin-right:10px;
     width: -webkit-calc(50% - (#{$spacing-unit} / 2));
     width:         calc(50% - (#{$spacing-unit} / 2));
@@ -406,18 +424,9 @@
 }
 
 @include media-query($on-palm) {
-  .event-card {
+  .activity-card {
     float: none;
     width: -webkit-calc(100% - (#{$spacing-unit} / 2));
     width:         calc(100% - (#{$spacing-unit} / 2));
   }
-}
-
-.event-time-heading.fix-top{
-  margin-top:-10px;
-}
-
-.event-time-heading{
-  margin-bottom:0px;
-  margin-top:20px;
 }

@@ -1,0 +1,20 @@
+---
+layout: default
+cover: 'http://cdn.mtlblog.com/uploads/2014/04/13694776595_4b4c70226b_o.jpg'
+permalink: /locations/
+ref: locations
+lang: en
+---
+<div class="home">
+  <h1 class="title">Locations</h1>
+  {% assign locations=site.locations | where: "lang", page.lang %}
+  {% for location in locations %}
+    <a href="{{ location.url | prepend: site.baseurl }}">
+      {% capture location_cover %}{% include merge.html collection = "locations" ref = location.ref leaf="cover" default = 'http://evento.io/img/cover.jpg' %}{% endcapture %}
+      <div class="location-card" style="background-image:url({{location_cover}});">
+        <h2>{{ location.title }} &nbsp; <span>{{ location.address }}</span></h2>
+        <div class='location-card-overlay'></div>
+      </div>
+    </a>
+  {% endfor %}
+</div>

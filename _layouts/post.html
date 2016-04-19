@@ -6,31 +6,13 @@ layout: default
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
   <header class="post-header">
     <div class="improve right">
-      <a href="http://prose.io/#bettermtl/bettermtl.github.io/edit/master/{{ page.path }}"><i class="fa fa-pencil"></i> &nbsp;Improve this page</a>
+      <a href="http://prose.io/#bettermtl/bettermtl.github.io/edit/master/{{ page.path }}"><i class="fa fa-pencil"></i> &nbsp;{{site.data.dictionary[page.lang].improve-page}}</a>
     </div>
-    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-    <h3 class="post-date"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %} <span class="post-time">{{ page.start_time }} - {{ page.end_time }}</span></h3>
-    <h3 class="post-location">
-      {{ l_title }},
-      {{ l_room }}, {{ location.address }}
-    </h3>
+    <h1 class="title" itemprop="name headline">{{ page.title }}</h1>
+    <h3 class="post-date"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</h3>
   </header>
-    {% if organizer.photo %}
-      <div class="author" style="background-image:url({{ organizer.photo }});"></div>
-    {% endif %}
-    <div class="post-content" itemprop="articleBody">
+  <div class="content" itemprop="articleBody">
     {{content}}
-  </div>
-  <div>
-    {% if page.rsvp.more %}
-      <a href='{{ page.rsvp.more }}' class="button button-primary">More</a>
-    {% endif %}
-    {% if page.rsvp.purchase %}
-      <a href='{{ page.rsvp.purchase }}' class="button button-secondary">Purchase collateral</a>
-    {% endif %}
-    {% if page.rsvp.register %}
-      <a href='{{ page.rsvp.register }}' class="button button-secondary">Register</a>
-    {% endif %}
   </div>
   <div id="disqus_thread"></div>
   <script>

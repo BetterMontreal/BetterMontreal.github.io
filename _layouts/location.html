@@ -1,21 +1,21 @@
 ---
 layout: default
 ---
-{% assign organizer = site.data.community.[location.administrator[0]] %}
+{% assign admin = site.network | where: "ref", page.administrator | first %}
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
   <header class="post-header">
     <div class="improve right">
-      <a href="http://prose.io/#bettermtl/bettermtl.github.io/edit/master/{{ location.path }}"><i class="fa fa-pencil"></i> &nbsp;Improve this page</a>
+      <a href="http://prose.io/#bettermtl/bettermtl.github.io/edit/master/{{ location.path }}"><i class="fa fa-pencil"></i> &nbsp;{{site.data.dictionary[page.lang].improve-page}}</a>
     </div>
-    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-    {% if organizer.photo %}
-      <h3 class="post-organizers-name">By {{organizer.name}}</h3>
+    <h1 class="title" itemprop="name headline">{{ page.title }}</h1>
+    {% if admin.photo %}
+      <h3 class="post-admins-name">By {{admin.name}}</h3>
     {% endif %}
   </header>
-    {% if organizer.photo %}
-      <div class="author" style="background-image:url({{organizer.photo}});"></div>
+    {% if admin.photo %}
+      <div class="author" style="background-image:url({{admin.photo}});"></div>
     {% endif %}
-    <div class="post-content" itemprop="articleBody">
+    <div class="content" itemprop="articleBody">
     {{content}}
   </div>
   <div>

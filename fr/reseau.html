@@ -1,0 +1,16 @@
+---
+layout: default
+ref: network
+permalink: /reseau/
+---
+<div class="home">
+  <h1 class="title">Réseau</h1>
+  <ul class="post-list">
+    {% assign network=site.network %}
+    {% for node in network %}
+      <li>
+        <a class="post-link" href="{{ node.url | prepend: site.baseurl }}">{{ node.name }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
