@@ -5,9 +5,7 @@ layout: default
 {% assign organizer=site.network | where: "ref", page.organizer | first %}
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
   <header class="post-header">
-    <div class="improve right">
-      <a href="http://prose.io/#bettermtl/bettermtl.github.io/edit/master/{{ page.path }}"><i class="fa fa-pencil"></i> &nbsp;{{site.data.dictionary[page.lang].improve-page}}</a>
-    </div>
+    {% include page-edit.html %}
     <h1 class="title" itemprop="name headline">{{ page.title }}</h1>
     <h3 class="post-date"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</h3>
   </header>
