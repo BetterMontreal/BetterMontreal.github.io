@@ -7,9 +7,9 @@ ref: create
 lang: en
 published: true
 ---
-You and your friends can edit and create new activities on [bettermtl.com](http://bettermtl.com).
+You and your friends can edit and create new activities.
 
-To **edit** an activity, (maybe you spoted a spelling mistake?), simply follow the "Improve this page" link at the top of most pages.
+To **edit** an activity (did you spot a spelling mistake?) simply follow the "Improve this page" link at the top of most pages on [bettermtl.com](http://bettermtl.com).
 
 To **create** a new activity:
 - Create a *new file* in the  [`_activities`](https://github.com/bettermtl/bettermtl.github.io/tree/master/_activities) directory 
