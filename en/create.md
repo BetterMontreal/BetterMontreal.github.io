@@ -24,13 +24,13 @@ In a few moments, you'll see your changes appear on [bettermtl.com](http://bette
 {% highlight markdown %}
 ---
 ref: "reactjs-talk"
-title: "ReactJS new year resolutions"
+title: "Intro to ReactJS"
 cover: "https://i.imgur.com/rPyXMhl.png"
 date: "2017-01-02T17:30:00.000Z"
 start_time: "17:30"
 end_time: "21:00"
 organizer: js-montreal
-location: ovh
+location: notman
 categories: javascript talk react
 lang: "en"
 ---
@@ -59,11 +59,11 @@ Name the file in the following format: `YYYY-MM-DD-title.md`
 {% highlight markdown%}
 ---
 # reference must be unique, also links different translations together
-ref: new-activity-in-la-fontaine-park
+ref: "reactjs-talk"
 # title of the event
-title:  "Talk on ES6 JavaScript"
+title: "Intro to ReactJS"
 # url for cover photo [optional]
-cover: "https://frontendmasters.com/assets/es6-logo.png"
+cover: "https://i.imgur.com/rPyXMhl.png"
 # the date of the activity, should match filename date
 date: "2017-01-02T17:30:00.000Z"
 # what time does the activity start [optional]
@@ -71,9 +71,13 @@ start_time: "17:30"
 # what time does the activity end [optional]
 end_time: "21:00"
 # organizer ref(erence) defined in the _network directory [optional]
-organizer: paul-cuciureanu
+organizer: js-montreal
 # location ref(erence) defined in the _locations directory [optional]
 location: notman
+# type of activity, list categories [optional]
+categories: "javascript" "talk" "react"
+# language [optional], default is "fr" - ensure ref is the same for all translations
+lang: "en"
 ---
 {% endhighlight %}
 
