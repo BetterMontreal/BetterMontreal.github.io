@@ -31,7 +31,7 @@ start_time: "17:30"
 end_time: "21:00"
 organizer: js-montreal
 location: ovh
-categories: lean stratégie entreprise atelier
+categories: javascript talk react
 lang: "en"
 ---
 Happy new year, JS'ers!
