@@ -83,7 +83,7 @@ Write your content using markdown right bellow the file config (also known as fr
 
 ## Get more involved:
 
-- [Chat with us on gitter](https://gitter.im/bettermtl/general)
+- [Chat with the community on gitter](https://gitter.im/bettermtl/general)
 - Locations (in <code class="highlighter-rouge"><a href="https://github.com/bettermtl/bettermtl.github.io/tree/master/_locations" target="_blank">_locations</a></code>) and people (in <code class="highlighter-rouge"><a href="https://github.com/bettermtl/bettermtl.github.io/tree/master/_network" target="_blank">_network</a></code>) work similarly to activities (in <code class="highlighter-rouge"><a href="https://github.com/bettermtl/bettermtl.github.io/tree/master/_activities" target="_blank">_activities</a></code>)
 - [Submit new issues or comments on waffle](https://waffle.io/bettermtl/bettermtl.github.io)
 - [Clone the bettermtl.github.io repository](https://github.com/bettermtl/bettermtl.github.io) locally to your machine and hack away at the code.
