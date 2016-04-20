@@ -25,7 +25,7 @@ Copy/paste to your new activity
 ---
 ref: "reactjs-talk"
 title: "ReactJS new year resolutions"
-cover: "http://blog.addthiscdn.com/wp-content/uploads/2014/11/addthis-react-flux-javascript-scaling.png"
+cover: "https://i.imgur.com/rPyXMhl.png"
 date: "2017-01-02T17:30:00.000Z"
 start_time: "17:30"
 end_time: "21:00"
