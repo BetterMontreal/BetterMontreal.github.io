@@ -14,13 +14,11 @@ To **edit** an activity (did you spot a spelling mistake?) simply follow the *Im
 To **create** a new activity:
 
 - Create a **New file** in the <a href="https://github.com/bettermtl/bettermtl.github.io/tree/master/_activities" target="_blank">_activities</a> directory
-- Copy the example post bellow to get a head start, and delete the specific details which you cannot specify at this time, e.g.: `location` or `end_time`
+- Copy the example post bellow to get a head start, you can delete the optional details which you cannot specify at this time, for example if you don't know the `location` of the event yet
 - Ensure the file name has the `.md` ending
 - **Commit changes** to save. In a few moments you'll see it live on [bettermtl.com](http://bettermtl.com)
 
 ## Example activity
-Copy/paste to your new activity
-
 {% highlight markdown %}
 ---
 ref: "reactjs-talk"
@@ -46,7 +44,7 @@ Agenda
 {% endhighlight %}
 
 # The different lines explained
-At the top of the file between `---` and `---` specify the front-matter, this structured data tells [jekyll](jekyllrb.com) (the static site generator used to create [bettermtl.com](http://bettermtl.com)) how to handle the new file.
+Specify cofiguration details at the top between `---` and `---`. This structured data tells [jekyll](jekyllrb.com) (the static site generator used to create [bettermtl.com](http://bettermtl.com)) how to process the file.
 
 Name the file in the following format: `YYYY-MM-DD-title.md`
 
@@ -79,7 +77,7 @@ location: notman
 
 ## Activity content
 
-Write your content using markdown right bellow the front-matter config.
+Write your content using markdown right bellow the file config (also known as front-matter data).
 
 ## Don't stop here!
 Locations (in `_locations`) and people (in `_network`) work similarly to activities (in `_activities`).
@@ -89,4 +87,6 @@ Feeling confident? How to get even more involved:
 - [submit new issues or comments on waffle](https://waffle.io/bettermtl/bettermtl.github.io)
 - [clone the bettermtl.github.io repository](https://github.com/bettermtl/bettermtl.github.io) locally to your machine and hack away at the code.
 
-Thank you for being an active contributor! The whole of Montreal appreciates your efforts :-)
+You are an active [contributor](https://github.com/bettermtl/bettermtl.github.io/graphs/contributors).
+
+Montrealers appreciate your help! :-)
