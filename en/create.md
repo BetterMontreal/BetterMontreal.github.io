@@ -7,87 +7,85 @@ ref: create
 lang: en
 published: true
 ---
-Adding a topic or event
+You and your friends can edit and create new activities on [bettermtl.com](http://bettermtl.com).
 
-Copy an existing post in the  `_posts` directory to get started. Delete the specific details and leave empty (blank) the parts that you cannot specify. To create a topic you'll leave empty lines after the date and time lines. You can leave other lines empty too: location, sponsor, organizer, etc.
+To *edit* an activity, (maybe you spoted a spelling mistake?), simply follow the "Improve this page" link at the top of most pages.
 
-Relabel your file, keeping the .md ending. Add your .md file into the `_posts` directory. 
+To *create* a new activity:
+- Create a *new file* in the  [`_activities`](https://github.com/bettermtl/bettermtl.github.io/tree/master/_activities) directory 
+- Copy the example post bellow to get a head start, and delete the specific details which you cannot specify at this time (maybe location, or time)
+- Ensure the file name has the `.md` ending
+- You must commit the new file to save the post. In a few moments you'll see it live on [bettermtl.com](http://bettermtl.com)
 
-Give your new post a file name in the following format:
+## Example activity
+Copy/paste to your new activity
 
-{% highlight markdown%}
-YYYY-MM-DD-title.md
-# Example 2017-01-02-Hot-Topic-Right-After-New-Year.md
-{% endhighlight %}
-
-If your post is to be a topic, choose a file name that has a date that is many weeks or months in the future. This is for the file name. It helps to set a target for date of an eventual in-person meeting activity.
-
-# Config for posts
-{% highlight markdown%}
+{% highlight markdown %}
 ---
-# leave this alone
-layout: post
-
-# Whats the title of your event.
-title:  "Talk on ES6 JavaScript"
-
-# Url to your cover photo for your event. [optional - default will be used if not given]cover: "https://frontendmasters.com/assets/es6-logo.png"
-
-#The date of the event.
-date:   2016-02-01 16:04:19 +0000
-
-#Start time of the event
-start_time: "12:00"
-
-#end time of the event
-end_time: "13:00"
-
-#event organizer details
-
-#event organizer details
-organizer: "Paul Cuciureanu"
-
-#Make sure you setup your Organiser details in the _data directory in the community.yml file
-
----
-{% endhighlight %}
-
-## Post content
-
-After you have setup your config, all you need to do now is write your content using markdown.
-
-## Example Post
-
-{% highlight markdown%}
----
-layout: post
-
-#event information
-title:  "ReactJS"
+ref: "reactjs-talk"
+title: "ReactJS new year resolutions"
 cover: "http://blog.addthiscdn.com/wp-content/uploads/2014/11/addthis-react-flux-javascript-scaling.png"
-date:   2016-03-28
-start_time: "12:00"
-end_time: "13:00"
-
-#event organizer details
-organizer_email: "david.boyne@test.com"
-organizer_name : "David Boyne"
-organizer_photo: "https://pbs.twimg.com/profile_images/660943257795457030/igA_joVD.jpg"
-
+date: "2017-01-02T17:30:00.000Z"
+start_time: "17:30"
+end_time: "21:00"
+organizer: js-montreal
+location: ovh
+categories: lean stratégie entreprise atelier
+lang: "en"
 ---
+Happy new year, JS'ers!
 
-I will be doing a small talk on an Introduction into ReactJS. We will cover the following:
+Agenda
 
 - What is React?
-- How to get setup with React.
-- How to get building React Apps.
-- Bundle your application
-- Release your application
+- Your first ReactJS app
+- Bundle and release
 
-If this sounds interesting please register your interest below.
-
-
+[Register here](http://eventbrite.com)
 {% endhighlight %}
 
-## Thats all folks
-Thats all you need to do. Once the website is built again using `jekyll build` or `jekyll serve` your new event will be shown.
+# The different lines explained
+At the top of the file between `---` and `---` specify the front-matter, this structured data tells [jekyll](jekyllrb.com) (the static site generator used to create [bettermtl.com](http://bettermtl.com)) how to handle the new file.
+
+Name the file in the following format: `YYYY-MM-DD-title.md`
+
+{% highlight markdown %}
+# Example of activity file name
+2017-01-02-hot-topic-tight-after-new-year.md
+{% endhighlight %}
+
+# Config for activities
+{% highlight markdown%}
+---
+# reference must be unique, also links different translations together
+ref: new-activity-in-la-fontaine-park
+# title of the event
+title:  "Talk on ES6 JavaScript"
+# url for cover photo [optional]
+cover: "https://frontendmasters.com/assets/es6-logo.png"
+# the date of the activity, should match filename date
+date: "2017-01-02T17:30:00.000Z"
+# what time does the activity start
+start_time: "17:30"
+# what time does the activity end
+end_time: "21:00"
+# organizer ref(erence) defined in the _network directory
+organizer: paul-cuciureanu
+# location ref(erence) defined in the _locations directory
+location: notman
+---
+{% endhighlight %}
+
+## Activity content
+
+Write your content using markdown right bellow the front-matter config.
+
+## Don't stop here
+Locations (in `_locations`) and people/organizational nodes (in `_network`) work in the same way.
+
+Built up your confidence? How to get even more involved:
+- [chat with us on gitter](https://gitter.im/bettermtl/general)
+- [submit new issues or comments on waffle](https://waffle.io/bettermtl/bettermtl.github.io)
+- [clone the bettermtl.github.io repository](https://github.com/bettermtl/bettermtl.github.io) locally to your machine and hack away at the code.
+
+Thank you for being an active contributor!
