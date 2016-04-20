@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Create topic or event activity
+title: Create activity
 permalink: /create/
 button: true
 ref: create
