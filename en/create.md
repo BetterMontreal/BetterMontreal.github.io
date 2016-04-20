@@ -88,4 +88,4 @@ Write your content using markdown right bellow the file config (also known as fr
 - [Submit new issues or comments on waffle](https://waffle.io/bettermtl/bettermtl.github.io)
 - [Clone the repository](https://github.com/bettermtl/bettermtl.github.io) and hack away at the code, send pull-requests
 
-Fantastic, you are now an active [contributor](https://github.com/bettermtl/bettermtl.github.io/graphs/contributors) - thanks!
+Fantastic, you are now an [active contributor](https://github.com/bettermtl/bettermtl.github.io/graphs/contributors) - thanks much!
