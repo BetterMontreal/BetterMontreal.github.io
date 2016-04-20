@@ -3,59 +3,75 @@ title:
   en: BetterMTL
   fr: CapMTL
   ru: ЛучшеMTL
-
+  ar: Mtlأفضل
 description:
   en: BetterMTL is free and open-source. <br/> Run by <a href='https://github.com/bettermtl/bettermtl.github.io/graphs/contributors'>contributors</a>.
   fr: CapMTL est un logiciel libre. <br/> Géré par <a href='https://github.com/bettermtl/bettermtl.github.io/graphs/contributors'>contributeurs</a>.
   ru: ЛучшеMTL является бесплатным и открытыми исходными. <br/> Созданный <a href='https://github.com/bettermtl/bettermtl.github.io/graphs/contributors'>участниками</a>.
-
+  ar: أفضل هو الحرة والمفتوحة المصدرMTL <br/> <a href='https://github.com/bettermtl/bettermtl.github.io/graphs/contributors'> تنتج المشاركين المتطوعين</a>.
 navigation:
   fr:
-  - title: Activité
+  - title: Activités
     url: /
-  - title: Réseau
-    url: /reseau/
+  - title: PublierNouveau
+    url: /creer/
   - title: Endroits
     url: /endroits/
+  - title: Réseau
+    url: /reseau/
   - title: Blogue
     url: /blogue/
   - title: À propos
     url: /a-propos/
-  - title: Publier
-    url: /creer/
   en:
-  - title: Activity
+  - title: Posted_Events_Activities
     url: /welcome/
+  - title: CreateNew
+    url: /create/
+  - title: Places
+    url: /locations/
   - title: Network
     url: /network/
-  - title: Locations
-    url: /locations/
   - title: Blog
     url: /blog/
   - title: About
     url: /about/
-  - title: Create
-    url: /create/
   ru:
-  - title: Мероприятия
+  - title: Cобытии
     url: /welcome/
-  - title: Сетевая
-    url: /network/
-  - title: Место проживания
+  - title: Создайте Новое сообщение Новая тема
+    url: /create/
+  - title: Место
     url: /locations/
+  - title: Сеть
+    url: /network/
   - title: Блог
     url: /blog/
   - title: Около
     url: /about/
-  - title: Создайте
+ar:
+  - title: أحداث
+    url: /welcome/
+  - title: موضع   مشاركة جديد 
     url: /create/
-
+  - title: مكان
+    url: /locations/
+  - title: شبكة
+    url: /network/
+  - title: بلوق
+    url: /blog/
+  - title: حول
+    url: /about/
 en:
-  improve-page: "Improve this page"
+  improve-page: "Improve page"
   get-news: "Get the news"
 fr:
-  improve-page: "Améliorer cette page"
+  improve-page: "Améliorer la page"
   get-news: "Recevoir les nouvelles"
 ru:
-  improve-page: "Улучшить эту страницу"
+  improve-page: "Улучшить страницу"
   get-news: "Подписка на новости"
+ar:
+  improve-page: "الصفحة تحسين"
+  get-news: "الاشتراك في الأخبار"
+
