@@ -51,7 +51,7 @@ Name the file in the following format: `YYYY-MM-DD-title.md`
 
 {% highlight markdown %}
 # Example of activity file name
-2017-01-02-hot-topic-tight-after-new-year.md
+2017-01-02-reactjs-talk.md
 {% endhighlight %}
 
 # Config for activities
@@ -80,12 +80,12 @@ location: notman
 
 Write your content using markdown right bellow the front-matter config.
 
-## Don't stop here
-Locations (in `_locations`) and people/organizational nodes (in `_network`) work in the same way.
+## Don't stop here!
+Locations (in `_locations`) and people (in `_network`) work similarly to activities (in `_activities`).
 
-Built up your confidence? How to get even more involved:
+Feeling confident? How to get even more involved:
 - [chat with us on gitter](https://gitter.im/bettermtl/general)
 - [submit new issues or comments on waffle](https://waffle.io/bettermtl/bettermtl.github.io)
 - [clone the bettermtl.github.io repository](https://github.com/bettermtl/bettermtl.github.io) locally to your machine and hack away at the code.
 
-Thank you for being an active contributor!
+Thank you for being an active contributor! The whole of Montreal appreciates your efforts :-)
