@@ -81,14 +81,12 @@ location: notman
 
 Write your content using markdown right bellow the file config (also known as front-matter data).
 
-## Feeling confident? Don't stop here!
+## Get more involved:
 
-Locations (in `_locations`) and people (in `_network`) work similarly to activities (in `_activities`).
-
-Here's how to get even more involved:
-- [chat with us on gitter](https://gitter.im/bettermtl/general)
-- [submit new issues or comments on waffle](https://waffle.io/bettermtl/bettermtl.github.io)
-- [clone the bettermtl.github.io repository](https://github.com/bettermtl/bettermtl.github.io) locally to your machine and hack away at the code.
+- [Chat with us on gitter](https://gitter.im/bettermtl/general)
+- Locations (in <code class="highlighter-rouge"><a href="https://github.com/bettermtl/bettermtl.github.io/tree/master/_locations" target="_blank">_locations</a></code>) and people (in <code class="highlighter-rouge"><a href="https://github.com/bettermtl/bettermtl.github.io/tree/master/_network" target="_blank">_network</a></code>) work similarly to activities (in <code class="highlighter-rouge"><a href="https://github.com/bettermtl/bettermtl.github.io/tree/master/_activities" target="_blank">_activities</a></code>)
+- [Submit new issues or comments on waffle](https://waffle.io/bettermtl/bettermtl.github.io)
+- [Clone the bettermtl.github.io repository](https://github.com/bettermtl/bettermtl.github.io) locally to your machine and hack away at the code.
 
 Great, you are now an active [contributor](https://github.com/bettermtl/bettermtl.github.io/graphs/contributors).
 
