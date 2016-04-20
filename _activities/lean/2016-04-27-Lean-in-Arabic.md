@@ -10,8 +10,7 @@ published: true
 categories: ورشة عمل استراتيجية العجاف
 lang: ar
 ---
-ورشة
-Enough talk already. The best way to learn Lean Startup (or to be an entrepreneur) is to just do it!
+ورشة Enough talk already. The best way to learn Lean Startup (or to be an entrepreneur) is to just do it!
 
 In this mini-workshop, we'll focus on the following:
 
@@ -21,8 +20,8 @@ In this mini-workshop, we'll focus on the following:
 
 This mini-workshop will give you acces to Lean Startup coaches as well as the brain and entrepreneurial power of other participants.
 
-Given we have a limited number of coaches this mini-workshop will be limited to 16 participants so reserve you spot now!
+Given we have a limited number of coaches this mini-workshop will be limited to 16 participants so reserve your spot now!
 
-Pizza & drinks will be served.
+Pizza & drinks served.
 ورشة عمل استراتيجية العجاف
 More details to come.
