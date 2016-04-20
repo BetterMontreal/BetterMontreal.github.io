@@ -1,4 +1,3 @@
-
 # Site settings
 title:
   en: BetterMTL
@@ -53,7 +52,7 @@ navigation:
 ar:
   - title: أحداث
     url: /welcome/
-  - title: موضع   مشاركة جديد  
+  - title: موضع   مشاركة جديد 
     url: /create/
   - title: مكان
     url: /locations/
@@ -75,3 +74,4 @@ ru:
 ar:
   improve-page: "الصفحة تحسين"
   get-news: "الاشتراك في الأخبار"
+
