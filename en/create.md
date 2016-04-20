@@ -13,7 +13,7 @@ To **edit** an activity (did you spot a spelling mistake?) simply follow the *Im
 
 To **create** a new activity:
 
-- Create a **New file** in the <a href="https://github.com/bettermtl/bettermtl.github.io/tree/master/_activities" target="_blank">_activities</a> directory
+- Create a **New file** in the <code class="highlighter-rouge"><a href="https://github.com/bettermtl/bettermtl.github.io/tree/master/_activities" target="_blank">_activities</a></code> directory
 - Copy the example activity bellow to get a head start, you can delete the `[optional]` details which you cannot specify at this time, for example you may not know the `location` yet - come back later to edit and update the activity
 - Ensure the file name has the `.md` ending
 - **Commit changes** to save
