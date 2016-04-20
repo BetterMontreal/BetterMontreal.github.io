@@ -66,13 +66,13 @@ title:  "Talk on ES6 JavaScript"
 cover: "https://frontendmasters.com/assets/es6-logo.png"
 # the date of the activity, should match filename date
 date: "2017-01-02T17:30:00.000Z"
-# what time does the activity start
-start_time: "17:30"
-# what time does the activity end
+# what time does the activity start [optional]
+start_time: "17:30" 
+# what time does the activity end [optional]
 end_time: "21:00"
-# organizer ref(erence) defined in the _network directory
+# organizer ref(erence) defined in the _network directory [optional]
 organizer: paul-cuciureanu
-# location ref(erence) defined in the _locations directory
+# location ref(erence) defined in the _locations directory [optional]
 location: notman
 ---
 {% endhighlight %}
@@ -86,8 +86,6 @@ Write your content using markdown right bellow the file config (also known as fr
 - [Chat with the community on gitter](https://gitter.im/bettermtl/general)
 - Locations (in <code class="highlighter-rouge"><a href="https://github.com/bettermtl/bettermtl.github.io/tree/master/_locations" target="_blank">_locations</a></code>) and people (in <code class="highlighter-rouge"><a href="https://github.com/bettermtl/bettermtl.github.io/tree/master/_network" target="_blank">_network</a></code>) work similarly to activities (in <code class="highlighter-rouge"><a href="https://github.com/bettermtl/bettermtl.github.io/tree/master/_activities" target="_blank">_activities</a></code>)
 - [Submit new issues or comments on waffle](https://waffle.io/bettermtl/bettermtl.github.io)
-- [Clone the bettermtl.github.io repository](https://github.com/bettermtl/bettermtl.github.io) locally to your machine and hack away at the code.
+- [Clone the repository](https://github.com/bettermtl/bettermtl.github.io) and hack away at the code, send pull-requests
 
-Great, you are now an active [contributor](https://github.com/bettermtl/bettermtl.github.io/graphs/contributors).
-
-Montrealers all around town appreciate your wonderful help! :-)
+Fantastic, you are now an active [contributor](https://github.com/bettermtl/bettermtl.github.io/graphs/contributors) - thanks!
