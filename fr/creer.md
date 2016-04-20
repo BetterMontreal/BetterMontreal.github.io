@@ -2,15 +2,14 @@
 layout: page
 title: Publier un sujet ou événement
 permalink: /creer/
-button: true
 ref: create
 published: true
 ---
 Ajouter un sujet ou événement
 
-Copiez un fichier .md parmi ceux que vous verrez dans le directory `_posts`, changez tous les détails concernés et sauvegardez-le dans le même directory. Laissez vide les champs où vous n'aurez pas de réponse. Par exemple, vous pourrez ne donner ni lieu, ni commanditaire, ni organisateur. 
+Copiez un fichier .md parmi ceux que vous verrez dans le directory `_posts`, changez tous les détails concernés et sauvegardez-le dans le même directory. Laissez vide les champs où vous n'aurez pas de réponse. Par exemple, vous pourrez ne donner ni lieu, ni commanditaire, ni organisateur.
 
-Donc, **pour créer un sujet**, ne donnez ni date ni heure. 
+Donc, **pour créer un sujet**, ne donnez ni date ni heure.
 
 Lorsque vous sauvegardez votre nouveau fichier .md dans le directory `_posts` vous devez donner un nom au fichier selon le format suivant :
 {% highlight markdown%}

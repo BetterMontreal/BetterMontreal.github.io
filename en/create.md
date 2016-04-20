@@ -2,7 +2,6 @@
 layout: page
 title: Create activity
 permalink: /create/
-button: true
 ref: create
 lang: en
 published: true
