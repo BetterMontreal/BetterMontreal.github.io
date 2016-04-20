@@ -1,9 +1,9 @@
 # Site settings
 title:
-  en: BetterMTL
-  fr: CapMTL
-  ru: ЛучшеMTL
-  ar: Mtlأفضل
+  en: "BetterMTL"
+  fr: "CapMTL"
+  ru: "ЛучшеMTL"
+  ar: "MTLأفضل"
 description:
   en: BetterMTL is free and open-source. <br/> Run by <a href='https://github.com/bettermtl/bettermtl.github.io/graphs/contributors'>contributors</a>.
   fr: CapMTL est un logiciel libre. <br/> Géré par <a href='https://github.com/bettermtl/bettermtl.github.io/graphs/contributors'>contributeurs</a>.
@@ -11,56 +11,56 @@ description:
   ar: أفضل هو الحرة والمفتوحة المصدرMTL <br/> <a href='https://github.com/bettermtl/bettermtl.github.io/graphs/contributors'> تنتج المشاركين المتطوعين</a>.
 navigation:
   fr:
-  - title: Activités
+  - label_name: "Activités"
     url: /
-  - title: PublierNouveau
+  - label_name: "Publier nouveau"
     url: /creer/
-  - title: Endroits
+  - label_name: "Endroits"
     url: /endroits/
-  - title: Réseau
+  - label_name: "Réseau"
     url: /reseau/
-  - title: Blogue
+  - label_name: "Blogue"
     url: /blogue/
-  - title: À propos
+  - label_name: "À propos"
     url: /a-propos/
   en:
-  - title: Posted_Events_Activities
+  - label_name: "Activities"
     url: /welcome/
-  - title: CreateNew
+  - label_name: "Create New"
     url: /create/
-  - title: Places
+  - label_name: "Places"
     url: /locations/
-  - title: Network
+  - label_name: "Network"
     url: /network/
-  - title: Blog
+  - label_name: "Blog"
     url: /blog/
-  - title: About
+  - label_name: "About"
     url: /about/
   ru:
-  - title: Cобытии
+  - label_name: "Cобытии"
     url: /welcome/
-  - title: Создайте Новое сообщение Новая тема
+  - label_name: "Создайте Новое сообщение Новая тема"
     url: /create/
-  - title: Место
+  - label_name: "Место"
     url: /locations/
-  - title: Сеть
+  - label_name: "Сеть"
     url: /network/
-  - title: Блог
+  - label_name: "Блог"
     url: /blog/
-  - title: Около
+  - label_name: "Около"
     url: /about/
-ar:
-  - title: أحداث
+  ar:
+  - label_name: "أحداث"
     url: /welcome/
-  - title: موضع   مشاركة جديد 
+  - label_name: "موضع   مشاركة جديد"
     url: /create/
-  - title: مكان
+  - label_name: "مكان"
     url: /locations/
-  - title: شبكة
+  - label_name: "شبكة"
     url: /network/
-  - title: بلوق
+  - label_name: "بلوق"
     url: /blog/
-  - title: حول
+  - label_name: "حول"
     url: /about/
 en:
   improve-page: "Improve page"
@@ -74,4 +74,3 @@ ru:
 ar:
   improve-page: "الصفحة تحسين"
   get-news: "الاشتراك في الأخبار"
-

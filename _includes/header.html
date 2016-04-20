@@ -17,7 +17,7 @@
               {% assign current = 'current' %}
             {% endif %}
             <li class="page-link element {% if forloop.first %}first{% endif %} {{ current }} {% if forloop.last %}last{% endif %}">
-              <a href="{{ link.url }}">{{ link.title }}</a>
+              <a href="{{ link.url }}">{{ link.label_name }}</a>
             </li>
           {% endfor %}
         </ul>

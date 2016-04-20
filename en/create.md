@@ -2,7 +2,6 @@
 layout: page
 title: Create activity
 permalink: /create/
-button: true
 ref: create
 lang: en
 published: true
@@ -67,7 +66,7 @@ cover: "https://i.imgur.com/rPyXMhl.png"
 # the date of the activity, should match filename date
 date: "2017-01-02T17:30:00.000Z"
 # what time does the activity start [optional]
-start_time: "17:30" 
+start_time: "17:30"
 # what time does the activity end [optional]
 end_time: "21:00"
 # organizer ref(erence) defined in the _network directory [optional]
@@ -85,10 +84,13 @@ lang: "en"
 
 Write your content using markdown right bellow the file config (also known as front-matter data).
 
-## Get more involved:
+## Get involved
 
-- [Chat with the community on gitter](https://gitter.im/bettermtl/general)
+(in order of difficulty ☺)
+
+- [Chat with us on gitter](https://gitter.im/bettermtl/general) - anyone can do this!
 - Locations (in <code class="highlighter-rouge"><a href="https://github.com/bettermtl/bettermtl.github.io/tree/master/_locations" target="_blank">_locations</a></code>) and people (in <code class="highlighter-rouge"><a href="https://github.com/bettermtl/bettermtl.github.io/tree/master/_network" target="_blank">_network</a></code>) work similarly to activities (in <code class="highlighter-rouge"><a href="https://github.com/bettermtl/bettermtl.github.io/tree/master/_activities" target="_blank">_activities</a></code>)
+- Add a translation: create new file, use same `ref` and add the `lang` attribute in the front-matter, e.g.: `"en"` for English (`lang` defaults to `"fr"` when not specified)
 - [Submit new issues or comments on waffle](https://waffle.io/bettermtl/bettermtl.github.io)
 - [Clone the repository](https://github.com/bettermtl/bettermtl.github.io) and hack away at the code, send pull-requests
 
