@@ -1,5 +1,5 @@
 ---
-ref: "pwl-medcouple"
+ref: "pwl-practical-reasoning"
 title: "The medcouple — a robust measure of skewness"
 cover: "http://photos3.meetupstatic.com/photos/theme_body/2/b/d/6/full_6071222.jpeg"
 date: "2016-04-02T18:30:00.000Z"
