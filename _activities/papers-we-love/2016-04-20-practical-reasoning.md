@@ -1,7 +1,7 @@
 ---
 ref: "pwl-practical-reasoning"
 title: "Practical Reasoning with Qualified Number Restrictions"
-cover: "http://photos3.meetupstatic.com/photos/theme_body/2/b/d/6/full_6071222.jpeg"
+cover: "http://i.imgur.com/IeRqnxZ.png"
 date: "2016-04-02T18:30:00.000Z"
 start_time: "18:30"
 end_time: "20:30"
