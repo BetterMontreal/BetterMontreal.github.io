@@ -9,7 +9,7 @@ permalink: /reseau/
     {% assign network=site.network %}
     {% for node in network %}
       <li>
-        <a class="post-link" href="{{ node.url | prepend: site.baseurl }}">{{ node.name }}</a>
+        <a class="post-link" href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}</a>
       </li>
     {% endfor %}
   </ul>

@@ -1,17 +1,15 @@
 ---
-title: Digital Prototyping
+ref: "samergo-workshop-digital-prototyping"
+title: "Digital Prototyping"
 cover: "http://tubikstudio.com/wp-content/uploads/2016/03/tubikstudio-ui-ux-design.jpg"
-date: "2016-04-18T17:30:00.000Z"
+date: "2016-05-23T17:30:00.000Z"
 start_time: "17:30"
 end_time: "20:15"
-location: "inside the Salon 1861, 550 rue Richmond, Montréal, QC"
-organizer: SamErgo
-published: true
-rsvp:
-  register: "http://www.eventbrite.com/"
-ref: "samergo-workshop-digital-prototyping"
+organizer: "samergo"
+location: "socent"
+link_register: "http://www.eventbrite.com/"
 categories: design ux prototyping workshop
-lang: en
+lang: "en"
 ---
 How to improve the UI? Build higher-fidelity mock-ups and demo your killer UX to gain new key insights.
 
