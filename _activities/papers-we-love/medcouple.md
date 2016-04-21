@@ -10,6 +10,6 @@ location: adgear
 categories: talk research "papers we love"
 lang: "en"
 ---
-Jordi Gutiérrez Hermoso has kindly offered to present Brys, Hubert, and Struyf's A robust measure of skewness, also known as the medcouple, with a focus on the algorithm for its computation. Details to follow.
+Jordi Gutiérrez Hermoso has kindly offered to present Brys, Hubert, and Struyf's [A robust measure of skewness](https://wis.kuleuven.be/stat/robust/papers/2004/medcouple.pdf), also known as the [medcouple](https://en.wikipedia.org/wiki/Medcouple), with a focus on the algorithm for its computation. Details to follow.
 
 [Register here](http://www.meetup.com/Papers-We-Love-Montreal/events/230513727/)
