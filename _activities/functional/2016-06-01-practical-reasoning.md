@@ -1,13 +1,13 @@
 ---
-ref: "pwl-practical-reasoning"
-title: "Practical Reasoning with Qualified Number Restrictions"
-cover: "http://photos3.meetupstatic.com/photos/theme_body/2/b/d/6/full_6071222.jpeg"
-date: "2016-04-02T18:30:00.000Z"
+ref: "functional-discuss"
+title: "Discuss Functional Programming"
+cover: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Lambda-logo.svg/2000px-Lambda-logo.svg.png"
+date: "2016-06-01T18:30:00.000Z"
 start_time: "18:30"
 end_time: "20:30"
-organizer: "pwlmtl"
+organizer: "func-mtl"
 location: "adgear"
-categories: talk research papers-we-love
+categories: talk discussion programming functional
 lang: "en"
 ---
 Elena Vlasenko will present Farsiniamarj and Haarslev's [Practical Reasoning with Qualified Number Restrictions: A Hybrid Abox Calculus for the Description Logic SHQ](http://users.encs.concordia.ca/~haarslev/publications/AICom2010.pdf).
