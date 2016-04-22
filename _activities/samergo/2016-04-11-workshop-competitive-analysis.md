@@ -9,7 +9,7 @@ organizer: "samergo"
 location: "socent"
 link_register: "http://www.eventbrite.com/"
 categories: design ux prototyping workshop
-lang: "fr"
+lang: "en"
 ---
 Who else does what you do? Something similar? Find and analyze them. Steal one of their best features to better position your project's value proposition.
 
