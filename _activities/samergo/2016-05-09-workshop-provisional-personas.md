@@ -1,17 +1,15 @@
 ---
+ref: "samergo-workshop-provisional-personas"
 title: "Provisional Personas"
 cover: "https://i.imgur.com/0B6m3dT.png"
 date: "2016-05-09T17:30:00.000Z"
 start_time: "17:30"
 end_time: "20:15"
-location: "inside the Salon 1861, 550 rue Richmond, Montréal, QC"
-organizer: SamErgo
-published: true
-rsvp:
- register: http://www.eventbrite.com/
-ref: samergo-workshop-provisional-personas
+organizer: "samergo"
+location: "socent"
+link_register: "http://www.eventbrite.com/"
 categories: design ux prototyping workshop
-lang: en
+lang: "en"
 ---
 Use empathy maps and design thinking to build your provisional user personas.
 

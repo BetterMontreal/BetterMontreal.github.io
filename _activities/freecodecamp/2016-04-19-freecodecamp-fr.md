@@ -1,7 +1,7 @@
 ---
 title: FreeCodeCamp Montreal
 ref: freecodecamp
-date: "2016-09-19T18:00:00.000Z"
+date: "2016-05-10T18:00:00.000Z"
 start_time: "17:30"
 end_time: "21:00"
 location: d3

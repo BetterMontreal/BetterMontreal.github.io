@@ -1,17 +1,15 @@
 ---
+ref: "samergo-workshop-ux-prototyping"
 title: "UX Prototyping"
 cover: "http://najux.com/img/portfolio/trello/sketches.jpg"
-date: "2016-05-02T17:30:00.000Z"
+date: "2016-06-06T17:30:00.000Z"
 start_time: "17:30"
 end_time: "20:15"
-location: "inside the Salon 1861, 550 rue Richmond, Montréal, QC"
-organizer: SamErgo
-published: true
-rsvp:
- register: http://www.eventbrite.com/
-ref: samergo-workshop-ux-prototyping
+organizer: "samergo"
+location: "socent"
+link_register: "http://www.eventbrite.com/"
 categories: design ux prototyping workshop
-lang: en
+lang: "en"
 ---
 Who else does what you do? Research and analyse the competition to better position your project's value proposition.
 

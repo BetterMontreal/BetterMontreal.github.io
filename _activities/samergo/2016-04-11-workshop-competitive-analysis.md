@@ -1,17 +1,15 @@
 ---
-title: Competitive Analysis
+ref: "samergo-workshop-competitive-analysis"
+title: "Competitive Analysis"
 cover: "https://i.imgur.com/T8ZstCC.png"
-date: "2016-04-11T17:30:00.000Z"
+date: "2016-05-16T17:30:00.000Z"
 start_time: "17:30"
 end_time: "20:15"
-location: "inside the Salon 1861, 550 rue Richmond, Montréal, QC"
-organizer: SamErgo
-published: true
-rsvp:
-  register: "http://www.eventbrite.com/"
-ref: "samergo-workshop-competitive-analysis"
+organizer: "samergo"
+location: "socent"
+link_register: "http://www.eventbrite.com/"
 categories: design ux prototyping workshop
-lang: en
+lang: "en"
 ---
 Who else does what you do? Something similar? Find and analyze them. Steal one of their best features to better position your project's value proposition.
 
