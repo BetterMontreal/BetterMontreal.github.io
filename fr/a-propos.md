@@ -12,13 +12,15 @@ On peut tous et chacun
 - ajouter lieu-date-heure : ceci le rend "_événement_"
 - remplir détails ou corriger _tout aspect_
 - soutenir un aspect de la logistique
-- communiquer de manière intégrée à ce système-ci
+- communiquer de manière intégrée au système
 
 Certains de nous assistent aux événements ; d'autres les organisent ; ensemble on améliore la ville.
 
 # Comment faire
 
-[Publiez un sujet ou événement](/create). Commentez [bogues et développements souhaités](https://waffle.io/bettermtl/bettermtl.github.io). Ensuite [discutez de méthodes ici](https://gitter.im/bettermtl/general).
+- Publiez [un sujet ou événement](/create). 
+- Commentez [bogues et développements souhaités](https://waffle.io/bettermtl/bettermtl.github.io). 
+- Ensuite [discutez de méthodes ici](https://gitter.im/bettermtl/general).
 
 # Problème à résoudre
 
@@ -31,7 +33,11 @@ Together we can wikify an attention platform
 - item turn it into a newsletter item
 Then, anyone can send news to friends / followers, and confident that it's been community-verified.
 
-As an attendee we want to honour our RSVP's. When we are event organizers we want valid data, to know those who RSVP'd are indeed arriving and staying for the event. When we are a sponsor we want valid data too.
+As an attendee we want to honour our RSVP's. 
+
+When we are event organizers we want valid data, to know those who RSVP'd are indeed arriving and staying for the event. We'd like the community to update the news, too.
+
+When we are a sponsor we want valid data too.
 
 
 # The co-opetition
