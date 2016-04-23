@@ -1,7 +1,7 @@
 ---
-ref: _notman
+ref: notman
 title: H2X 1X2 Notman House
-address: 51 Sherbrooke West, Montréal H2X 1X2
+address: 51 Sherbrooke West, Montreal H2X 1X2
 room: 3rd floor
 lang: en
 ---
