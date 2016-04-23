@@ -1,6 +1,6 @@
 ---
 ref: "monbug-may-2016"
-title: "MonBUG réunion mois mai"
+title: "MonBUG Bioinformatics User Group"
 cover: "http://i.imgur.com/DyAd3jd.png"
 date: "2016-05-04T16:00:00.000Z"
 start_time: "16:00"
