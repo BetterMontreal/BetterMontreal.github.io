@@ -1,7 +1,7 @@
 ---
-title: H2X 2T6 Bitcoin Embassy
+title: Bitcoin Embassy
 address: 3485 Boul St-Laurent, Montréal H2X 2T6
-room: Main floor
+room: 2nd floor (1 above ground floor)
 ref: bitcoin-embassy
 lang: en
 ---
