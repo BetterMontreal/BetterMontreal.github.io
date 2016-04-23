@@ -1,7 +1,7 @@
 ---
 cover: http://bitcoinembassy.ca/wp-content/uploads/2015/04/bitcoin_embassy.jpg
-title: Ambassade Bitcoin
-address: 3485 Boul St-Laurent, Montréal, QC H2X 2T6
+title: H2X 2T6 Ambassade Bitcoin
+address: 3485 Boul St-Laurent, Montréal H2X 2T6
 room: Premier etage
 ref: bitcoin-embassy
 ---
