@@ -11,53 +11,53 @@ description:
   ar: أفضل هو الحرة والمفتوحة المصدرMTL <br/> <a href='https://github.com/bettermtl/bettermtl.github.io/graphs/contributors'> تنتج المشاركين المتطوعين</a>.
 navigation:
   fr:
-  - label_name: "Activités"
-    url: /
-  - label_name: "Publier nouveau"
-    url: /creer/
   - label_name: "Endroits"
     url: /endroits/
   - label_name: "Réseau"
     url: /reseau/
-  - label_name: "Blogue"
+  - label_name: "Activités"
+    url: /
+  - label_name: "nouvelle activité"
+    url: /creer/
+  - label_name: "Blogues et bulletins"
     url: /blogue/
   - label_name: "À propos"
     url: /a-propos/
   en:
-  - label_name: "Activities"
-    url: /welcome/
-  - label_name: "Create New"
-    url: /create/
   - label_name: "Places"
     url: /locations/
   - label_name: "Network"
     url: /network/
-  - label_name: "Blog"
+  - label_name: "Activities"
+    url: /welcome/
+  - label_name: "new activity"
+    url: /create/
+  - label_name: "Blogs & News"
     url: /blog/
   - label_name: "About"
     url: /about/
   ru:
-  - label_name: "Cобытии"
-    url: /welcome/
-  - label_name: "Создайте Новое сообщение Новая тема"
-    url: /create/
   - label_name: "Место"
     url: /locations/
   - label_name: "Сеть"
     url: /network/
+  - label_name: "Cобытии"
+    url: /welcome/
+  - label_name: "Новое сообщение Новая тема"
+    url: /create/
   - label_name: "Блог"
     url: /blog/
   - label_name: "Около"
     url: /about/
   ar:
-  - label_name: "أحداث"
-    url: /welcome/
-  - label_name: "موضع   مشاركة جديد"
-    url: /create/
   - label_name: "مكان"
     url: /locations/
   - label_name: "شبكة"
     url: /network/
+  - label_name: "أحداث"
+    url: /welcome/
+  - label_name: "موضوع جديد"
+    url: /create/
   - label_name: "بلوق"
     url: /blog/
   - label_name: "حول"
