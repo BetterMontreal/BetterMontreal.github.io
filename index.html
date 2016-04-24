@@ -10,7 +10,7 @@ tagline: "Faits wiki-édités"
     <p>{{page.tagline}}</p>
   </div>
   <div class="clearfix">
-    <h1 class="title">Activité à venir</h1>
+    <h1 class="title">Activités à venir</h1>
     {% assign activities=site.activities | sort 'date' %}
     {% assign refs = nil %}
     {% for activity in activities %}
@@ -45,7 +45,7 @@ tagline: "Faits wiki-édités"
     {% endfor %}
   </div>
   <div class="clearfix">
-    <h1 class="title">Activité passée</h1>
+    <h1 class="title">Activités passées</h1>
     {% assign refs = nil %}
     {% for activity in activities reversed %}
       {% assign skip = false %}
