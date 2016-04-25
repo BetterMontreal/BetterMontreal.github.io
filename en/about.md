@@ -7,13 +7,12 @@ lang: en
 published: true
 ---
 
-We all can
+- create a topic or subject, as a starting point
+- link _a topic_ to place-date-time to make it an event
+- others fill in details, or comment, or correct _any aspect_
+- they register to go and you have a self-organizing crowd
 
-- create a topic: it's a starting point
-- link _a topic_ to place-date-time: that makes it an event
-- fill in details, comment or correct _any aspect_
-
-Create an activity stream and let the community promote it, while you collaborate with others more and more all the time. Some of us attend events; some organize events: together we better the city.
+Create any activity and it becomes a new stream; the community promotes it. Some of us attend events; some organize events: together we make it better in the city.
 
 # How to
 
