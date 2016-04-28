@@ -19,8 +19,8 @@ navigation:
     url: /
   - label_name: "nouvelle activité"
     url: /creer/
-  - label_name: "Blogues et bulletins"
-    url: /blogue/
+#- label_name: "Blogues et bulletins"
+#url: /blogue/
   - label_name: "À propos"
     url: /a-propos/
   en:
@@ -32,8 +32,8 @@ navigation:
     url: /welcome/
   - label_name: "new activity"
     url: /create/
-  - label_name: "Blogs & News"
-    url: /blog/
+#- label_name: "Blogs & News"
+#url: /blog/
   - label_name: "About"
     url: /about/
   ru:
@@ -45,8 +45,8 @@ navigation:
     url: /welcome/
   - label_name: "Новое сообщение Новая тема"
     url: /create/
-  - label_name: "Блог"
-    url: /blog/
+#- label_name: "Блог"
+#url: /blog/
   - label_name: "Около"
     url: /about/
   ar:
@@ -58,8 +58,8 @@ navigation:
     url: /welcome/
   - label_name: "موضوع جديد"
     url: /create/
-  - label_name: "بلوق"
-    url: /blog/
+#- label_name: "بلوق"
+#url: /blog/
   - label_name: "حول"
     url: /about/
 en:
