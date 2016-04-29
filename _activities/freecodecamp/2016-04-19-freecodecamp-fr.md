@@ -1,5 +1,5 @@
 ---
-title: FreeCodeCamp Montreal
+title: FreeCodeCamp
 ref: freecodecamp
 date: "2016-05-10T18:00:00.000Z"
 start_time: "17:30"
@@ -9,11 +9,11 @@ organizer: "freecodecamp-montreal"
 categories: free code peer workshop
 published: true
 ---
-Nous sommes une communauté de gens occupés qui apprennent à code et aide sans but lucratif open source.
+Nous sommes une communauté de gens occupés qui apprennent à coder, qui s'entreaide, sans but lucratif, open source.
 
 ![](Https://i.imgur.com/Elb3dfj.jpg)
 
-Apprendre à code est difficile. Pour réussir, vous aurez besoin de beaucoup de pratique et de soutien. Voilà pourquoi nous avons créé un programme rigoureux et communautaire de soutien.
+Apprendre à coder est difficile. Pour réussir, vous aurez besoin de pratique et de soutien. Voilà pourquoi nous avons créé un programme rigoureux et communautaire de soutien.
 
 ![](Https://i.imgur.com/D7Y5luw.jpg)
 
