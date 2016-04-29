@@ -8,7 +8,7 @@ end_time: "21:00"
 location: "palais-des-congres"
 organizer: "vertmtl"
 published: true
-categories: "green-tech"
+categories: green-tech social conference
 ---
 ## World Social Forums
 
