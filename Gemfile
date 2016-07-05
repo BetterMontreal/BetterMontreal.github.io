@@ -1,10 +1,4 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem 'jekyll', '~> 3.0'
-gem "kramdown"
-gem "html-proofer"
-gem "github-pages"
-
-group :development do
-  gem 'rake'
-end
+gem 'github-pages', group: :jekyll_plugins
+gem 'html-proofer'
