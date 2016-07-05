@@ -21,7 +21,7 @@ navigation:
     url: /creer/
 #- label_name: "Blogues et bulletins"
 #url: /blogue/
-  - label_name: "À propos"
+  - label_name: "FAQ"
     url: /a-propos/
   en:
   - label_name: "Places"
@@ -34,7 +34,7 @@ navigation:
     url: /create/
 #- label_name: "Blogs & News"
 #url: /blog/
-  - label_name: "About"
+  - label_name: "FAQ"
     url: /about/
   ru:
   - label_name: "Место"
