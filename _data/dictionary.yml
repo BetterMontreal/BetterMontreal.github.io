@@ -13,11 +13,11 @@ navigation:
   fr:
   - label_name: "Endroits"
     url: /endroits/
-  - label_name: "Réseau"
+  - label_name: "Gens"
     url: /reseau/
-  - label_name: "Activités"
+  - label_name: "À Faire"
     url: /
-  - label_name: "nouvelle activité"
+  - label_name: "Ajout"
     url: /creer/
 #- label_name: "Blogues et bulletins"
 #url: /blogue/
@@ -26,24 +26,24 @@ navigation:
   en:
   - label_name: "Places"
     url: /locations/
-  - label_name: "Network"
+  - label_name: "People"
     url: /network/
-  - label_name: "Activities"
+  - label_name: "Things To Do"
     url: /welcome/
-  - label_name: "new activity"
+  - label_name: "Add it"
     url: /create/
 #- label_name: "Blogs & News"
 #url: /blog/
   - label_name: "FAQ"
     url: /about/
   ru:
-  - label_name: "Место"
+  - label_name: "Местa"
     url: /locations/
   - label_name: "Сеть"
     url: /network/
   - label_name: "Cобытии"
     url: /welcome/
-  - label_name: "Новое сообщение Новая тема"
+  - label_name: "Cложение"
     url: /create/
 #- label_name: "Блог"
 #url: /blog/
@@ -56,7 +56,7 @@ navigation:
     url: /network/
   - label_name: "أحداث"
     url: /welcome/
-  - label_name: "موضوع جديد"
+  - label_name: "إضافة"
     url: /create/
 #- label_name: "بلوق"
 #url: /blog/
