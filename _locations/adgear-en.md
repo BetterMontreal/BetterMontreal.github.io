@@ -1,5 +1,5 @@
 ---
-ref: "adgear"
+ref: "z-adgear"
 title: "AdGear Technologies"
 cover: "http://adgear.com/images/home/main.gif"
 address: "481 Viger West, Montréal H2Z 1G6"
