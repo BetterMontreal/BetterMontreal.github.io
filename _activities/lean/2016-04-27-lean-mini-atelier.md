@@ -13,7 +13,7 @@ rsvp:
 categories: lean stratégie entreprise atelier
 ---
 
-La meilleure façon d'apprendre le Lean Startup (en à être entpreneur) est simplement de le faire.
+La meilleure façon d'apprendre le Lean Startup (et à devenir entrepreneur) est simplement de le faire.
 
 Cet atelier portera sur:
 
