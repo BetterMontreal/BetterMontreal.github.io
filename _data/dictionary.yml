@@ -6,7 +6,7 @@ title:
   ar: "MTLأفضل"
 description:
   en: BetterMTL is free and open-source. <br/> Run by <a href='https://github.com/bettermtl/bettermtl.github.io/graphs/contributors'>contributors</a>.
-  fr: CapMTL est un logiciel libre. <br/> Géré par <a href='https://github.com/bettermtl/bettermtl.github.io/graphs/contributors'>contributeurs</a>.
+  fr: CapMTL est un logiciel libre. <br/> Géré par <a href='https://github.com/bettermtl/bettermtl.github.io/graphs/participants'>contributeurs</a>.
   ru: ЛучшеMTL является бесплатным и открытыми исходными. <br/> Созданный <a href='https://github.com/bettermtl/bettermtl.github.io/graphs/contributors'>участниками</a>.
   ar: أفضل هو الحرة والمفتوحة المصدرMTL <br/> <a href='https://github.com/bettermtl/bettermtl.github.io/graphs/contributors'> تنتج المشاركين المتطوعين</a>.
 navigation:
@@ -28,9 +28,9 @@ navigation:
     url: /welcome/
   - label_name: "Add 1"
     url: /create/
-  - label_name: "People"
+  - label_name: "People To See"
     url: /network/
-  - label_name: "Places"
+  - label_name: "Places To Go"
     url: /locations/
 #- label_name: "Blogs & News"
 #url: /blog/
