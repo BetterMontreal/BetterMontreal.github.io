@@ -2,7 +2,7 @@
 ref: lean-workshop
 title: "Mini-ateli­er Lean"
 cover: "http://www.wamda.com/application/rapyd/assets/mfm_012/upload/LeanStartupMachine_Amman1.jpg"
-date: "2016-04-27T18:00:00.000Z"
+date: "2016-10-03T18:00:00.000Z"
 start_time: "18:00"
 end_time: "21:00"
 location: ovh
