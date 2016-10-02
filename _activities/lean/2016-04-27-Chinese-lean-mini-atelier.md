@@ -11,16 +11,6 @@ published: true
 rsvp:
  register: http://www.meetup.com/Lean-Startup-Circle-Montreal/events/230297882/
 categories: lean stratégie entreprise atelier
-lang: ---
-ref: "lean-workshop"
-title: Lean Mini
-date: "2016-04-27T18:00:00.000Z"
-start_time: "18:00"
-end_time: "21:00"
-location: ovh
-organizer: Lean Startup Circle
-published: true
-categories: ورشة عمل استراتيجية العجاف
 lang: zh
 ---
 车间
