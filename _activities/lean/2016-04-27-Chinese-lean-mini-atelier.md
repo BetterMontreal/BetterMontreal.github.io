@@ -21,7 +21,7 @@ location: ovh
 organizer: Lean Startup Circle
 published: true
 categories: ورشة عمل استراتيجية العجاف
-lang: 中文
+lang: zh
 ---
 车间
 La meilleure façon d'apprendre le Lean Startup (et à devenir entrepreneur) est simplement de le faire.
