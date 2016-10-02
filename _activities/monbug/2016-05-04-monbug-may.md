@@ -12,7 +12,10 @@ categories: biology bioinformatics research talk meetup
 ## Agenda
 
 16:00 - 16:05 Introduction 
+
 16:05 - 17:05 Do
-17:05 - 17:25 Break with snacks and beverages
+
+17:05 - 17:25 Break 
+
 17:25 - 18:00 Do more
 
