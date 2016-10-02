@@ -28,9 +28,9 @@ navigation:
     url: /welcome/
   - label_name: "Add 1"
     url: /create/
-  - label_name: "People"
+  - label_name: "People To See"
     url: /network/
-  - label_name: "Places"
+  - label_name: "Places To Go"
     url: /locations/
 #- label_name: "Blogs & News"
 #url: /blog/
