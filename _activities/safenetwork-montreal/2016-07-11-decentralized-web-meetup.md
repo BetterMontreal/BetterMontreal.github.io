@@ -19,4 +19,4 @@ This meetup is inspired by the [Decentralized Web Summit](https://www.decentrali
 
 [Many projects](http://www.decentralizedweb.net/learn-more/#science-fair) are working on making the Decentralized Web a reality. Let's discuss some of them!
 
-**[Click here to see the full description of this meetup.](https://montreal.safenetwork.org/events/decentralized-web-meetup/)**
+**[Click here to see the full description of this meetup](https://montreal.safenetwork.org/events/decentralized-web-meetup/)**.
