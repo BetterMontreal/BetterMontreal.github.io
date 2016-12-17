@@ -1,7 +1,7 @@
 ---
 ref: lean-workshop
 title: "Mini-ateli­er Lean"
-cover: "http://www.wamda.com/application/rapyd/assets/mfm_012/upload/LeanStartupMachine_Amman1.jpg"
+cover: "http://www.alangleeson.com/wp-content/uploads/2014/07/The-Lean-Startup.jpg"
 date: "2016-10-03T18:00:00.000Z"
 start_time: "18:00"
 end_time: "21:00"

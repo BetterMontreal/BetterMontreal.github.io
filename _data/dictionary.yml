@@ -5,10 +5,10 @@ title:
   ru: "ЛучшеMTL"
   ar: "MTLأفضل"
 description:
-  en: BetterMTL is free and open-source. <br/> Run by <a href='https://github.com/bettermtl/bettermtl.github.io/graphs/contributors'>contributors</a>.
-  fr: CapMTL est un logiciel libre. <br/> Géré par <a href='https://github.com/bettermtl/bettermtl.github.io/graphs/participants'>contributeurs</a>.
-  ru: ЛучшеMTL является бесплатным и открытыми исходными. <br/> Созданный <a href='https://github.com/bettermtl/bettermtl.github.io/graphs/contributors'>участниками</a>.
-  ar: أفضل هو الحرة والمفتوحة المصدرMTL <br/> <a href='https://github.com/bettermtl/bettermtl.github.io/graphs/contributors'> تنتج المشاركين المتطوعين</a>.
+  en: BetterMTL is free and open-source <br/> Run by <a href='https://github.com/bettermtl/bettermtl.github.io/graphs/contributors'>contributors</a>
+  fr: CapMTL est un logiciel libre <br/> Géré par <a href='https://github.com/bettermtl/bettermtl.github.io/graphs/participants'>contributeurs</a>
+  ru: ЛучшеMTL является бесплатным и открытыми исходными <br/> Созданный <a href='https://github.com/bettermtl/bettermtl.github.io/graphs/contributors'>участниками</a>
+  ar: أفضل هو الحرة والمفتوحة المصدرMTL <br/> <a href='https://github.com/bettermtl/bettermtl.github.io/graphs/contributors'> تنتج المشاركين المتطوعين</a>
 navigation:
   fr:
   - label_name: "À Faire"

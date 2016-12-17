@@ -1,7 +1,7 @@
 ---
 ref: "decentralized-web-meetup"
 title: Decentralized Web Meetup
-cover: "https://ipfs.pics/ipfs/QmcBm89KTXh6HQWXyo1ChXbfFCsMsiUobZ8UN3ttHLJ9we"
+cover: "https://cdn0.ischoolonline.syr.edu/content/648fe6093a694d1bb16b9fd0088472c2/Moving_from_a_centralized_to_a_decentralized_web.jpg"
 date: "2016-07-11T18:00:00.000Z"
 start_time: "18:00"
 end_time: "21:00"

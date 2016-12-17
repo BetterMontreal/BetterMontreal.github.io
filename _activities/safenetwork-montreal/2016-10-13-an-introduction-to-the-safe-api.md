@@ -1,7 +1,7 @@
 ---
 ref: "an-introduction-to-the-safe-api"
 title: An Introduction to the SAFE API
-cover: "https://ipfs.pics/ipfs/Qme5CCWxdS8D1gNpJMVEzxdonpobapmG379oAxM2wRHd98"
+cover: "http://il1.picdn.net/shutterstock/videos/3252523/thumb/1.jpg"
 date: "2016-10-13T18:30:00.000Z"
 start_time: "18:30"
 end_time: "21:30"

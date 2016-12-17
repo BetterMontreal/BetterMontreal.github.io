@@ -6,7 +6,7 @@ ref: create
 lang: en
 published: true
 ---
-You and your friends can edit and create new activities.
+Your friends can edit and create new activities.
 
 To **edit** an activity (did you spot a spelling mistake?) simply follow the *Improve this page* link at the top of most pages on [bettermtl.com](http://bettermtl.com).
 
